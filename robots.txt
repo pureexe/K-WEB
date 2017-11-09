@@ -1,0 +1,4 @@
+User-agent: *
+Sitemap: <https://konayuki.moe/sitemap.xml>
+Disallow: /search
+Disallow: /static

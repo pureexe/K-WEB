@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	
+	    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:type" content="website" />
+  <meta name="twitter:site" content="@Konayuki_moe">
+  <meta name="twitter:creator" content="@Konayuki_moe">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta content="How to use Konayuki Encoder, Blog Edition" name="description">
+  
+  
+  <meta name="keywords" content="Konayuki.moe,Konayuki,Encoder,Video,Subtitle,Hardsub,Fansub,Help,Knowledge,Howto">
+  
+  <meta name="author" content="Konayuki.moe">
+    
+        <title>Konayuki.moe | Tools for Fansub | วิธีการใช้งาน Konayuki Encoder ฉบับ Blog</title>
+		<meta property="og:title" content="วิธีการใช้งาน Konayuki Encoder ฉบับ Blog" />
+		<meta property="og:description" content="How to use Konayuki Encoder, Blog Edition" />
+		<meta property="og:image" content="https://Konayuki.moe/static/assets/img/blog/2017-04-27-Common-Problem/01.jpg" />
+		<meta property="og:image:secure_url" content="https://Konayuki.moe/static/assets/img/blog/2017-04-27-Common-Problem/01.jpg" />
+		<meta property="twitter:title" content="วิธีการใช้งาน Konayuki Encoder ฉบับ Blog" />
+		<meta property="twitter:description" content="How to use Konayuki Encoder, Blog Edition" />
+		<meta property="twitter:image" content="https://Konayuki.moe/static/assets/img/blog/2017-04-27-Common-Problem/01.jpg" />
+	
+  <!-- favicon -->
+  <link rel="shortcut icon" href="https://Konayuki.moe/favicon.ico">
+  <link rel="icon" href="https://Konayuki.moe/favicon.ico">
+
+  <!-- Main CSS -->
+  <link href="/static/assets/app-20170526.min.css" rel="stylesheet">
+
+  <!-- Main Scripts -->
+  <script src="/static/assets/app-20170526.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      var initial = 0;
+      var show = true;
+
+      var toggleSearch = function (visible) {
+        initial = 0;
+        show = !visible;
+        var visibility = visible ? 'block' : 'none';
+
+        $("#search-content").val("");
+        $(".search-tool").css("display", visibility);
+      };
+
+      var shouldToggle = function (time) {
+        var gap = time - initial;
+        initial = time;
+        return gap < 500;
+      };
+
+      $(document).keyup(function (e) {
+        var now = new Date().getTime();
+        if (e.keyCode == 17 && shouldToggle(now)) {
+          toggleSearch(show);
+        } else if (e.keyCode == 27) {
+          toggleSearch(false);
+        }
+      });
+
+      $("#search-content").keyup(function (e) {
+        var now = new Date().getTime();
+        if (e.keyCode == 17 && shouldToggle(now)) {
+          toggleSearch(show);
+        }
+      });
+
+      $("#close-btn").click(function () {
+        toggleSearch(false);
+      });
+
+      $("#search-btn").click(function() {
+        toggleSearch(true);
+      });
+
+      $.getJSON("/search/cb-search.json")
+        .done(function (data) {
+          if (data.code == 0) {
+            $("#search-content").typeahead({
+              source: data.data,
+              displayText: function (item) {
+                return item.title;
+              },
+              afterSelect: function (item) {
+                window.location.href = item.url;
+              }
+            });
+          }
+        });
+    });
+    $(function(){
+        $("pre").css('display','block');
+    });
+  </script>
+
+	  <link rel="manifest" href="https://Konayuki.moe/manifest.json">
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "9b98d421-947a-4ba7-9d49-b1925c2aed93",
+	  safari_web_id: 'web.onesignal.auto.2cd5950f-b486-4c84-8005-0f30059d0b0c',
+      autoRegister: false,
+      notifyButton: {
+		size: 'large',
+		position: 'bottom-left',
+		prenotify: true, /* Show an icon with 1 unread message for first-time site visitors */
+        showCredit: false, /* Hide the OneSignal logo */
+        text: {
+            'tip.state.unsubscribed': 'รับแจ้งเตือนข่าวสารเมื่อมีการอัพเดท',
+            'tip.state.subscribed': "คุณได้เปิดรับการแจ้งเตือนข่าวสารแล้ว!",
+            'tip.state.blocked': "คุณได้บล็อคการแจ้งเตือนแล้ว",
+            'message.prenotify': 'เปิดรับการแจ้งเตือน เมื่อมีการอัพเดทจาก Konayuki.moe จะมีการแจ้งเตือนปรากฎอยู่ที่หน้าจอของคุณ',
+            'message.action.subscribed': "ขอบคุณที่ติดตามเรา!",
+            'message.action.resubscribed': "ขอบคุณที่กลับมาติดตามเรา!",
+            'message.action.unsubscribed': "ยกเลิกรับการแจ้งเตือนเรียบร้อยแล้ว",
+            'dialog.main.title': 'Konayuki.moe News!',
+            'dialog.main.button.subscribe': 'รับการแจ้งเตือน',
+            'dialog.main.button.unsubscribe': 'ยกเลิกการแจ้งเตือน',
+            'dialog.blocked.title': 'ปลดบล็อคการแจ้งเตือน',
+            'dialog.blocked.message': "ทำตามขั้นตอนดังกล่าวเพื่อปลดบล็อคการแจ้งเตือน:"
+        },
+		colors: { // Customize the colors of the main button and dialog popup button
+      'circle.background': 'rgb(51,133,255)',
+      'circle.foreground': 'white',
+      'badge.background': 'rgb(51,133,255)',
+      'badge.foreground': 'white',
+      'badge.bordercolor': 'white',
+      'pulse.color': 'white',
+      'dialog.button.background.hovering': 'rgb(77, 101, 113)',
+      'dialog.button.background.active': 'rgb(70, 92, 103)',
+      'dialog.button.background': 'rgb(51,133,255)',
+      'dialog.button.foreground': 'white'
+		},
+		displayPredicate: function() {
+            return OneSignal.isPushNotificationsEnabled()
+                .then(function(isPushEnabled) {
+                    /* The user is subscribed, so we want to return "false" to hide the notify button */
+                    return !isPushEnabled;
+                });
+        },
+        enable: true /* Set to false to hide */
+    },
+	promptOptions: {
+        /* These prompt options values configure both the HTTP prompt and the HTTP popup. */
+        /* actionMessage limited to 90 characters */
+        actionMessage: "รับแจ้งเตือนข่าวสารผ่านบราวเซอร์ (๑˃ᴗ˂)ﻭ",
+        /* acceptButtonText limited to 15 characters */
+        acceptButtonText: "ยอมรับ",
+        /* cancelButtonText limited to 15 characters */
+        cancelButtonText: "ไว้ทีหลัง"
+    },
+	autoRegister: false
+    }]);
+  </script>
+  <script type="text/javascript">
+OneSignal.push(function() {
+  OneSignal.showHttpPrompt();
+});
+  </script>
+</head>
+
+	
+
+<body id="page-top" class="landing-page">
+
+	
+	    <div class="search-tool"
+      style="position: fixed; top: 0px ; bottom: 0px; left: 0px; right:  0px; opacity: 0.95; background-color: #111111; z-index: 9999; display: none;">
+    <input type="text" class="form-control search-content" id="search-content" style="position: fixed; top: 60px" placeholder="Search Blog">
+
+    <div style="position: fixed; top: 16px; right: 16px; z-index: 9999;">
+        <img src="/search/img/cb-close.png" id="close-btn"/>
+    </div>
+</div>
+
+<div style="position: fixed; right: 16px; bottom: 20px; z-index: 9999;">
+    <img src="/search/img/cb-search.png"  id="search-btn"  title="Double click Ctrl"/>
+</div>
+
+<div class="navbar-wrapper">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Konayuki.moe</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="page-scroll" href="blog/"></a></li>
+                    
+                        
+                        
+                        <li>
+                        
+                        <a class="page-scroll" href="/blog/">Blog</a></li>
+                        
+                    
+                        
+                        
+                        <li>
+                        
+                        <a class="page-scroll" href="/news/">News</a></li>
+                        
+                    
+                        
+                        
+                        <li>
+                        
+                        <a class="page-scroll" href="/knowledge/">Knowledge</a></li>
+                        
+                    
+                        
+                        
+                        <li>
+                        
+                        <a class="page-scroll" href="/help/">Help</a></li>
+                        
+                    
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#inSlider" data-slide-to="1"></li>
+        <li data-target="#inSlider" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="container">
+                <div class="carousel-caption">
+                </div>
+                <div class="carousel-image wow zoomIn">
+                    <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back one"></div>
+
+        </div>
+        <div class="item">
+            <div class="container">
+                <div class="carousel-caption blank">
+                </div>
+            </div>
+            <!-- Set background for slide in style.css and run NPM and edit index.html -->
+            <div class="header-back two"></div>
+        </div>
+        <div class="item">
+            <div class="container">
+                <div class="carousel-caption blank">
+                </div>
+            </div>
+            <div class="header-back three"></div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+	
+
+    <div class="wrapper wrapper-content  animated fadeInRight article">
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="ibox">
+                <div class="ibox-content">
+                    <div class="pull-right">
+                    	
+                        	<button class="btn btn-white btn-xs" type="button">Knowledge</button>
+                        
+                    </div>
+                    <div class="text-center article-title">
+                    <span class="text-muted"><i class="fa fa-clock-o"></i> 27 Apr 2017</span>
+                        <h1>
+                            <font color="#3385ff">วิธีการใช้งาน Konayuki Encoder ฉบับ Blog</font>
+                        </h1>
+                    </div><br />
+                    	<!--skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz-->
+
+<h2 id="1-ดาวน์โหลดตัวติดตั้ง"><center>1. ดาวน์โหลดตัวติดตั้ง</center><br /></h2>
+<center><a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://download.konayuki.moe/Konayuki_Encoder_Setup.exe" target="_blank"><span data-i18n="projects.button">Download</span></a></center>
+<p><br /></p>
+
+<h2 id="2-ติดตั้งโปรแกรมตามขั้นตอนที่แสดงในหน้าต่างการติดตั้ง"><center>2. ติดตั้งโปรแกรมตามขั้นตอนที่แสดงในหน้าต่างการติดตั้ง</center><br /></h2>
+<center><img src="/static/assets/img/blog/2017-04-27-How-to-Use/01.jpg" width="600" /></center>
+<p><br /></p>
+
+<h3 id="วิธีสังเกตุ--ดูที่ลูกศรสีเขียวในภาพจะเห็นว่าชื่อไฟล์เพี้ยน"><center><font color="#06af90">วิธีสังเกตุ :</font> ดูที่ลูกศรสีเขียวในภาพจะเห็นว่าชื่อไฟล์เพี้ยน</center><br /></h3>
+
+<center><img src="/static/assets/img/blog/2017-04-27-Common-Problem/01.jpg" width="600" /></center>
+<p><br /></p>
+
+<h3 id="สาเหตุ--avisynth-รองรับแค่รหัสภาษา-ansi-ซึ่งไม่รองรับทั้งภาษาไทยและญี่ปุ่น"><center><font color="#d44d4d">สาเหตุ :</font> AviSynth+ รองรับแค่รหัสภาษา ANSI ซึ่งไม่รองรับทั้งภาษาไทยและญี่ปุ่น</center></h3>
+<h3 id="วิธีแก้ปัญหา--แก้ชื่อที่อยู่ไฟล์หรือชื่อไฟล์ให้เป็นภาษาอังกฤษทั้งหมด"><center><font color="#3385ff">วิธีแก้ปัญหา :</font> แก้ชื่อที่อยู่ไฟล์หรือชื่อไฟล์ให้เป็นภาษาอังกฤษทั้งหมด</center><br /></h3>
+
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                                <h5 style="display: inline;">Tags:</h5>
+                                
+                                    <button class="btn btn-white btn-xs" type="button">Konayuki.moe</button>
+                                
+                                    <button class="btn btn-white btn-xs" type="button">Konayuki</button>
+                                
+                                    <button class="btn btn-white btn-xs" type="button">Encoder</button>
+                                
+                                    <button class="btn btn-white btn-xs" type="button">Video</button>
+                                
+                                    <button class="btn btn-white btn-xs" type="button">Subtitle</button>
+                                
+                                    <button class="btn btn-white btn-xs" type="button">Hardsub</button>
+                                
+                                    <button class="btn btn-white btn-xs" type="button">Fansub</button>
+                                
+                                    <button class="btn btn-white btn-xs" type="button">Help</button>
+                                
+                                    <button class="btn btn-white btn-xs" type="button">Knowledge</button>
+                                
+                                    <button class="btn btn-white btn-xs" type="button">Howto</button>
+                                
+                        </div>
+                        <div class="col-md-6">
+                            <div class="small text-right">
+                                <h5>Stats:</h5>
+                                <div>
+                                
+                                
+                                <i class="fa fa-comments-o"> </i> <span class='disqus-comment-count' data-disqus-url="https://Konayuki.moe/knowledge/2017/04/27/How-to-Use-Lefiya.html">0</span> comments
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!-- donate -->
+                            
+                            <br>
+                            <!-- share -->
+                            <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_google_plus"></a>
+<a class="a2a_button_line"></a>
+<a class="a2a_button_wechat"></a>
+<a class="a2a_button_whatsapp"></a>
+<a class="a2a_button_skype"></a>
+</div>
+<script>
+var a2a_config = a2a_config || {};
+a2a_config.color_main = "D7E5ED";
+a2a_config.color_border = "AECADB";
+a2a_config.color_link_text = "333333";
+a2a_config.color_link_text_hover = "333333";
+</script>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+                            <br>
+                            <!-- comment -->
+                            
+<div id="disqus_thread"></div>
+<script>
+/** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+	/*
+	var disqus_config = function () { this.page.url = PAGE_URL;
+	// Replace PAGE_URL with your page's canonical URL variable this.page.identifier = PAGE_IDENTIFIER;
+	// Replace PAGE_IDENTIFIER with your page's unique identifier variable };
+	*/
+	(function() { // DON'T EDIT BELOW THIS LINE
+			var d = document, s = d.createElement('script');
+			s.src = '//konayuki.disqus.com/embed.js';
+			s.setAttribute('data-timestamp', +new Date());
+			(d.head || d.body).appendChild(s);
+		})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+	
+	    
+  <script id="dsq-count-scr" src="//konayuki.disqus.com/count.js" async></script>
+  <script type="text/javascript">
+    var disqusShortName = "konayuki";
+
+    var disqusPublicKey = "CJ5F2eSzCQY33o1djFjL0VyxgLMzDQ1zxeblydIxnkOyNOFPcS1wwWGGaSZqvXRo";
+
+    var urlArray = [];
+    $('.disqus-comment-count').each(function () {
+      var url = $(this).attr('data-disqus-url');
+      urlArray.push('link:' + url);
+    });
+    $.ajax({
+      type: 'GET',
+      url: "https://disqus.com/api/3.0/threads/set.jsonp",
+      data: { api_key: disqusPublicKey, forum : disqusShortName, thread : urlArray },
+      cache: false,
+      dataType: "jsonp",
+      success: function (result) {
+        for (var i in result.response) {
+          var count = result.response[i].posts;
+          if ( count ) {
+            $('.disqus-comment-count[data-disqus-url="' + result.response[i].link + '"]').html(count);
+          }
+        }
+      }
+    });
+</script>
+
+
+	
+
+</body>
+</html>
