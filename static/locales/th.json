@@ -35,6 +35,11 @@
   },
   "career":{
     "my_career": "รายการอัพเดต",
+	"enc1121R3_S_desc01": "- ใหม่! Konayuki Setting (UI).",
+	"enc1121R3_S_desc02": "- ฟีเจอร์ในการลบซับฝัง หรือโลโก้",
+	"enc1121R3_S_desc03": "- อัพเดต Smart Script version 5",
+	"enc1121R3_S_desc04": "- แก้บัค",
+	"enc1121R3_S_date": "29 พฤศจิกายน 2017",
 	"enc1121R3_desc01": "- เพิ่มประสิทธิภาพและแก้ไขบัคของเอ็นจิ้นการจำลองเฟรมเรท 60FPS",
 	"enc1121R3_desc02": "- เพื่อฟีเจอร์ Debanding ให้กับ Smart Script Setting",
 	"enc1121R3_desc03": "- อัพเดต Smart Script version 4",

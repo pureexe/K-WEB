@@ -30,11 +30,16 @@
 	"versiontxt2": "Release Date",
 	"date2": "26 May 2017",
 	"version2": "1.0 ",
-	"date1": "08 November 2017",
-	"version1": "1.1.2.1 R3"
+	"date1": "29 November 2017",
+	"version1": "1.1.2.1 R3_S"
   },
   "career":{
     "my_career": "Changelog",
+	"enc1121R3_S_desc01": "- NEW! Konayuki Setting (UI).",
+	"enc1121R3_S_desc02": "- Subtitle/Logo removal feature.",
+	"enc1121R3_S_desc03": "- Update Smart Script to version 5.",
+	"enc1121R3_S_desc04": "- Fix bug.",
+	"enc1121R3_S_date": "29 November 2017",
 	"enc1121R3_desc01": "- Improvement and fix bug for 60FPS engine.",
 	"enc1121R3_desc02": "- Add Debanding feature to Smart Script Setting.",
 	"enc1121R3_desc03": "- Update Smart Script to version 4.",
