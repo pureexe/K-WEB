@@ -30,11 +30,13 @@
 	"versiontxt2": "อัพเดตเมื่อ",
 	"date2": "26 พฤษภาคม 2017 ",
 	"version2": "1.0 ",
-	"date1": "08 พฤศจิกายน 2017",
-	"version1": "1.1.2.1 R3"
+	"date1": "30 พฤศจิกายน 2017",
+	"version1": "1.1.2.1 R3_S2"
   },
   "career":{
     "my_career": "รายการอัพเดต",
+	"enc1121R3_S2_desc01": "- แก้ไขปัญหาประสิทธิภาพการเอ็นโค้ด (ขอบคุณ JEDAi Encoder)",
+	"enc1121R3_S2_date": "30 พฤศจิกายน 2017",
 	"enc1121R3_S_desc01": "- ใหม่! Konayuki Setting (UI).",
 	"enc1121R3_S_desc02": "- ฟีเจอร์ในการลบซับฝัง หรือโลโก้",
 	"enc1121R3_S_desc03": "- อัพเดต Smart Script version 5",
