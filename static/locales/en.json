@@ -30,11 +30,15 @@
 	"versiontxt2": "Release Date",
 	"date2": "26 May 2017",
 	"version2": "1.0 ",
-	"date1": "30 November 2017",
-	"version1": "1.1.2.1 R3_S2"
+	"date1": "06 December 2017",
+	"version1": "1.1.2.1 R3_S3"
   },
   "career":{
     "my_career": "Changelog",
+	"enc1121R3_S3_desc01": "- New error display design. (Thank to Season-Subs)",
+	"enc1121R3_S3_desc02": "- Fix issue for some users. (Thank to JEDAi Encoder)",
+	"enc1121R3_S3_desc03": "- Fix bugs.",
+	"enc1121R3_S3_date": "06 December 2017",
 	"enc1121R3_S2_desc01": "- Fix Performance Issue. (Thank to JEDAi Encoder)",
 	"enc1121R3_S2_date": "30 November 2017",
 	"enc1121R3_S_desc01": "- NEW! Konayuki Setting (UI).",
