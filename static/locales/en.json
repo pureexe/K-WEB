@@ -30,11 +30,13 @@
 	"versiontxt2": "Release Date",
 	"date2": "26 May 2017",
 	"version2": "1.0 ",
-	"date1": "20 December 2017",
-	"version1": "1.1.2.1 R3_S4"
+	"date1": "21 December 2017",
+	"version1": "1.1.2.1 R3_S5"
   },
   "career":{
     "my_career": "Changelog",
+	"enc1121R3_S5_desc01": "- Fix bug. (Thank to WindSky-Fs)",
+	"enc1121R3_S5_date": "21 December 2017",
 	"enc1121R3_S4_desc01": "- [Update] Smart Script v6.",
 	"enc1121R3_S4_desc02": "- Performance improvement.",
 	"enc1121R3_S4_desc03": "- Fix bugs.",
