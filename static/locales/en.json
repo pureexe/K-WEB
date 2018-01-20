@@ -30,11 +30,14 @@
 	"versiontxt2": "Release Date",
 	"date2": "26 May 2017",
 	"version2": "1.0 ",
-	"date1": "25 December 2017",
-	"version1": "1.1.2.1 R3_S6"
+	"date1": "21 January 2018",
+	"version1": "1.1.2.1 R3_S7"
   },
   "career":{
     "my_career": "Changelog",
+	"enc1121R3_S7_desc01": "- Update component.",
+	"enc1121R3_S7_desc02": "- Fix bug.",
+	"enc1121R3_S7_date": "21 January 2018",
 	"enc1121R3_S6_desc01": "- Update component.",
 	"enc1121R3_S6_desc02": "- Fix bug. (Thank to Onigiri-FS)",
 	"enc1121R3_S6_date": "25 December 2017",
