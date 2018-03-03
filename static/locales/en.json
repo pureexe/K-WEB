@@ -30,11 +30,13 @@
 	"versiontxt2": "Release Date",
 	"date2": "26 May 2017",
 	"version2": "1.0 ",
-	"date1": "21 January 2018",
-	"version1": "1.1.2.1 R3_S7"
+	"date1": "03 March 2018",
+	"version1": "1.1.2.1 R4"
   },
   "career":{
     "my_career": "Changelog",
+	"enc1121R4_desc01": "- Fix bug.",
+	"enc1121R4_date": "03 March 2018",
 	"enc1121R3_S7_desc01": "- Update component.",
 	"enc1121R3_S7_desc02": "- Fix bug.",
 	"enc1121R3_S7_date": "21 January 2018",
