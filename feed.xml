@@ -5,9 +5,58 @@
     <description>We're Anime lover who making tools to support Fansub.</description>
     <link>https://Konayuki.moe/</link>
     <atom:link href="https://Konayuki.moe/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 03 Mar 2018 23:07:54 +0700</pubDate>
-    <lastBuildDate>Sat, 03 Mar 2018 23:07:54 +0700</lastBuildDate>
+    <pubDate>Sat, 17 Mar 2018 04:10:59 +0700</pubDate>
+    <lastBuildDate>Sat, 17 Mar 2018 04:10:59 +0700</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>วิธีการใช้งาน KONAYUKI PLUS</title>
+        <description>&lt;!--skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz--&gt;
+
+&lt;h2 id=&quot;1-การลงโปรแกรม&quot;&gt;&lt;center&gt;&lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;1. การลงโปรแกรม&lt;/a&gt;&lt;/center&gt;&lt;br /&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;2-การแอดไฟล์วีดีโอเข้าโปรแกรม&quot;&gt;&lt;center&gt;&lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;2. การแอดไฟล์วีดีโอเข้าโปรแกรม&lt;/a&gt;&lt;/center&gt;&lt;br /&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;3-การลบไฟล์วีดีโอออกจากโปรแกรม&quot;&gt;&lt;center&gt;&lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;3. การลบไฟล์วีดีโอออกจากโปรแกรม&lt;/a&gt;&lt;/center&gt;&lt;br /&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;4-การตั้งค่าไฟล์วีดีโอ&quot;&gt;&lt;center&gt;&lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;4. การตั้งค่าไฟล์วีดีโอ&lt;/a&gt;&lt;/center&gt;&lt;br /&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;5-การใช้งานตัว-preview&quot;&gt;&lt;center&gt;&lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;5. การใช้งานตัว Preview&lt;/a&gt;&lt;/center&gt;&lt;br /&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;6-การตั้งค่าไฟล์ขาออก--การเอ็นโค้ด--การหยุดการเอ็นโค้ด&quot;&gt;&lt;center&gt;&lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;6. การตั้งค่าไฟล์ขาออก / การเอ็นโค้ด / การหยุดการเอ็นโค้ด&lt;/a&gt;&lt;/center&gt;&lt;br /&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;7-การเซฟโปรเจค-และประโยชน์ของไฟล์โปรเจค&quot;&gt;&lt;center&gt;&lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;7. การเซฟโปรเจค และประโยชน์ของไฟล์โปรเจค&lt;/a&gt;&lt;/center&gt;&lt;br /&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;8-แนะนำเมนูต่างๆ-และวิธีการซ่อมโปรแกรมด้วยปุ่ม-repair&quot;&gt;&lt;center&gt;&lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;8. แนะนำเมนูต่างๆ และวิธีการซ่อมโปรแกรมด้วยปุ่ม Repair&lt;/a&gt;&lt;/center&gt;&lt;br /&gt;&lt;/h2&gt;
+</description>
+        <pubDate>Thu, 08 Mar 2018 00:00:00 +0700</pubDate>
+        <link>https://Konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html</link>
+        <guid isPermaLink="true">https://Konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html</guid>
+        
+        <category>Konayuki.moe</category>
+        
+        <category>Konayuki</category>
+        
+        <category>Plus</category>
+        
+        <category>Video</category>
+        
+        <category>Subtitle</category>
+        
+        <category>Hardsub</category>
+        
+        <category>Fansub</category>
+        
+        <category>Help</category>
+        
+        <category>Knowledge</category>
+        
+        <category>Howto</category>
+        
+        
+        <category>Knowledge</category>
+        
+      </item>
     
       <item>
         <title>เกิดปัญหาจากการติดตั้งไม่สมบูรณ์</title>
@@ -48,24 +97,12 @@
       </item>
     
       <item>
-        <title>วิธีการใช้งาน Konayuki Encoder ฉบับ Blog</title>
-        <description>&lt;!--skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz--&gt;
-
-&lt;h2 id=&quot;1-ดาวน์โหลดตัวติดตั้ง&quot;&gt;&lt;center&gt;1. ดาวน์โหลดตัวติดตั้ง&lt;/center&gt;&lt;br /&gt;&lt;/h2&gt;
-&lt;center&gt;&lt;a class=&quot;btn btn-lg btn-default btn-rounded btn-outline wow bounceIn&quot; href=&quot;https://download.konayuki.moe/Konayuki_Encoder_Setup.exe&quot; target=&quot;_blank&quot;&gt;&lt;span data-i18n=&quot;projects.button&quot;&gt;Download&lt;/span&gt;&lt;/a&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;2-ติดตั้งโปรแกรมตามขั้นตอนที่แสดงในหน้าต่างการติดตั้ง&quot;&gt;&lt;center&gt;2. ติดตั้งโปรแกรมตามขั้นตอนที่แสดงในหน้าต่างการติดตั้ง&lt;/center&gt;&lt;br /&gt;&lt;/h2&gt;
-&lt;center&gt;&lt;img src=&quot;/static/assets/img/blog/2017-04-27-How-to-Use/01.jpg&quot; width=&quot;600&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;วิธีสังเกตุ--ดูที่ลูกศรสีเขียวในภาพจะเห็นว่าชื่อไฟล์เพี้ยน&quot;&gt;&lt;center&gt;&lt;font color=&quot;#06af90&quot;&gt;วิธีสังเกตุ :&lt;/font&gt; ดูที่ลูกศรสีเขียวในภาพจะเห็นว่าชื่อไฟล์เพี้ยน&lt;/center&gt;&lt;br /&gt;&lt;/h3&gt;
-
-&lt;center&gt;&lt;img src=&quot;/static/assets/img/blog/2017-04-27-Common-Problem/01.jpg&quot; width=&quot;600&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;สาเหตุ--avisynth-รองรับแค่รหัสภาษา-ansi-ซึ่งไม่รองรับทั้งภาษาไทยและญี่ปุ่น&quot;&gt;&lt;center&gt;&lt;font color=&quot;#d44d4d&quot;&gt;สาเหตุ :&lt;/font&gt; AviSynth+ รองรับแค่รหัสภาษา ANSI ซึ่งไม่รองรับทั้งภาษาไทยและญี่ปุ่น&lt;/center&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;วิธีแก้ปัญหา--แก้ชื่อที่อยู่ไฟล์หรือชื่อไฟล์ให้เป็นภาษาอังกฤษทั้งหมด&quot;&gt;&lt;center&gt;&lt;font color=&quot;#3385ff&quot;&gt;วิธีแก้ปัญหา :&lt;/font&gt; แก้ชื่อที่อยู่ไฟล์หรือชื่อไฟล์ให้เป็นภาษาอังกฤษทั้งหมด&lt;/center&gt;&lt;br /&gt;&lt;/h3&gt;
+        <title>วิธีการใช้งาน Konayuki Lefiya</title>
+        <description>&lt;center&gt;
+	&lt;video id=&quot;howtovideo&quot; preload=&quot;auto&quot; controls=&quot;&quot; poster=&quot;https://konayuki.moe/static/assets/img/blog/2017-05-06-How-to-Use-Lefiya/sharepic.png&quot;&gt;
+	&lt;source src=&quot;https://video.konayuki.moe/How to use Konayuki Lefiya.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+	&lt;/video&gt;
+&lt;/center&gt;
 </description>
         <pubDate>Thu, 27 Apr 2017 00:00:00 +0700</pubDate>
         <link>https://Konayuki.moe/knowledge/2017/04/27/How-to-Use-Lefiya.html</link>
@@ -75,7 +112,7 @@
         
         <category>Konayuki</category>
         
-        <category>Encoder</category>
+        <category>Lefiya</category>
         
         <category>Video</category>
         
@@ -97,28 +134,16 @@
       </item>
     
       <item>
-        <title>วิธีการใช้งาน Konayuki Encoder ฉบับ Blog</title>
-        <description>&lt;!--skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz--&gt;
-
-&lt;h2 id=&quot;1-ดาวน์โหลดตัวติดตั้ง&quot;&gt;&lt;center&gt;1. ดาวน์โหลดตัวติดตั้ง&lt;/center&gt;&lt;br /&gt;&lt;/h2&gt;
-&lt;center&gt;&lt;a class=&quot;btn btn-lg btn-default btn-rounded btn-outline wow bounceIn&quot; href=&quot;https://download.konayuki.moe/enc.html&quot; target=&quot;_blank&quot;&gt;&lt;span data-i18n=&quot;projects.button&quot;&gt;Download&lt;/span&gt;&lt;/a&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;2-ติดตั้งโปรแกรมตามขั้นตอนที่แสดงในหน้าต่างการติดตั้ง&quot;&gt;&lt;center&gt;2. ติดตั้งโปรแกรมตามขั้นตอนที่แสดงในหน้าต่างการติดตั้ง&lt;/center&gt;&lt;br /&gt;&lt;/h2&gt;
-&lt;center&gt;&lt;img src=&quot;/static/assets/img/blog/2017-04-27-How-to-Use/01.jpg&quot; width=&quot;600&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;วิธีสังเกตุ--ดูที่ลูกศรสีเขียวในภาพจะเห็นว่าชื่อไฟล์เพี้ยน&quot;&gt;&lt;center&gt;&lt;font color=&quot;#06af90&quot;&gt;วิธีสังเกตุ :&lt;/font&gt; ดูที่ลูกศรสีเขียวในภาพจะเห็นว่าชื่อไฟล์เพี้ยน&lt;/center&gt;&lt;br /&gt;&lt;/h3&gt;
-
-&lt;center&gt;&lt;img src=&quot;/static/assets/img/blog/2017-04-27-Common-Problem/01.jpg&quot; width=&quot;600&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;สาเหตุ--avisynth-รองรับแค่รหัสภาษา-ansi-ซึ่งไม่รองรับทั้งภาษาไทยและญี่ปุ่น&quot;&gt;&lt;center&gt;&lt;font color=&quot;#d44d4d&quot;&gt;สาเหตุ :&lt;/font&gt; AviSynth+ รองรับแค่รหัสภาษา ANSI ซึ่งไม่รองรับทั้งภาษาไทยและญี่ปุ่น&lt;/center&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;วิธีแก้ปัญหา--แก้ชื่อที่อยู่ไฟล์หรือชื่อไฟล์ให้เป็นภาษาอังกฤษทั้งหมด&quot;&gt;&lt;center&gt;&lt;font color=&quot;#3385ff&quot;&gt;วิธีแก้ปัญหา :&lt;/font&gt; แก้ชื่อที่อยู่ไฟล์หรือชื่อไฟล์ให้เป็นภาษาอังกฤษทั้งหมด&lt;/center&gt;&lt;br /&gt;&lt;/h3&gt;
+        <title>วิธีการใช้งาน Konayuki Encoder</title>
+        <description>&lt;center&gt;
+	&lt;video id=&quot;howtovideo&quot; preload=&quot;auto&quot; controls=&quot;&quot; poster=&quot;https://konayuki.moe/static/assets/img/blog/2017-04-27-How-to-Use-Encoder/share.png&quot;&gt;
+	&lt;source src=&quot;https://video.konayuki.moe/How to use Konayuki Encoder.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+	&lt;/video&gt;
+&lt;/center&gt;
 </description>
         <pubDate>Thu, 27 Apr 2017 00:00:00 +0700</pubDate>
-        <link>https://Konayuki.moe/knowledge/2017/04/27/How-to-Use.html</link>
-        <guid isPermaLink="true">https://Konayuki.moe/knowledge/2017/04/27/How-to-Use.html</guid>
+        <link>https://Konayuki.moe/knowledge/2017/04/27/How-to-Use-Encoder.html</link>
+        <guid isPermaLink="true">https://Konayuki.moe/knowledge/2017/04/27/How-to-Use-Encoder.html</guid>
         
         <category>Konayuki.moe</category>
         
@@ -142,49 +167,6 @@
         
         
         <category>Knowledge</category>
-        
-      </item>
-    
-      <item>
-        <title>การแก้ปัญหาเบื้องต้นสำหรับ Konayuki Encoder</title>
-        <description>&lt;!--skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz--&gt;
-
-&lt;h2 id=&quot;1-ที่อยู่หรือชื่อของไฟล์นำเข้ามีตัวอักษรที่ไม่ใช่ภาษาอังกฤษปนอยู่&quot;&gt;&lt;center&gt;1. ที่อยู่หรือชื่อของไฟล์นำเข้ามีตัวอักษรที่ไม่ใช่ภาษาอังกฤษปนอยู่&lt;/center&gt;&lt;br /&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;วิธีสังเกตุ--ดูที่ลูกศรสีเขียวในภาพจะเห็นว่าชื่อไฟล์เพี้ยน&quot;&gt;&lt;center&gt;&lt;font color=&quot;#06af90&quot;&gt;วิธีสังเกตุ :&lt;/font&gt; ดูที่ลูกศรสีเขียวในภาพจะเห็นว่าชื่อไฟล์เพี้ยน&lt;/center&gt;&lt;br /&gt;&lt;/h3&gt;
-
-&lt;center&gt;&lt;img src=&quot;/static/assets/img/blog/2017-04-27-Common-Problem/01.jpg&quot; width=&quot;600&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;สาเหตุ--avisynth-รองรับแค่รหัสภาษา-ansi-ซึ่งไม่รองรับทั้งภาษาไทยและญี่ปุ่น&quot;&gt;&lt;center&gt;&lt;font color=&quot;#d44d4d&quot;&gt;สาเหตุ :&lt;/font&gt; AviSynth+ รองรับแค่รหัสภาษา ANSI ซึ่งไม่รองรับทั้งภาษาไทยและญี่ปุ่น&lt;/center&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;วิธีแก้ปัญหา--แก้ชื่อที่อยู่ไฟล์หรือชื่อไฟล์ให้เป็นภาษาอังกฤษทั้งหมด&quot;&gt;&lt;center&gt;&lt;font color=&quot;#3385ff&quot;&gt;วิธีแก้ปัญหา :&lt;/font&gt; แก้ชื่อที่อยู่ไฟล์หรือชื่อไฟล์ให้เป็นภาษาอังกฤษทั้งหมด&lt;/center&gt;&lt;br /&gt;&lt;/h3&gt;
-</description>
-        <pubDate>Thu, 27 Apr 2017 00:00:00 +0700</pubDate>
-        <link>https://Konayuki.moe/help/2017/04/27/Common-Problem.html</link>
-        <guid isPermaLink="true">https://Konayuki.moe/help/2017/04/27/Common-Problem.html</guid>
-        
-        <category>Konayuki.moe</category>
-        
-        <category>Konayuki</category>
-        
-        <category>Encoder</category>
-        
-        <category>Video</category>
-        
-        <category>Subtitle</category>
-        
-        <category>Hardsub</category>
-        
-        <category>Fansub</category>
-        
-        <category>Help</category>
-        
-        <category>Problem</category>
-        
-        <category>Error</category>
-        
-        
-        <category>Help</category>
         
       </item>
     

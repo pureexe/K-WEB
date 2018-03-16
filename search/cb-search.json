@@ -3,6 +3,14 @@
 	"data" : [
 	 
 	{
+		"title" : "วิธีการใช้งาน KONAYUKI PLUS - 2018-03-08",
+		"url" : "/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html"
+	}
+	
+	,
+	
+    
+	{
 		"title" : "เกิดปัญหาจากการติดตั้งไม่สมบูรณ์ - 2017-10-27",
 		"url" : "/help/2017/10/27/incomplete_installation.html"
 	}
@@ -11,7 +19,7 @@
 	
     
 	{
-		"title" : "วิธีการใช้งาน Konayuki Encoder ฉบับ Blog - 2017-04-27",
+		"title" : "วิธีการใช้งาน Konayuki Lefiya - 2017-04-27",
 		"url" : "/knowledge/2017/04/27/How-to-Use-Lefiya.html"
 	}
 	
@@ -19,16 +27,8 @@
 	
     
 	{
-		"title" : "วิธีการใช้งาน Konayuki Encoder ฉบับ Blog - 2017-04-27",
-		"url" : "/knowledge/2017/04/27/How-to-Use.html"
-	}
-	
-	,
-	
-    
-	{
-		"title" : "การแก้ปัญหาเบื้องต้นสำหรับ Konayuki Encoder - 2017-04-27",
-		"url" : "/help/2017/04/27/Common-Problem.html"
+		"title" : "วิธีการใช้งาน Konayuki Encoder - 2017-04-27",
+		"url" : "/knowledge/2017/04/27/How-to-Use-Encoder.html"
 	}
 	
 	,

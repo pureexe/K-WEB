@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta content="We're Anime lover who making tools to support Fansub." name="description">
-  <meta name="keywords" content="Konayuki,moe,Anime,Video,Encoding,Konayuki.moe,Encode">
+  <meta name="keywords" content="Konayuki,moe,Anime,Video,Encoding,Konayuki.moe,Encode,Plus">
   <meta name="author" content="Konayuki.moe">
   
   <meta property="og:type" content="website" />
@@ -30,13 +30,13 @@
   <link rel="icon" href="https://Konayuki.moe/favicon.ico">
 
   <!-- Main CSS -->
-  <link href="/static/assets/app-20170526.min.css" rel="stylesheet">
+  <link href="/static/assets/app-20180315.min.css" rel="stylesheet">
 
   <!-- Main scripts -->
-  <script src="/static/assets/app-index-20170526.min.js"></script>
+  <script src="/static/assets/app-index-20180315.min.js"></script>
 
   
-  <script src="/static/assets/i18-20170526.min.js"></script>
+  <script src="/static/assets/i18-20180315.min.js"></script>
   
 
   <link rel="manifest" href="manifest.json">
@@ -67,15 +67,15 @@
             'dialog.blocked.message': "ทำตามขั้นตอนดังกล่าวเพื่อปลดบล็อคการแจ้งเตือน:"
         },
 		colors: { // Customize the colors of the main button and dialog popup button
-      'circle.background': 'rgb(51,133,255)',
+      'circle.background': 'rgb(247,150,193)',
       'circle.foreground': 'white',
-      'badge.background': 'rgb(51,133,255)',
+      'badge.background': 'rgb(247,150,193)',
       'badge.foreground': 'white',
       'badge.bordercolor': 'white',
       'pulse.color': 'white',
       'dialog.button.background.hovering': 'rgb(77, 101, 113)',
       'dialog.button.background.active': 'rgb(70, 92, 103)',
-      'dialog.button.background': 'rgb(51,133,255)',
+      'dialog.button.background': 'rgb(247,150,193)',
       'dialog.button.foreground': 'white'
 		},
 		displayPredicate: function() {
@@ -230,14 +230,50 @@ OneSignal.push(function() {
         </div>
     </div>
 	<!-- HEAD END -->
+
     <div class="row">
+	
+	<div class="col-sm-6 wow col-sm-offset-3 zoomIn">
+	<div class="team-member"> 
+	<img height="210" width="210" src="/static/assets/img/landing/pluslogo.png" class="img-responsive img-rounded knyk3" alt="">
+	<br>
+    <h4>
+	<span class="navy">KONAYUKI PLUS</span>
+	</h4>
+	<p><span data-i18n="projects.knyk3">Description</span></p>
+	
+				  <!-- DOWNLOAD -->
+				  <br /><a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" disabled >Coming Soon</a>&nbsp;&nbsp;
+				  <!-- <br /><a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://download.konayuki.moe/KONAYUKI_PLUS_SETUP.exe" target="_blank" ><span data-i18n="projects.button">Download</span></a>&nbsp;&nbsp; -->
+				  <!-- CHANGELOG -->
+				  <span data-toggle="tab" data-target="#knyk3project"><span data-toggle="tab" data-target="#knyk3changelognav">
+				  <a class="page-scroll btn btn-lg btn-default btn-rounded btn-outline wow bounceIn collapsebutton" href="#career">
+				  <span data-i18n="career.my_career">What's New</span></a>
+				  </span></span>
+				  <!-- HOT TO -->
+				  <!-- &nbsp;&nbsp;<a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html" target="_blank" ><span data-i18n="projects.button2">How to Use</span></a> -->
+				  &nbsp;&nbsp;<a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" disabled ><span data-i18n="projects.button2">How to Use</span></a>
+				  <br><br/>
+				  <p><h4><span data-i18n="projects.versiontxt"></span> <span class="navy" >V=1.0.6650.7277 / API=2018.03.15.14.46.50</span> <span data-i18n="projects.versiontxt2"></span> <span class="navy" >17 March 2018</span></h4></p>
+	
+<script>
+$(document).ready(function(){
+    $('.knyk3').tooltip({title: "<img src=/static/assets/img/landing/plus_show_case.png>", html: true, placement: "bottom"}); 
+});
+</script>
+	
+	</h3>
+	</div>
+	</br>
+	</div>
+
         
             
             
             <div class="col-sm-6 wow  fadeInLeft ">
             
               <div class="team-member"> 
-				  <img height="165" width="165" src="/static/assets/img/landing/encoderlogo.png" class="img-responsive img-rounded knyk1" alt="">
+				  <img height="150" width="150" src="/static/assets/img/landing/encoderlogo.png" class="img-responsive img-rounded knyk1" alt="">
 				  <br>
                   <h4>
                   
@@ -247,17 +283,22 @@ OneSignal.push(function() {
                   <p><span data-i18n="projects.knyk1">โปรแกรม Konayuki Encoder เป็นโปรแกรมเอ็นโค้ดสำหรับทำ Hardsub ที่จะช่วยแก้ปัญหารบกวนใจสำหรับแฟนซับทุกท่านให้หมดไป</span></p>
                   
 				  
+				  <!-- onclick="AlertFunction()" -->
+				  
 				  <!-- DOWNLOAD -->
-				  <br /><a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://download.konayuki.moe/enc.html" target="_blank" onclick="AlertFunction()"><span data-i18n="projects.button">Download</span></a>&nbsp;&nbsp;
+				  <br /><a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://download.konayuki.moe/enc.html" target="_blank" ><span data-i18n="projects.button">Download</span></a>&nbsp;&nbsp;
 				  <!-- CHANGELOG -->
 				  <span data-toggle="tab" data-target="#knyk1project"><span data-toggle="tab" data-target="#knyk1changelognav">
 				  <a class="page-scroll btn btn-lg btn-default btn-rounded btn-outline wow bounceIn collapsebutton" href="#career">
-				  <span data-i18n="career.my_career">Changelog</span></a>
+				  <span data-i18n="career.my_career">What's New</span></a>
 				  </span></span>
 				  <!-- HOT TO -->
-				  &nbsp;&nbsp;<button onclick="knyk1play()" type="button" class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" data-toggle="modal" data-target="#knyk1popup"><span data-i18n="projects.button2">How to Use</span></button>
+				  <!-- OLD Video -->
+				  <!-- <button onclick="knyk1play()" type="button" class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" data-toggle="modal" data-target="#knyk1popup"><span data-i18n="projects.button2">How to Use</span></button> -->
+				  &nbsp;&nbsp;<a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="http://127.0.0.1:4000/knowledge/2017/04/27/How-to-Use-Encoder.html" target="_blank" ><span data-i18n="projects.button2">How to Use</span></a>
 				  <br><br/>
 				  <p><h4><span data-i18n="projects.versiontxt">"></span> <span class="navy" data-i18n="projects.version1"></span> <span data-i18n="projects.versiontxt2">"></span> <span class="navy" data-i18n="projects.date1"></span></h4></p>
+				  
 <!-- popup box modal starts here -->
 <div class="modal fade" id="knyk1popup" role="dialog">
 	<div class="modal-dialog modal-lg">
@@ -280,11 +321,12 @@ OneSignal.push(function() {
 				<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
 					<span class="glyphicon glyphicon-remove"></span><span data-i18n="projects.closepopup">Close</span>
 				</button>
-				<p><a href="https://konayuki.moe/knowledge/2017/04/24/Konayuki_Encoder_Requirement.html"><span data-i18n="projects.blogbutton">How to Use (Blog Edition)</span></a></p>
+				<p><a href="http://127.0.0.1:4000/knowledge/2017/04/27/How-to-Use-Encoder.html"><span data-i18n="projects.blogbutton">How to Use (Blog Edition)</span></a></p>
 			</div>
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->
 </div><!-- /.modal-->
+
 <!-- Script -->
 <script>
 $(document).ready(function(){
@@ -313,7 +355,7 @@ function AlertFunction() {
                 
             
               <div class="team-member"> 
-				  <img height="165" width="165" src="/static/assets/img/landing/lefiyalogo.png" class="img-responsive img-rounded knyk2" alt="">
+				  <img height="150" width="150" src="/static/assets/img/landing/lefiyalogo.png" class="img-responsive img-rounded knyk2" alt="">
 				  <br>
                   <h4>
                   
@@ -323,17 +365,22 @@ function AlertFunction() {
                   <p><span data-i18n="projects.knyk2">โปรแกรม Konayuki Lefiya เป็นโปรแกรมทำคอมเม้นให้ซับอังกฤษสำหรับอำนวยความสะดวกให้คนตรวจสอบซับ (QC)</span></p>
                   
 				  
+				  <!-- onclick="AlertFunction()" -->
+				  
 				  <!-- DOWNLOAD -->
-				  <br /><a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://download.konayuki.moe/Konayuki Lefiya.exe" target="_blank" onclick="AlertFunction()"><span data-i18n="projects.button">Download</span></a>&nbsp;&nbsp;
+				  <br /><a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://download.konayuki.moe/Konayuki Lefiya.exe" target="_blank" ><span data-i18n="projects.button">Download</span></a>&nbsp;&nbsp;
 				  <!-- CHANGELOG -->
 				  <span data-toggle="tab" data-target="#knyk2project"><span data-toggle="tab" data-target="#knyk2changelognav">
 				  <a class="page-scroll btn btn-lg btn-default btn-rounded btn-outline wow bounceIn collapsebutton" href="#career">
-				  <span data-i18n="career.my_career">Changelog</span></a>
+				  <span data-i18n="career.my_career">What's New</span></a>
 				  </span></span>
 				  <!-- HOT TO -->
-				  &nbsp;&nbsp;<button onclick="knyk2play()" type="button" class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" data-toggle="modal" data-target="#knyk2popup"><span data-i18n="projects.button2">How to Use</span></button>
+				  <!-- OLD Video -->
+				  <!-- <button onclick="knyk2play()" type="button" class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" data-toggle="modal" data-target="#knyk2popup"><span data-i18n="projects.button2">How to Use</span></button> -->
+				  &nbsp;&nbsp;<a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="http://127.0.0.1:4000/knowledge/2017/04/27/How-to-Use-Lefiya.html" target="_blank" ><span data-i18n="projects.button2">How to Use</span></a>
 				  <br><br/>
 				  <p><h4><span data-i18n="projects.versiontxt">"></span> <span class="navy" data-i18n="projects.version2"></span> <span data-i18n="projects.versiontxt2">"></span> <span class="navy" data-i18n="projects.date2"></span></h4></p>
+				  
 <!-- popup box modal starts here -->
 <div class="modal fade" id="knyk2popup" role="dialog">
 	<div class="modal-dialog modal-lg">
@@ -356,11 +403,12 @@ function AlertFunction() {
 				<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
 					<span class="glyphicon glyphicon-remove"></span><span data-i18n="projects.closepopup">Close</span>
 				</button>
-				<p><a href="https://konayuki.moe/knowledge/2017/04/24/Konayuki_Encoder_Requirement.html"><span data-i18n="projects.blogbutton">How to Use (Blog Edition)</span></a></p>
+				<p><a href="http://127.0.0.1:4000/knowledge/2017/04/27/How-to-Use-Lefiya.html"><span data-i18n="projects.blogbutton">How to Use (Blog Edition)</span></a></p>
 			</div>
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->
 </div><!-- /.modal-->
+
 <!-- Script -->
 <script>
 $(document).ready(function(){
@@ -420,18 +468,24 @@ function AlertFunction() {
         <div class="col-xs-4">
             <div class="team-member wow zoomIn">
                 <img src="/static/assets/img/landing/avatar.png" height="170" width="170" class="img-responsive img-circle" alt=""><br>
-                <h4><span class="navy">Konayuki</span> Chan</h4>
+                <h4><span class="navy">Konayuki</span>.moe</h4>
                 <ul class="list-inline social-icon">
                     
                     
                     
-                    <li><a href="https://www.facebook.com/Konayuki.moe" target="blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.facebook.com/Konayuki.moe" target="blank"><i class="fab fa-facebook"></i></a></li>
                     
                     
-                    <li><a href="https://twitter.com/Konayuki_moe" target="blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://twitter.com/Konayuki_moe" target="blank"><i class="fab fa-twitter"></i></a></li>
                     
                     
-                    <li><a href="mailto:support@Konayuki.moe"><i class="fa fa-envelope-o"></i></a></li>
+                    <li><a href="https://link.konayuki.moe/discord.html" target="blank"><i class="fab fa-discord"></i></a></li>
+					
+                    
+                    <li><a href="https://www.youtube.com/channel/UCENA25R9mFAtBWwq_2d3Ejg" target="blank"><i class="fab fa-youtube"></i></a></li>
+                    
+                    
+                    <li><a href="mailto:support@Konayuki.moe"><i class="fas fa-envelope"></i></a></li>
                     
                     <li><a href="/feed.xml" target="blank"><i class="fa fa-rss"></i></a></li>
                     
@@ -461,6 +515,8 @@ function AlertFunction() {
             <p><span data-i18n="about_me.des">We're Anime lover and we want to help Fansub. First, we look at the most classic problem for Fansub it is encoding problem, for instance, encoding is complicated, subtitle sliding from frame to frame, subtitle invalid display and more. So, we made Konayuki Encoder fix all the problems and you can totally forget about it. In the future, we will bring the new tools to help Fansub as much as we can.</span></p>
         </div>
     </div>
+	<!-- fontawesome 5.0.8 -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </div>
 
 </section>
@@ -471,8 +527,8 @@ function AlertFunction() {
   <div class="panel panel-default">
     <div class="panel-heading">
       <h1 class="panel-title">
-        <a class="collapsed" aria-expanded="false" data-toggle="collapse" data-parent="#changelog1" href="#collapse1">
-        <center><span data-i18n="career.my_career">Changelog</span></center></a>
+        <span data-i18n="career.my_career" data-toggle="tab" data-target="#knyk3project"><a class="collapsed" aria-expanded="false" data-toggle="collapse" data-parent="#changelog1" href="#collapse1">
+        <center><font color="#676a6c">What's New</font></center></a></span>
       </h1>
     </div>
     <div id="collapse1" class="panel-collapse collapse collapsechangelog">
@@ -487,33 +543,248 @@ function AlertFunction() {
 	<!-- table tab -->
 	<br/>
 	  <ul class="nav nav-tabs">
-    <li id="knyk1changelognav" class="active"><a data-toggle="tab" href="#knyk1project"><font color="#3385ff">Konayuki Encoder</font></a></li>
-    <li id="knyk2changelognav" ><a data-toggle="tab" href="#knyk2project"><font color="#3385ff">Konayuki Lefiya</font></a></li>
+	  <li id="knyk3changelognav" class="active"><a data-toggle="tab" href="#knyk3project"><font color="#F796C1">KONAYUKI PLUS</font></a></li>
+	  <li id="knyk1changelognav" ><a data-toggle="tab" href="#knyk1project"><font color="#F796C1">Konayuki Encoder</font></a></li>
+    <li id="knyk2changelognav" ><a data-toggle="tab" href="#knyk2project"><font color="#F796C1">Konayuki Lefiya</font></a></li>
   </ul>
     <div class="tab-content">
-    <div id="knyk1project" class="tab-pane fade in active">
 	<!-- table tab -->
-    <div class="row features-block">
+	<div id="knyk3project" class="tab-pane fade in active"> <div class="row features-block"> <!-- table tab -->
         <div class="col-lg-12">
             <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
             
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fa fa-plus" style="margin-top:27%;" ></i>
+                    </div>
+                    <div class="vertical-timeline-content  rotateInUpRight ">
+                        <h2><span data-i18n="career3.plus000">V=1.0.6650.7277 / API=2018.03.15.14.46.50</span></h2>
+                        <p><span data-i18n="[html]career3.plus000_desc01"><b style="color:rgb(255,192,0)">CHANGE</b><br>
+- Change name "Change-log" to "What's New"<br>
+- Now the "What's New" using website instead of plain text.<br>
+- Change information box title from clip name to details.<br>
+<br>
+<b style="color:rgb(255,50,50)">FIX</b><br>
+- Fix preview conflict with encode while indexing.<br>
+- Fix bug that can delete when indexing.
+ </span></p>
+                        <span class="vertical-date"><span data-i18n="career3.plus000_date"> 17 March 2018 </span>
+                        <br/> <small><span data-i18n="career3.Minor">Minor Update</span></small> </span>
+                    </div>
+                </div>
+            
+            
+                <div class="vertical-timeline-block">
+                    <div class="vertical-timeline-icon navy-bg rotateIn">
+                        <i class="fa fa-plus-square" style="margin-top:27%;" ></i>
+                    </div>
+                    <div class="vertical-timeline-content  rotateInUpLeft ">
+                        <h2><span data-i18n="career3.plus000">V=1.0.6649.30988 / API=2018.03.15.14.46.50</span></h2>
+                        <p><span data-i18n="[html]career3.plus000_desc01"><b style="color:rgb(0,176,240)">NEW</b><br>
+- Introducing "KONAYUKI INFO" instead of plain Notepad.<br>
+<br>
+<b style="color:rgb(255,192,0)">CHANGE</b><br>
+- Custom output have been change from select folder to save file dialog.<br>
+<br>
+<b style="color:rgb(255,50,50)">FIX</b><br>
+- Fix the program not responding at startup for the fresh install computers.<br>
+- Fix error when play media if file have not been found.<br>
+- Fix MPC-HC video corruption for some people.<br>
+- Fix HEVC software encoder return skip with FLAC audio.<br>
+- Fix main path is different folder from main path in the project file.
+ </span></p>
+                        <span class="vertical-date"><span data-i18n="career3.plus000_date"> 16 March 2018 </span>
+                        <br/> <small><span data-i18n="career3.Major">Major Update</span></small> </span>
+                    </div>
+                </div>
+            
+            
+                <div class="vertical-timeline-block">
+                    <div class="vertical-timeline-icon navy-bg rotateIn">
+                        <i class="fa fa-plus" style="margin-top:27%;" ></i>
+                    </div>
+                    <div class="vertical-timeline-content  rotateInUpRight ">
+                        <h2><span data-i18n="career3.plus000">V=1.0.6648.35795 / API=2018.03.15.14.46.50</span></h2>
+                        <p><span data-i18n="[html]career3.plus000_desc01"><b style="color:rgb(255,50,50)">FIX</b><br>
+- Hot Fix : Bug audio track with old project file.
+ </span></p>
+                        <span class="vertical-date"><span data-i18n="career3.plus000_date"> 15 March 2018 </span>
+                        <br/> <small><span data-i18n="career3.Minor">Minor Update</span></small> </span>
+                    </div>
+                </div>
+            
+            
+                <div class="vertical-timeline-block">
+                    <div class="vertical-timeline-icon navy-bg rotateIn">
+                        <i class="fa fa-plus-square" style="margin-top:27%;" ></i>
+                    </div>
+                    <div class="vertical-timeline-content  rotateInUpLeft ">
+                        <h2><span data-i18n="career3.plus000">V=1.0.6648.29184 / API=2018.03.15.14.46.50</span></h2>
+                        <p><span data-i18n="[html]career3.plus000_desc01"><b style="color:rgb(0,176,240)">NEW</b><br>
+- Show progress while indexing.<br>
+- Add ability to select audio track.<br>
+- Add Software Encoder HEVC 10-bit<br>
+- Add "How to Use" button in the information menu. [Website Currently Unavailable]<br>
+- Support insertion of Intro/EndCard to the source audio with multi-channels up-to 10 channels. [From Onigiri-FS Request]<br>
+<br>
+<b style="color:rgb(0,176,80)">UPDATE</b><br>
+- Update FFmpeg to "20180314-f706cdd"<br>
+- Update FFplay to "20180314-f706cdd"<br>
+<br>
+<b style="color:rgb(255,192,0)">CHANGE</b><br>
+- Minimize the properties output.<br>
+<br>
+<b style="color:rgb(255,50,50)">FIX</b><br>
+- Fix conflict with another program that take control of codec. [Special Thanks to JEDAi Encoder]<br>
+- Fix FFmpeg output file's MediaInfo with typos.<br>
+- Fix critical bug that consuming CPU when use Intro/EndCard video.<br>
+- Fix can't encode if not focusing to the list.<br>
+- Fix can't remove file from the list if the file was deleted after encoding error.
+ </span></p>
+                        <span class="vertical-date"><span data-i18n="career3.plus000_date"> 15 March 2018 </span>
+                        <br/> <small><span data-i18n="career3.Major">Major Update</span></small> </span>
+                    </div>
+                </div>
+            
+            
+                <div class="vertical-timeline-block">
+                    <div class="vertical-timeline-icon navy-bg rotateIn">
+                        <i class="fa fa-plus" style="margin-top:27%;" ></i>
+                    </div>
+                    <div class="vertical-timeline-content  rotateInUpRight ">
+                        <h2><span data-i18n="career3.plus000">V=1.0.6646.2709 / API=2018.03.12.22.24.12</span></h2>
+                        <p><span data-i18n="[html]career3.plus000_desc01"><b style="color:rgb(255,192,0)">CHANGE</b><br>
+- Change folder name "language" to "languages".<br>
+<br>
+<b style="color:rgb(255,50,50)">FIX</b><br>
+- Fix changelog window bug.
+ </span></p>
+                        <span class="vertical-date"><span data-i18n="career3.plus000_date"> 13 March 2018 </span>
+                        <br/> <small><span data-i18n="career3.Minor">Minor Update</span></small> </span>
+                    </div>
+                </div>
+            
+            
+                <div class="vertical-timeline-block">
+                    <div class="vertical-timeline-icon navy-bg rotateIn">
+                        <i class="fa fa-plus" style="margin-top:27%;" ></i>
+                    </div>
+                    <div class="vertical-timeline-content  rotateInUpLeft ">
+                        <h2><span data-i18n="career3.plus000">V=1.0.6645.41295 / API=2018.03.12.22.24.12</span></h2>
+                        <p><span data-i18n="[html]career3.plus000_desc01"><b style="color:rgb(0,176,240)">NEW</b><br>
+- Add changelog in the information menu.<br>
+<br>
+<b style="color:rgb(0,176,80)">UPDATE</b><br>
+- Update FFmpeg to "20180312-939440a"<br>
+- Update FFplay to "20180312-939440a"<br>
+<br>
+<b style="color:rgb(255,192,0)">CHANGE</b><br>
+- Minor change in API code.
+ </span></p>
+                        <span class="vertical-date"><span data-i18n="career3.plus000_date"> 12 March 2018 </span>
+                        <br/> <small><span data-i18n="career3.Minor">Minor Update</span></small> </span>
+                    </div>
+                </div>
+            
+            
+                <div class="vertical-timeline-block">
+                    <div class="vertical-timeline-icon navy-bg rotateIn">
+                        <i class="fa fa-plus-square" style="margin-top:27%;" ></i>
+                    </div>
+                    <div class="vertical-timeline-content  rotateInUpRight ">
+                        <h2><span data-i18n="career3.plus000">V=1.0.6645.28430 / API=2018.03.12.15.28.50</span></h2>
+                        <p><span data-i18n="[html]career3.plus000_desc01"><b style="color:rgb(0,176,80)">UPDATE</b><br>
+- Update from .Net Framework 4.6.2 to 4.7.1<br>
+<br>
+<b style="color:rgb(255,192,0)">CHANGE</b><br>
+- Fully support 64Bit from the test result show 50% increase in performance compare to 32Bit.<br>
+- Change C++ Redistributable to 64Bit version.<br>
+- Change "Subtitle Remover" status to coming soon.<br>
+- Remove "Cross-Interlace" feature.
+ </span></p>
+                        <span class="vertical-date"><span data-i18n="career3.plus000_date"> 11 March 2018 </span>
+                        <br/> <small><span data-i18n="career3.Major">Major Update</span></small> </span>
+                    </div>
+                </div>
+            
+            
+                <div class="vertical-timeline-block">
+                    <div class="vertical-timeline-icon navy-bg rotateIn">
+                        <i class="fa fa-plus-square" style="margin-top:27%;" ></i>
+                    </div>
+                    <div class="vertical-timeline-content  rotateInUpLeft ">
+                        <h2><span data-i18n="career3.plus000">V=1.0.6643.35940 / API=2018.03.06.21.34.15</span></h2>
+                        <p><span data-i18n="[html]career3.plus000_desc01"><b style="color:rgb(0,176,240)">NEW</b><br>
+- Add duplicate button in queue's context menu.<br>
+- Add "After Completion" system in setting.<br>
+- Add support CPU's AVX2 instruction with "Resizers" algorithm.<br>
+- Add show status in the right-list. [From JEDAi Encoder Request]<br>
+- Support Intel GPU HEVC Encoder both 8Bit and 10Bit. [Special Thanks to Pure's app]<br>
+<br>
+<b style="color:rgb(0,176,80)">UPDATE</b><br>
+- Update to AviSynth+ r2636-MT.<br>
+- Update "Blur, Sharpen" algorithm with CPU's AVX2, SSE2 instruction speed up 1.35x to 1.5x on Intel i7-7770.<br>
+- Speed up converting from RGB24/RGB48 to Planar RGB(A) - SSSE3, approx. doubled fps.<br>
+- Enhanced VfW exporting Y416 (YUV444P16) with CPU's SSE2 instruction.<br>
+<br>
+<b style="color:rgb(255,192,0)">CHANGE</b><br>
+- Add timestamp at the end of output filename to prevent overwrite duplicate filename. [From PeaLz-FS Request]<br>
+- Optimize update system algorithm, decrease the load time.<br>
+<br>
+<b style="color:rgb(255,50,50)">FIX</b><br>
+- Fix can't import file with uppercase extension letter. [Special Thanks to RubyFansub]<br>
+- Fix current setting not the refer to the select index of the list.<br>
+- Fix swap between FPS and speed.<br>
+- Fix update system bug.<br>
+- Fix FFmpeg AAC audio broken sound. [Special Thanks to PeaLz-FS]
+ </span></p>
+                        <span class="vertical-date"><span data-i18n="career3.plus000_date"> 11 March 2018 </span>
+                        <br/> <small><span data-i18n="career3.Major">Major Update</span></small> </span>
+                    </div>
+                </div>
+            
+            
+                <div class="vertical-timeline-block">
+                    <div class="vertical-timeline-icon navy-bg rotateIn">
+                        <i class="fa fa-globe" style="margin-top:27%;" ></i>
+                    </div>
+                    <div class="vertical-timeline-content  rotateInUpRight ">
+                        <h2><span data-i18n="career3.plus000">V=1.0.6639.40274 / API=2018.03.06.21.34.15</span></h2>
+                        <p><span data-i18n="[html]career3.plus000_desc01"><b style="color:rgb(0,176,240)">NEW</b><br>
+- Introduce encode by queues system.<br>
+- Add ability to save queues to project file as "Konayuki Project File [.kpj]"<br>
+- Add preview while encoding feature in the setting. [Default: Disable]<br>
+- Add GUI guide system to preview window.<br>
+- Add KONAYUKI PLUS encode's setting to output file's comment.<br>
+- Add multi-language tooltip.<br>
+- Add MediaInfo print-out in queue's context menu.<br>
+- Support subtitle filename for all languages.<br>
+- Support AMD GPU Encoder both H.264 and HEVC. [Special Thanks to WindSky-Fs]
+ </span></p>
+                        <span class="vertical-date"><span data-i18n="career3.plus000_date"> 06 March 2018 </span>
+                        <br/> <small><span data-i18n="career3.Publish">First Version</span></small> </span>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+	</div>
+	<!-- table tab -->
+    <div id="knyk1project" class="tab-pane fade in active"> <div class="row features-block">
+        <div class="col-lg-12">
+            <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
+            
+            
+                <div class="vertical-timeline-block">
+                    <div class="vertical-timeline-icon navy-bg rotateIn">
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
                         <h2><span data-i18n="career.enc1121R4">Konayuki Encoder 1.1.2.1 R4</span></h2>
-                        <p><span data-i18n="career.enc1121R4_desc01">- Fix bug. </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1121R4_desc01">- Fix bug.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1121R4_date"> 03 March 2018 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -522,22 +793,13 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
                         <h2><span data-i18n="career.enc1121R3_S7">Konayuki Encoder 1.1.2.1 R3_S7</span></h2>
-                        <p><span data-i18n="career.enc1121R3_S7_desc01">- Update component. </span></p>
-						
-						<p><span data-i18n="career.enc1121R3_S7_desc02">- Fix bug. </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1121R3_S7_desc01">- Update component.<br>
+- Fix bug.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1121R3_S7_date"> 21 January 2018 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -546,22 +808,13 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
                         <h2><span data-i18n="career.enc1121R3_S6">Konayuki Encoder 1.1.2.1 R3_S6</span></h2>
-                        <p><span data-i18n="career.enc1121R3_S6_desc01">- Update component. </span></p>
-						
-						<p><span data-i18n="career.enc1121R3_S6_desc02">- Fix bug. (Thank to Onigiri-FS) </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1121R3_S6_desc01">- Update component.<br>
+- Fix bug. (Thank to Onigiri-FS)
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1121R3_S6_date"> 25 December 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -570,20 +823,12 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
                         <h2><span data-i18n="career.enc1121R3_S5">Konayuki Encoder 1.1.2.1 R3_S5</span></h2>
-                        <p><span data-i18n="career.enc1121R3_S5_desc01">- Fix bug. (Thank to WindSky-Fs) </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1121R3_S5_desc01">- Fix bug. (Thank to WindSky-Fs)
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1121R3_S5_date"> 21 December 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -592,24 +837,14 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
                         <h2><span data-i18n="career.enc1121R3_S4">Konayuki Encoder 1.1.2.1 R3_S4</span></h2>
-                        <p><span data-i18n="career.enc1121R3_S4_desc01">- [Update] Smart Script v6. </span></p>
-						
-						<p><span data-i18n="career.enc1121R3_S4_desc02">- Performance improvement. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1121R3_S4_desc03">- Fix bugs. </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1121R3_S4_desc01">- [Update] Smart Script v6.<br>
+- Performance improvement.
+- Fix bugs.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1121R3_S4_date"> 20 December 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -618,26 +853,15 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
                         <h2><span data-i18n="career.enc1121R3_S3">Konayuki Encoder 1.1.2.1 R3_S3</span></h2>
-                        <p><span data-i18n="career.enc1121R3_S3_desc01">- New error display design. (Thank to Season-Subs) </span></p>
-						
-						<p><span data-i18n="career.enc1121R3_S3_desc02">- Fix issue for some users. (Thank to JEDAi Encoder) </span></p>
-						
-						
-						<p><span data-i18n="career.enc1121R3_S3_desc03">- [Update] Konayuki Setting. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1121R3_S3_desc04">- Fix bugs. </span></p>
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1121R3_S3_desc01">- New error display design. (Thank to Season-Subs)<br>
+- Fix issue for some users. (Thank to JEDAi Encoder)<br>
+- [Update] Konayuki Setting.<br>
+- Fix bugs.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1121R3_S3_date"> 06 December 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -646,20 +870,12 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
                         <h2><span data-i18n="career.enc1121R3_S2">Konayuki Encoder 1.1.2.1 R3_S2</span></h2>
-                        <p><span data-i18n="career.enc1121R3_S2_desc01">- Fix Performance Issue. (Thank to JEDAi Encoder) </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1121R3_S2_desc01">- Fix Performance Issue. (Thank to JEDAi Encoder)
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1121R3_S2_date"> 30 November 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -668,26 +884,15 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
                         <h2><span data-i18n="career.enc1121R3_S">Konayuki Encoder 1.1.2.1 R3_S</span></h2>
-                        <p><span data-i18n="career.enc1121R3_S_desc01">- NEW! Konayuki Setting (UI). </span></p>
-						
-						<p><span data-i18n="career.enc1121R3_S_desc02">- Subtitle/Logo removal feature. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1121R3_S_desc03">- Update Smart Script to version 5. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1121R3_S_desc04">- Fix bug. </span></p>
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1121R3_S_desc01">- NEW! Konayuki Setting (UI).<br>
+- Subtitle/Logo removal feature.<br>
+- Update Smart Script to version 5.<br>
+- Fix bug.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1121R3_S_date"> 29 November 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -696,26 +901,15 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
                         <h2><span data-i18n="career.enc1121R3">Konayuki Encoder 1.1.2.1 R3</span></h2>
-                        <p><span data-i18n="career.enc1121R3_desc01">- Improvement and fix bug for 60FPS engine. </span></p>
-						
-						<p><span data-i18n="career.enc1121R3_desc02">- Add Debanding feature to Smart Script Setting. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1121R3_desc03">- Update Smart Script to version 4. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1121R3_desc04">- Fix bug. </span></p>
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1121R3_desc01">- Improvement and fix bug for 60FPS engine.<br>
+- Add Debanding feature to Smart Script Setting.<br>
+- Update Smart Script to version 4.<br>
+- Fix bug.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1121R3_date"> 08 November 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -724,22 +918,13 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
                         <h2><span data-i18n="career.enc1121R2">Konayuki Encoder 1.1.2.1 R2</span></h2>
-                        <p><span data-i18n="career.enc1121R2_desc01">- Update to .Net Framework 4.5.2 </span></p>
-						
-						<p><span data-i18n="career.enc1121R2_desc02">- Website security update to TLS 1.2 </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1121R2_desc01">- Update to .Net Framework 4.5.2<br>
+- Website security update to TLS 1.2
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1121R2_date"> 30 October 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -748,32 +933,18 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square"></i>
+                        <i class="fas fa-plus-square" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
                         <h2><span data-i18n="career.enc1121R1">Konayuki Encoder 1.1.2.1 R1</span></h2>
-                        <p><span data-i18n="career.enc1121R1_desc01">- Support NVIDIA GPU Encoder. (NVENC) </span></p>
-						
-						<p><span data-i18n="career.enc1121R1_desc02">- Support HEVC with NVENC. (H.265) </span></p>
-						
-						
-						<p><span data-i18n="career.enc1121R1_desc03">- Support 10Bit color depth. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1121R1_desc04">- Sound notification upon encode completion. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1121R1_desc05">- Upscale to 4K is available on HEVC only. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1121R1_desc06">- Compare Mode 4 (4K) now ready for encode! </span></p>
-						
-						
-						<p><span data-i18n="career.enc1121R1_desc07">- Fix some major bugs. </span></p>
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1121R1_desc01">- Support NVIDIA GPU Encoder. (NVENC)<br>
+- Support HEVC with NVENC. (H.265)<br>
+- Support 10Bit color depth.<br>
+- Sound notification upon encode completion.<br>
+- Upscale to 4K is available on HEVC only.<br>
+- Compare Mode 4 (4K) now ready for encode!<br>
+- Fix some major bugs.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1121R1_date"> 29 October 2017 </span>
                         <br/> <small><span data-i18n="career.Major">Major Update</span></small> </span>
                     </div>
@@ -782,24 +953,14 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
                         <h2><span data-i18n="career.enc1120R17_4">Konayuki Encoder 1.1.2.0 R17_4</span></h2>
-                        <p><span data-i18n="career.enc1120R17_4_desc01">- Fix video logo bug. (Thank to NaTa Subtitle) </span></p>
-						
-						<p><span data-i18n="career.enc1120R17_4_desc02">- Rewrite the core code of the logo engine. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120R17_4_desc03">- Fix some other bugs and typo. </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1120R17_4_desc01">- Fix video logo bug. (Thank to NaTa Subtitle)<br>
+- Rewrite the core code of the logo engine.<br>
+- Fix some other bugs and typo.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1120R17_4_date"> 24 October 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -808,30 +969,17 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
                         <h2><span data-i18n="career.enc1120R17_3">Konayuki Encoder 1.1.2.0 R17_3</span></h2>
-                        <p><span data-i18n="career.enc1120R17_3_desc01">- Ability to use custom logo name. </span></p>
-						
-						<p><span data-i18n="career.enc1120R17_3_desc02">- Support transparent video RGBA 32Bit for logo. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120R17_3_desc03">- Improve HQ setting length for precision. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120R17_3_desc04">- Add fix old Anime tool, Fix_1. (Smart Script Setting) </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120R17_3_desc05">- Update component. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120R17_3_desc06">- Fix bug. </span></p>
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1120R17_3_desc01">- Ability to use custom logo name.<br>
+- Support transparent video RGBA 32Bit for logo.<br>
+- Improve HQ setting length for precision.<br>
+- Add fix old Anime tool, Fix_1. (Smart Script Setting)<br>
+- Update component.<br>
+- Fix bug.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1120R17_3_date"> 23 October 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -840,20 +988,12 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
                         <h2><span data-i18n="career.enc1120R17_2">Konayuki Encoder 1.1.2.0 R17_2</span></h2>
-                        <p><span data-i18n="career.enc1120R17_2_desc01">- Fix bug. (Thank to Google Translate Fansub) </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1120R17_2_desc01">- Fix bug. (Thank to Google Translate Fansub)
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1120R17_2_date"> 12 October 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -862,32 +1002,18 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
                         <h2><span data-i18n="career.enc1120R17">Konayuki Encoder 1.1.2.0 R17</span></h2>
-                        <p><span data-i18n="career.enc1120R17_desc01">- Support subtitle srt/ssa/sup (PGS) extension. </span></p>
-						
-						<p><span data-i18n="career.enc1120R17_desc02">- Support custom transition. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120R17_desc03">- All new 60FPS profile. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120R17_desc04">- New compare mode 4 and 5. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120R17_desc05">- New HQ feature ability to control color as your wish! </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120R17_desc06">- Improved HQ setting from 0 up to 10. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120R17_desc07">- Fix bug. </span></p>
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1120R17_desc01">- Support subtitle srt/ssa/sup (PGS) extension.<br>
+- Support custom transition.<br>
+- All new 60FPS profile.<br>
+- New compare mode 4 and 5.<br>
+- New HQ feature ability to control color as your wish!<br>
+- Improved HQ setting from 0 up to 10.<br>
+- Fix bug.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1120R17_date"> 10 October 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -896,24 +1022,14 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
                         <h2><span data-i18n="career.enc1120R16_2">Konayuki Encoder 1.1.2.0 R16_2</span></h2>
-                        <p><span data-i18n="career.enc1120R16_2_desc01">-̶̶U̶n̶l̶o̶c̶k̶e̶d̶ ̶u̶p̶s̶c̶a̶l̶e̶ ̶t̶o̶ ̶4̶K̶.̶ </span></p>
-						
-						<p><span data-i18n="career.enc1120R16_2_desc02">- Improved encode profile. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120R16_2_desc03">- Fix bug. (Thank to RubyFansub) </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1120R16_2_desc01">-̶̶U̶n̶l̶o̶c̶k̶e̶d̶ ̶u̶p̶s̶c̶a̶l̶e̶ ̶t̶o̶ ̶4̶K̶.̶<br>
+- Improved encode profile.<br>
+- Fix bug. (Thank to RubyFansub)
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1120R16_2_date"> 26 September 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -922,22 +1038,13 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
                         <h2><span data-i18n="career.enc1120R16">Konayuki Encoder 1.1.2.0 R16</span></h2>
-                        <p><span data-i18n="career.enc1120R16_desc01">- Improved performance 60FPS engine by 60%. </span></p>
-						
-						<p><span data-i18n="career.enc1120R16_desc02">- Fix bug. </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1120R16_desc01">- Improved performance 60FPS engine by 60%.<br>
+- Fix bug.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1120R16_date"> 15 September 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -946,28 +1053,16 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
                         <h2><span data-i18n="career.enc1120R15">Konayuki Encoder 1.1.2.0 R15</span></h2>
-                        <p><span data-i18n="career.enc1120R15_desc01">- Using DAR instead of SAR. </span></p>
-						
-						<p><span data-i18n="career.enc1120R15_desc02">- New resize system. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120R15_desc03">- New compare mode system. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120R15_desc04">- Add CRC-32 to the default output file name. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120R15_desc05">- Fix Bug. </span></p>
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1120R15_desc01">- Using DAR instead of SAR.<br>
+- New resize system.<br>
+- New compare mode system.<br>
+- Add CRC-32 to the default output file name.<br>
+- Fix Bug.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1120R15_date"> 07 July 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -976,24 +1071,14 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
                         <h2><span data-i18n="career.enc1120R14">Konayuki Encoder 1.1.2.0 R14</span></h2>
-                        <p><span data-i18n="career.enc1120R14_desc01">- Add automatic detect and fix interlaced video. </span></p>
-						
-						<p><span data-i18n="career.enc1120R14_desc02">- Upgrade to AviSynth+ r2508. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120R14_desc03">- Fix Bug. </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1120R14_desc01">- Add automatic detect and fix interlaced video.<br>
+- Upgrade to AviSynth+ r2508.<br>
+- Fix Bug.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1120R14_date"> 02 July 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -1002,24 +1087,14 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
                         <h2><span data-i18n="career.enc1120R13">Konayuki Encoder 1.1.2.0 R13</span></h2>
-                        <p><span data-i18n="career.enc1120R13_desc01">- Improve logo insert performance by 90%. </span></p>
-						
-						<p><span data-i18n="career.enc1120R13_desc02">- Add more features in Smart Script Setting. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120R13_desc03">- Fix Bug. </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1120R13_desc01">- Improve logo insert performance by 90%.<br>
+- Add more features in Smart Script Setting.<br>
+- Fix Bug.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1120R13_date"> 20 June 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -1028,24 +1103,14 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
                         <h2><span data-i18n="career.enc1120R12">Konayuki Encoder 1.1.2.0 R12</span></h2>
-                        <p><span data-i18n="career.enc1120R12_desc01">- Upgrade to AviSynth+ r2506. </span></p>
-						
-						<p><span data-i18n="career.enc1120R12_desc02">- Support Thai filename except subtitle file (.ass). </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120R12_desc03">- Fix Bug. </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1120R12_desc01">- Upgrade to AviSynth+ r2506.<br>
+- Support Thai filename except subtitle file (.ass). <br>
+- Fix Bug.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1120R12_date"> 13 June 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -1054,20 +1119,12 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
                         <h2><span data-i18n="career.enc1120R11">Konayuki Encoder 1.1.2.0 R11</span></h2>
-                        <p><span data-i18n="career.enc1120R11_desc01">- Upgrade to AviSynth+ r2487. </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1120R11_desc01">- Upgrade to AviSynth+ r2487.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1120R11_date"> 29 May 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -1076,26 +1133,15 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
                         <h2><span data-i18n="career.enc1120R10">Konayuki Encoder 1.1.2.0 R10</span></h2>
-                        <p><span data-i18n="career.enc1120R10_desc01">- Support AAC and WAV media extensions for music. </span></p>
-						
-						<p><span data-i18n="career.enc1120R10_desc02">- Improve preview perfermance by 75%. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120R10_desc03">- Add more parameter. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120R10_desc04">- Fix AVS bug. </span></p>
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1120R10_desc01">- Support AAC and WAV media extensions for music.<br>
+- Improve preview perfermance by 75%.<br>
+- Add more parameter.<br>
+- Fix AVS bug.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1120R10_date"> 28 May 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -1104,26 +1150,15 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square"></i>
+                        <i class="fas fa-plus-square" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
                         <h2><span data-i18n="career.enc1120">Konayuki Encoder 1.1.2.0</span></h2>
-                        <p><span data-i18n="career.enc1120_desc01">- All new UI with new icon. </span></p>
-						
-						<p><span data-i18n="career.enc1120_desc02">- Move some setting from Smart Script Setting into UI. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120_desc03">- More parameters. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1120_desc04">- Fix bugs </span></p>
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1120_desc01">- All new UI with new icon.<br>
+- Move some setting from Smart Script Setting into UI.<br>
+- More parameters.<br>
+- Fix bugs
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1120_date"> 10 May 2017 </span>
                         <br/> <small><span data-i18n="career.Major">Major Update</span></small> </span>
                     </div>
@@ -1132,24 +1167,14 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square"></i>
+                        <i class="fas fa-plus-square" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
                         <h2><span data-i18n="career.enc1119">Konayuki Encoder 1.1.1.9</span></h2>
-                        <p><span data-i18n="career.enc1119_desc01">- Add Konayuki Sync Engine (KSE). </span></p>
-						
-						<p><span data-i18n="career.enc1119_desc02">- Update to Smart Script v2. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1119_desc03">- Add new parameters. </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1119_desc01">- Add Konayuki Sync Engine (KSE).<br>
+- Update to Smart Script v2.<br>
+- Add new parameters.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1119_date"> 17 April 2017 </span>
                         <br/> <small><span data-i18n="career.Major">Major Update</span></small> </span>
                     </div>
@@ -1158,22 +1183,13 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square"></i>
+                        <i class="fas fa-plus-square" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
                         <h2><span data-i18n="career.enc1118">Konayuki Encoder 1.1.1.8</span></h2>
-                        <p><span data-i18n="career.enc1118_desc01">- Upgrade to AviSynth+ r2455. </span></p>
-						
-						<p><span data-i18n="career.enc1118_desc02">- Add ability to enable frame interpolation for Smart Script. </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1118_desc01">- Upgrade to AviSynth+ r2455.<br>
+- Add ability to enable frame interpolation for Smart Script.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1118_date"> 17 April 2017 </span>
                         <br/> <small><span data-i18n="career.Major">Major Update</span></small> </span>
                     </div>
@@ -1182,24 +1198,14 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square"></i>
+                        <i class="fas fa-plus-square" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
                         <h2><span data-i18n="career.enc1117">Konayuki Encoder 1.1.1.7</span></h2>
-                        <p><span data-i18n="career.enc1117_desc01">- Add new parameters. </span></p>
-						
-						<p><span data-i18n="career.enc1117_desc02">- Support MKV extension output. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1117_desc03">- Support FLAC audio output. </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1117_desc01">- Add new parameters.<br>
+- Support MKV extension output.<br>
+- Support FLAC audio output.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1117_date"> 14 March 2017 </span>
                         <br/> <small><span data-i18n="career.Major">Major Update</span></small> </span>
                     </div>
@@ -1208,26 +1214,15 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
                         <h2><span data-i18n="career.enc1116">Konayuki Encoder 1.1.1.6</span></h2>
-                        <p><span data-i18n="career.enc1116_desc01">- Add FPS indicator. </span></p>
-						
-						<p><span data-i18n="career.enc1116_desc02">- Add time remaining meter. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1116_desc03">- Extend video quality custom range. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1116_desc04">- Fix bugs </span></p>
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.">- Add FPS indicator.<br>
+- Add time remaining meter.<br>
+- Extend video quality custom range.
+- Fix bugs
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1116_date"> 13 March 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -1236,38 +1231,21 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square"></i>
+                        <i class="fas fa-plus-square" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
                         <h2><span data-i18n="career.enc1115">Konayuki Encoder 1.1.1.5</span></h2>
-                        <p><span data-i18n="career.enc1115_desc01">- Change default video quality to 20. </span></p>
-						
-						<p><span data-i18n="career.enc1115_desc02">- Fix random error after encode. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1115_desc03">- Fix tooltip to display 2,048 character. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1115_desc04">- Fix error with AVI extension. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1115_desc05">- Change the name of Config.txt to KonayukiConfig.txt. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1115_desc06">- Add confirmation dialog after preview script. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1115_desc07">- Support M2TS and JPEG extension input. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1115_desc08">- Add link to support forum. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1115_desc09">- Add Smart Script v1. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1115_desc10">- Fix process duplicate bug. </span></p>
-						
+                        <p><span data-i18n="[html]career.enc1115_desc01">- Change default video quality to 20.<br>
+- Fix random error after encode.<br>
+- Fix tooltip to display 2,048 character.<br>
+- Fix error with AVI extension.<br>
+- Change the name of Config.txt to KonayukiConfig.txt.<br>
+- Add confirmation dialog after preview script.<br>
+- Support M2TS and JPEG extension input.<br>
+- Add link to support forum.<br>
+- Add Smart Script v1.<br>
+- Fix process duplicate bug.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1115_date"> 03 March 2017 </span>
                         <br/> <small><span data-i18n="career.Major">Major Update</span></small> </span>
                     </div>
@@ -1276,20 +1254,12 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
                         <h2><span data-i18n="career.enc1114">Konayuki Encoder 1.1.1.4</span></h2>
-                        <p><span data-i18n="career.enc1114_desc01">- Add ability to change AAC audio bitrate from 128Kbps to 320Kbps. </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1114_desc01">- Add ability to change AAC audio bitrate from 128Kbps to 320Kbps.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1114_date"> 01 March 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -1298,24 +1268,14 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-plus-square-o"></i>
+                        <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
                         <h2><span data-i18n="career.enc1113r2">Konayuki Encoder 1.1.1.3 R2</span></h2>
-                        <p><span data-i18n="career.enc1113r2_desc01">- Update Codec. </span></p>
-						
-						<p><span data-i18n="career.enc1113r2_desc02">- Change DSS2 to DSS2Mod. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1113r2_desc03">- Add more custom scripts. </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1113r2_desc01">- Update Codec.<br>
+- Change DSS2 to DSS2Mod.<br>
+- Add more custom scripts.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1113r2_date"> 23 January 2017 </span>
                         <br/> <small><span data-i18n="career.Minor">Minor Update</span></small> </span>
                     </div>
@@ -1324,28 +1284,16 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-globe"></i>
+                        <i class="fas fa-globe" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
                         <h2><span data-i18n="career.enc1113">Konayuki Encoder 1.1.1.3</span></h2>
-                        <p><span data-i18n="career.enc1113_desc01">- Published to the public. </span></p>
-						
-						<p><span data-i18n="career.enc1113_desc02">- Tested with 19 Fansubs. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1113_desc03">- AVS Script v0.1 with 60 scripts in total. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1113_desc04">- Add more parameters to the script. </span></p>
-						
-						
-						<p><span data-i18n="career.enc1113_desc05">- Remove the Trim function to fix subtitle accuracy issue. </span></p>
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career.enc1113_desc01">- Published to the public.<br>
+- Tested with 19 Fansubs.<br>
+- AVS Script v0.1 with 60 scripts in total.<br>
+- Add more parameters to the script.<br>
+- Remove the Trim function to fix subtitle accuracy issue.
+ </span></p>
                         <span class="vertical-date"><span data-i18n="career.enc1113_date"> 21 January 2017 </span>
                         <br/> <small><span data-i18n="career.Publish">First Publish</span></small> </span>
                     </div>
@@ -1363,24 +1311,14 @@ function AlertFunction() {
             
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg rotateIn">
-                        <i class="fa fa-globe"></i>
+                        <i class="fa fa-globe" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
                         <h2><span data-i18n="career2.lef1000">Konayuki Lefiya 1.0</span></h2>
-                        <p><span data-i18n="career2.lef1000_desc01">- Published to the public. </span></p>
-						
-						<p><span data-i18n="career2.lef1000_desc02">- Add Konayuki Sync Engine (KSE). </span></p>
-						
-						
-						<p><span data-i18n="career2.lef1000_desc03">- Convenience to use. </span></p>
-						
-						
-						
-						
-						
-						
-						
-						
+                        <p><span data-i18n="[html]career2.lef1000_desc01">- Published to the public.<br>
+- Add Konayuki Sync Engine (KSE).<br>
+- Convenience to use.
+ </span></p>		
                         <span class="vertical-date"><span data-i18n="career2.lef1000_date"> 12 May 2017 </span>
                         <br/> <small><span data-i18n="career2.Publish">First Publish</span></small> </span>
                     </div>
@@ -1441,7 +1379,9 @@ $(document).ready(function(){
             <ul class="list-inline social-icon">
                 <li><a href="https://konayuki.moe" target="blank"><i class="fa fa-link"></i></a>
                 </li>
-                <li><a href="mailto:me@konayuki.moe"><i class="fa fa-envelope-o"></i></a>
+                <li><a href="mailto:proflylab@protonmail.com"><i class="fas fa-envelope"></i></a>
+                </li>
+				<li><a href="https://github.com/Proflylab"><i class="fab fa-github"></i></a>
                 </li>
             </ul>
         </div>
@@ -1455,11 +1395,13 @@ $(document).ready(function(){
         
         <div class="team-member">
             <h4><span class="navy">Yuki</span> Chan</h4>
-            <p><span data-i18n="link.desc2">Co-Founder, AviSynth Developer</span></p>
+            <p><span data-i18n="link.desc2">Co-Founder, Website Developer, AviSynth Developer</span></p>
             <ul class="list-inline social-icon">
                 <li><a href="https://konayuki.moe" target="blank"><i class="fa fa-link"></i></a>
                 </li>
-                <li><a href="mailto:support@konayuki.moe"><i class="fa fa-envelope-o"></i></a>
+                <li><a href="mailto:support@konayuki.moe"><i class="fas fa-envelope"></i></a>
+                </li>
+				<li><a href="https://github.com/MinorMole"><i class="fab fa-github"></i></a>
                 </li>
             </ul>
         </div>
@@ -1468,7 +1410,7 @@ $(document).ready(function(){
     </div>
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-			<!--&nbsp;<span data-i18n="link.view">views</span>&nbsp;--><strong>&copy; 2018 Konayuki.moe | Tools for Fansub</strong></p>
+			<!--&nbsp;<span data-i18n="link.view">views</span>&nbsp;--><strong>&copy; 2017 - 2018 Konayuki.moe | Tools for Fansub</strong></p>
         </div>
     </div>
 </div>

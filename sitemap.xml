@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
+        <loc>https://Konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html</loc>
+    </url>
+
+    <url>
         <loc>https://Konayuki.moe/help/2017/10/27/incomplete_installation.html</loc>
     </url>
 
@@ -10,11 +14,7 @@
     </url>
 
     <url>
-        <loc>https://Konayuki.moe/knowledge/2017/04/27/How-to-Use.html</loc>
-    </url>
-
-    <url>
-        <loc>https://Konayuki.moe/help/2017/04/27/Common-Problem.html</loc>
+        <loc>https://Konayuki.moe/knowledge/2017/04/27/How-to-Use-Encoder.html</loc>
     </url>
 
     <url>
@@ -48,6 +48,10 @@
 
     <url>
         <loc>https://Konayuki.moe/news/</loc>
+    </url>
+
+    <url>
+        <loc>https://Konayuki.moe/plus_changelog.html</loc>
     </url>
 
     <url>
