@@ -5,8 +5,8 @@
     <description>We're Anime lover who making tools to support Fansub.</description>
     <link>https://Konayuki.moe/</link>
     <atom:link href="https://Konayuki.moe/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Mar 2018 04:31:15 +0700</pubDate>
-    <lastBuildDate>Sun, 18 Mar 2018 04:31:15 +0700</lastBuildDate>
+    <pubDate>Sun, 18 Mar 2018 04:33:30 +0700</pubDate>
+    <lastBuildDate>Sun, 18 Mar 2018 04:33:30 +0700</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -371,11 +371,11 @@
       </item>
     
       <item>
-        <title>การแอดไฟล์วีดีโอเข้ารายการ</title>
+        <title>การเพิ่มไฟล์วีดีโอเข้ารายการ</title>
         <description>&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
 &lt;div id=&quot;wrap&quot;&gt;
 	&lt;div id=&quot;content_title&quot;&gt;
-		&lt;a href=&quot;#1&quot;&gt;1. การแอดไฟล์วีดีโอเข้ารายการ&lt;/a&gt;&lt;br /&gt;
+		&lt;a href=&quot;#1&quot;&gt;1. การเพิ่มไฟล์วีดีโอเข้ารายการ&lt;/a&gt;&lt;br /&gt;
 		&lt;a href=&quot;#2&quot;&gt;2. การโหลดไฟล์ซับโดยอัตโนมัติ&lt;/a&gt;&lt;br /&gt;
 		&lt;a href=&quot;#3&quot;&gt;3. เมนูคลิกขวาของรายการ&lt;/a&gt;&lt;br /&gt;
 	&lt;/div&gt;
@@ -386,13 +386,13 @@
 
 &lt;hr /&gt;
 
-&lt;!------------------------------------- การแอดไฟล์วีดีโอเข้ารายการ -------------------------------------&gt;
+&lt;!------------------------------------- การเพิ่มไฟล์วีดีโอเข้ารายการ -------------------------------------&gt;
 
 &lt;section id=&quot;1&quot;&gt;&lt;/section&gt;
 
 &lt;center&gt;
 
-&lt;h1&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;การแอดไฟล์วีดีโอเข้ารายการ&lt;/font&gt;&lt;/h1&gt;&lt;br /&gt;
+&lt;h1&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;การเพิ่มไฟล์วีดีโอเข้ารายการ&lt;/font&gt;&lt;/h1&gt;&lt;br /&gt;
 
 &lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
 
@@ -452,7 +452,7 @@
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
 &lt;div id=&quot;wrap&quot;&gt;
 	&lt;div id=&quot;content_content&quot;&gt;
-	คลิกขวาที่ไฟล์วีดีโอในรายการที่แอดเข้ามาจะเจอเมนู ซึ่งจะอธิบายดังต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+	คลิกขวาที่ไฟล์วีดีโอในรายการที่เพิ่มเข้ามาจะเจอเมนู ซึ่งจะอธิบายดังต่อไปนี้&lt;br /&gt;&lt;br /&gt;
 	1. &quot;Play Media&quot; เล่นไฟล์วีดีโอต้นฉบับ&lt;br /&gt;
 	2. &quot;Set Output File&quot; &lt;a href=&quot;Blank&quot; target=&quot;_blank&quot;&gt;คลิกเพื่ออ่าน &quot;การตั้งค่าโฟลเดอร์ขาออกของไฟล์&quot;&lt;/a&gt;&lt;br /&gt;
 	3. &quot;Set Output Folder&quot; &lt;a href=&quot;Blank&quot; target=&quot;_blank&quot;&gt;คลิกเพื่ออ่าน &quot;การตั้งค่าโฟลเดอร์ขาออกของไฟล์&quot;&lt;/a&gt;&lt;br /&gt;
@@ -589,23 +589,23 @@
 &lt;div id=&quot;wrap&quot;&gt;
 	&lt;div id=&quot;content_title&quot;&gt;
 
-	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-01-installation.html&quot; target=&quot;_blank&quot;&gt;1. การติดตั้งโปรแกรม&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-01-installation.html&quot;&gt;1. การติดตั้งโปรแกรม&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 
-	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html&quot; target=&quot;_blank&quot;&gt;2. การแอดไฟล์วีดีโอเข้ารายการ&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html&quot;&gt;2. การแอดไฟล์วีดีโอเข้ารายการ&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 
-	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-03-remove.html&quot; target=&quot;_blank&quot;&gt;3. การลบไฟล์วีดีโอออกจากรายการ&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-03-remove.html&quot;&gt;3. การลบไฟล์วีดีโอออกจากรายการ&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 
-	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-04-config.html&quot; target=&quot;_blank&quot;&gt;4. การตั้งค่าไฟล์วีดีโอ&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-04-config.html&quot;&gt;4. การตั้งค่าไฟล์วีดีโอ&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 
-	&lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;5. การใช้งานระบบพรีวิว&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;&quot;&gt;5. การใช้งานระบบพรีวิว&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 
-	&lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;6. การตั้งค่าโฟลเดอร์ขาออกของไฟล์&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;&quot;&gt;6. การตั้งค่าโฟลเดอร์ขาออกของไฟล์&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 
-	&lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;7. การเริ่มเอ็นโค้ด&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;&quot;&gt;7. การเริ่มเอ็นโค้ด&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 
-	&lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;8. การตั้งค่าโปรแกรม&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;&quot;&gt;8. การตั้งค่าโปรแกรม&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 	
-	&lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;9. การแก้ไขปัญหาเบื้องต้น&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;&quot;&gt;9. การแก้ไขปัญหาเบื้องต้น&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 	
 	&lt;/div&gt;
 &lt;/div&gt;
