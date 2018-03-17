@@ -1,54 +1,56 @@
 {
   "website":{
-    "title": "โคนะยูกิดอทโมเอะ | เครื่องมือสำหรับแฟนซับ"
+    "title": "Konayuki.moe | Tools for Fansub"
   },
   "nav":{
-    "home": "หน้าแรก",
-    "about_me": "เกี่ยวกับ",
+    "home": "Home",
+    "about_me": "Our Story",
     "skills": "",
-    "projects": "เครื่องมือ",
-    "career": "รายการอัพเดต",
-    "blog": "แฟนเพจ",
-    "link": "ติดต่อ"
+    "projects": "Tools",
+    "career": "Changelog",
+    "blog": "Fanpage",
+    "link": "Contact"
   },
   "about_me":{
-    "about_me": "เรื่องราวของเรา",
-    "des": "เราคือกลุ่มคนรักอนิเมะ และต้องการช่วยเหลือแฟนซับ โดยเริ่มจากการดูหนึ่งในปัญหาคลาสสิคของแฟนซับคือการเอ็นโค้ด ซึ่งสร้างปัญหานานาประการ เช่น ความยุ่งยากในการทำ, ซับเลื่อน, ซับเพี้ยน และอื่นๆ พวกเราจึงได้พัฒนาโปรแกรม Konayuki Encoder ขึ้นมาเพื่อแก้ปัญหาเหล่านี้ จนปัญหาทั้งหมดเป็นเพียงแค่อดีตในที่สุด และในอนาคตเราก็จะสร้างเครื่องมือใหม่ๆ ขึ้นมาเพื่อช่วยเหลือแฟนซับอีก ;)"
+    "about_me": "Our Story",
+    "des": "We're Anime lover and we want to help Fansub. First, we look at the most classic problem for Fansub it is encoding problem, for instance, encoding is complicated, subtitle sliding from frame to frame, subtitle invalid display and more. So, we made Konayuki Encoder fix all the problems and you can totally forget about it. In the future, we will bring the new tools to help Fansub as much as we can. ;)"
   },
   "skills":{
     "my_skills": ""
   },
   "projects":{
-    "my_projects": "เครื่องมือของเรา",
-    "knyk1": "โปรแกรม Konayuki Encoder เป็นโปรแกรมเอ็นโค้ดสำหรับทำ Hardsub ที่จะช่วยแก้ปัญหารบกวนใจสำหรับแฟนซับทุกท่านให้หมดไป",
-	"knyk2": "โปรแกรม Konayuki Lefiya เป็นโปรแกรมทำคอมเม้นให้ซับอังกฤษสำหรับอำนวยความสะดวกให้คนตรวจสอบซับ (QC)",
-	"knyk3": "โปรแกรมผู้สืบต่อจาก Konayuki Encoder เพิ่มฟีเจอร์หลักคือการเอ็นโค้ดเป็นคิว (หลายไฟล์) ความสามารถการเซฟไฟล์งานโปรเจค และรองรับการ์ดจอ AMD",
-	"blogbutton": "วิธีใช้ (Blog)",
-	"closepopup": "ปิด",
-	"button": "ดาวน์โหลด",
-	"button2": "วิธีใช้",
-	"versiontxt": "เวอร์ชั่น",
-	"versiontxt2": "อัพเดตเมื่อ",
-	"date2": "26 May 2017 ",
-	"version2": "1.0 ",
-	"date1": "หยุดพัฒนาแล้ว",
-	"version1": "1.1.2.1 R4 (เวอร์ชั่นสุดท้าย)"
+    "my_projects": "Our Tools",
+	"knyk1": "Konayuki Encoder is Hardsub burn-in application, especially made for helping Fansub who get in trouble with encoding.",
+	"knyk2": "Konayuki Lefiya is Advanced SSA (.ass) subtitle comment converter for convenience of quality control (QC).",
+	"knyk3": "The successor of Konayuki Encoder with more features such as the ability to encode by queue (multiple files), the ability to save works as a project file and support AMD GPU Encoder.",
+	"blogbutton": "How to Use (Blog Edition)",
+	"closepopup": "Close",
+	"button": "Download",
+	"button2": "How to Use",
+	"versiontxt": "Version",
+	"versiontxt2": "Release Date",
+	"date2": "26 May 2017",
+	"version2": "1.0",
+	"date1": "STOP DEVELOPMENT",
+	"version1": "1.1.2.1 R4 (LAST VERSION)"
   },
   "blog":{
-    "my_blog": "เฟสบุ๊คแฟนเพจของเรา"
+    "my_blog": "Our Facebook Fanpage"
   },
   "link":{
-    "link": "ติดต่อ",
-	"desc1": "ผู้ก่อตั้ง, นักพัฒนาซอฟต์แวร์",
-	"desc2": "ผู้ร่วมก่อตั้ง, นักพัฒนาเว็บไซต์, นักพัฒนา AviSynth",
-    "view": "วิว"
+    "link": "Contact",
+	"desc1": "Founder, Software Developer",
+	"desc2": "Co-Founder, Website Developer, AviSynth Developer",
+    "view": "views"
   },
   "changelog":{
-	"fanpage": "เฟสบุ๊คแฟนเพจของเรา",
-    "more_tools": "เครื่องมืออื่นๆ",
-	"full_changelog": "รายการปรับปรุงแบบเต็ม",
-	"more": "อ่านรายการเปลี่ยนแปลงฉบับเต็มได้ที่เว็บไซต์!",
-	"title": "ใหม่!"
+    "fanpage": "Our Facebook Fanpage",
+	"more_tools": "More Tools",
+	"full_changelog": "Full Changelog",
+	"more": "Read full changelog at our website!",
+	"title": "New!"
+  },
+  "career":{
+    "my_career": "What's New"
   }
-
 }
