@@ -5,28 +5,143 @@
     <description>We're Anime lover who making tools to support Fansub.</description>
     <link>https://Konayuki.moe/</link>
     <atom:link href="https://Konayuki.moe/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Mar 2018 07:34:45 +0700</pubDate>
-    <lastBuildDate>Sun, 18 Mar 2018 07:34:45 +0700</lastBuildDate>
+    <pubDate>Sun, 18 Mar 2018 08:11:14 +0700</pubDate>
+    <lastBuildDate>Sun, 18 Mar 2018 08:11:14 +0700</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
-        <title>การตั้งค่าไฟล์วีดีโอ</title>
-        <description>&lt;!-- &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
-&lt;div id=&quot;wrap&quot;&gt;
-	&lt;div id=&quot;content_title&quot;&gt;
-		&lt;a href=&quot;#1&quot;&gt;1. แนะนำการตั้งค่า&lt;/a&gt;&lt;br&gt;
-		&lt;a href=&quot;#1&quot;&gt;2. การตั้งค่าหน้า Main&lt;/a&gt;&lt;br&gt;
-		&lt;a href=&quot;#2&quot;&gt;3. การตั้งค่าหน้า Video&lt;/a&gt;&lt;br&gt;
-		&lt;a href=&quot;#3&quot;&gt;4. การตั้งค่าหน้า Audio&lt;/a&gt;&lt;br&gt;
-		&lt;a href=&quot;#4&quot;&gt;5. การตั้งค่าหน้า Transition&lt;/a&gt;&lt;br&gt;
-		&lt;a href=&quot;#5&quot;&gt;6. การตั้งค่าหน้า Logo&lt;/a&gt;&lt;br&gt;
-		&lt;a href=&quot;#6&quot;&gt;7. การตั้งค่าหน้า Special (Coming Soon!)&lt;/a&gt;&lt;br&gt;
-		&lt;a href=&quot;#7&quot;&gt;8. อธิบายหน้า Log&lt;/a&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt; --&gt;
+        <title>การใช้งานระบบพรีวิว</title>
+        <description>&lt;hr /&gt;
+
+&lt;center&gt;&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
 
 &lt;hr /&gt;
+
+&lt;div class=&quot;panel-group&quot; id=&quot;accordion&quot;&gt;
+
+&lt;!------------------------------------- 1. การพรีวิว -------------------------------------&gt;
+
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
+    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	 1. การพรีวิว
+	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+    &lt;div id=&quot;1&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
+	
+	&lt;!-- BODY --&gt;
+	  
+	&lt;center&gt;
+
+		&lt;img src=&quot;/static/assets/img/blog/KP-05-preview/01.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+
+	&lt;/center&gt;
+
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	&lt;div id=&quot;wrap&quot;&gt;
+		&lt;div id=&quot;content_content&quot;&gt;
+		1. เลือกวีดีโอที่ต้องการจะพรีวิวจากรายการให้ขึ้นคลุมดำดังภาพ (สามารถพรีวิวพร้อมกันได้หลายไฟล์)&lt;br /&gt;
+		2. กดปุ่ม&amp;nbsp;
+		&lt;img src=&quot;/static/assets/img/blog/KP-05-preview/ob01.png&quot; style=&quot;max-width:30px;&quot; /&gt;
+		&amp;nbsp;เพื่อเปิดพรีวิว
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	
+	&lt;!-- END BODY --&gt;
+	
+	&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+  
+&lt;!------------------------------------- 2.  -------------------------------------&gt;
+  
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
+    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	 2. คีย์ลัดของหน้าต่างพรีวิว
+	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+    &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
+	
+	&lt;!-- BODY --&gt;
+	  
+	&lt;center&gt;&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
+
+		&lt;img src=&quot;/static/assets/img/blog/KP-05-preview/02.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		
+		กดปุ่ม&amp;nbsp;
+		&lt;img src=&quot;/static/assets/img/blog/KP-05-preview/ob02.png&quot; style=&quot;max-width:30px;&quot; /&gt;
+		&amp;nbsp;เพื่อเปิด Overlay ของคีย์ลัดขึ้นมา ดังภาพด้านล่าง&lt;br /&gt;&lt;br /&gt;
+		
+		&lt;img src=&quot;/static/assets/img/blog/KP-05-preview/03.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		
+		ส่วนแถบเวลาที่ขึ้นตามเมาส์นั้น &amp;nbsp;
+		&lt;img src=&quot;/static/assets/img/blog/KP-05-preview/ob03.png&quot; style=&quot;max-width:80px;&quot; /&gt;
+		&amp;nbsp;จะแสดงเวลาโดยอิงจากตำแหน่งเมาส์ เมื่อคลิกขวาที่ตัวพรีวิวจะเป็นการเลือกเวลาของวีดีโอ&lt;br /&gt;
+
+	&lt;/font&gt;&lt;/center&gt;
+	
+	&lt;!-- END BODY --&gt;
+	
+	&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+	
+&lt;!------------------------------------- 3. การใช้งานโหมดเปรียบเทียบ (Compare Mode) -------------------------------------&gt;
+  
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
+    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	 3. การใช้งานโหมดเปรียบเทียบ (Compare Mode)
+	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+    &lt;div id=&quot;3&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
+	
+	&lt;!-- BODY --&gt;
+	  
+	&lt;center&gt;&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
+
+		&lt;img src=&quot;/static/assets/img/blog/KP-05-preview/04.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		
+		ปุ่มเล็กๆ ข้างๆ ปุ่ม&amp;nbsp;
+		&lt;img src=&quot;/static/assets/img/blog/KP-05-preview/ob01.png&quot; style=&quot;max-width:30px;&quot; /&gt;
+		&amp;nbsp;เป็นปุ่มเพื่อเปิดใช้งานพรีวิวแบบเปรียบเทียบ (Compare Mode) ดังภาพด้านล่าง&lt;br /&gt;&lt;br /&gt;
+		
+		&lt;img src=&quot;/static/assets/img/blog/KP-05-preview/05.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		
+		โดยใช้เพื่อการเปรียบเทียบภาพจากการปรับ Filters อ่านการปรับภาพได้ &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-04-config.html&quot;&gt;ที่นี่&lt;/a&gt;&lt;br /&gt;
+
+	&lt;/font&gt;&lt;/center&gt;
+	
+	&lt;!-- END BODY --&gt;
+	
+	&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+  
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 18 Mar 2018 00:00:00 +0700</pubDate>
+        <link>https://Konayuki.moe/knowledge/2018/03/18/KP-05-preview.html</link>
+        <guid isPermaLink="true">https://Konayuki.moe/knowledge/2018/03/18/KP-05-preview.html</guid>
+        
+        <category>Konayuki.moe</category>
+        
+        <category>Konayuki</category>
+        
+        <category>Plus</category>
+        
+        <category>Video</category>
+        
+        <category>Subtitle</category>
+        
+        <category>Hardsub</category>
+        
+        <category>Fansub</category>
+        
+        <category>Help</category>
+        
+        <category>Knowledge</category>
+        
+        <category>Howto</category>
+        
+        
+        <category>Knowledge</category>
+        
+      </item>
+    
+      <item>
+        <title>การตั้งค่าไฟล์วีดีโอ</title>
+        <description>&lt;hr /&gt;
 
 &lt;center&gt;&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
 
@@ -46,7 +161,7 @@
 	  
 	&lt;center&gt;
 
-		&lt;img src=&quot;/static/assets/img/blog/KP-04-config/01.png&quot; style=&quot;max-width:900px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		&lt;img src=&quot;/static/assets/img/blog/KP-04-config/01.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 
 	&lt;/center&gt;
 
@@ -77,7 +192,7 @@
 	  
 	&lt;center&gt;
 
-		&lt;img src=&quot;/static/assets/img/blog/KP-04-config/02.png&quot; style=&quot;max-width:900px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		&lt;img src=&quot;/static/assets/img/blog/KP-04-config/02.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 
 	&lt;/center&gt;
 
@@ -99,7 +214,7 @@
 	&lt;center&gt;
 	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
 
-		&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-04-config/03.png&quot; style=&quot;max-width:900px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-04-config/03.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 		MediaInfo ของไฟล์ที่มีการฝัง Clip Detail
 		
 	&lt;/font&gt;
@@ -121,7 +236,7 @@
 	  
 	&lt;center&gt;
 
-		&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-04-config/04.png&quot; style=&quot;max-width:900px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-04-config/04.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 
 	&lt;/center&gt;
 
@@ -136,10 +251,18 @@
 		&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;เมื่อ Encode โปรแกรมจะขึ้น Failed หากการ์ดจอท่านไม่รองรับ หรือไดรฟ์เวอร์ไม่ใช่รุ่นล่าสุด&lt;/b&gt;&lt;br /&gt;
 		3. Preset ของการ Encode มีผลต่อขนาดไฟล์และคุณภาพ โดยค่าแนะนำคือ Medium [ ยิ่งช้าคุณภาพยิ่งดี ]&lt;br /&gt;
 		4. ค่าคุณภาพคงที่ของภาพ มีผลต่อขนาดไฟล์และคุณภาพ โดยจะมีค่าแนะนำในโปรแกรม ซึ่งจะเปลี่ยนไปกับ Raw ที่ใช้และ Video Codec ที่เลือก&lt;br /&gt;&lt;br /&gt;
-		&lt;font color=&quot;#f796c1&quot;&gt;ภายในกรอบชมพูในภาพ คือส่วนปรับภาพด้วย Filters ต่างๆ โดยสามารถกดดูตัวอย่างได้จากปุ่ม Example ที่ลูกศรชี้อยู่&lt;/font&gt;&lt;br /&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	
+	&lt;center&gt;
+	
+	&lt;font style=&quot;font-size:18px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;
+	ภายในกรอบชมพูในภาพ คือส่วนปรับภาพด้วย Filters ต่างๆ โดยสามารถกดดูตัวอย่างได้จากปุ่ม Example ที่ลูกศรชี้อยู่&lt;br /&gt;
+	และสามารถใช้โหมดเปรียบเทียบ (Compare Mode) เพื่อเปรียบเทียบ ก่อน-หลัง ปรับ อ่านเพิ่มเติมได้ &lt;a href=&quot;http://127.0.0.1:4000/knowledge/2018/03/18/KP-04-config.html&quot;&gt;ที่นี่&lt;/a&gt;
+	&lt;/font&gt;
+	
+	&lt;/center&gt;
 	
 	&lt;!-- END BODY --&gt;
 	
@@ -157,7 +280,7 @@
 	  
 	&lt;center&gt;
 
-		&lt;img src=&quot;/static/assets/img/blog/KP-04-config/05.png&quot; style=&quot;max-width:900px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		&lt;img src=&quot;/static/assets/img/blog/KP-04-config/05.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 
 	&lt;/center&gt;
 
@@ -192,7 +315,7 @@
 
 	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
 
-		&lt;img src=&quot;/static/assets/img/blog/KP-04-config/06.png&quot; style=&quot;max-width:900px;&quot; /&gt;&lt;br /&gt;
+		&lt;img src=&quot;/static/assets/img/blog/KP-04-config/06.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;
 		เลือกรูปแบบ Transition ตรงกล่องที่ลูกษรชี้ และตั้งค่า Transition ตามต้องการ
 
 	&lt;/font&gt;
@@ -215,7 +338,7 @@
 	  
 	&lt;center&gt;
 
-		&lt;img src=&quot;/static/assets/img/blog/KP-04-config/07.png&quot; style=&quot;max-width:900px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		&lt;img src=&quot;/static/assets/img/blog/KP-04-config/07.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 
 	&lt;/center&gt;
 
@@ -263,7 +386,7 @@
 
 	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
 
-		&lt;img src=&quot;/static/assets/img/blog/KP-04-config/08.png&quot; style=&quot;max-width:900px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		&lt;img src=&quot;/static/assets/img/blog/KP-04-config/08.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 		หน้า Log มีไว้แสดงข้อมูลของการ Encode ในกรณีที่ใช้&lt;a href=&quot;Blank&quot; target=&quot;_blank&quot;&gt;พรีวิว&lt;/a&gt;แล้วขึ้นหน้า Error สีชมพู การใช้&lt;a href=&quot;Blank&quot; target=&quot;_blank&quot;&gt;การเอ็นโค้ด&lt;/a&gt;จะแสดง Log อย่างละเอียดที่ตรงนี้&lt;br /&gt;&lt;br /&gt;
 		หากท่านยังไม่สามารถแก้ปัญหาด้วยตัวเองได้ สามารถกดปุ่มที่ลูกษรชี้อยู่เพื่อขอความช่วยเหลือได้ หรือ &lt;a href=&quot;https://link.konayuki.moe/discord.html&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;คลิก&lt;/b&gt;&lt;/a&gt;&lt;br /&gt;
 
@@ -308,16 +431,7 @@
     
       <item>
         <title>การลบไฟล์วีดีโอออกจากรายการ</title>
-        <description>&lt;!-- &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
-&lt;div id=&quot;wrap&quot;&gt;
-	&lt;div id=&quot;content_title&quot;&gt;
-		&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;1. การลบไฟล์วีดีโอออกจากรายการด้วยเมนู&lt;/a&gt;&lt;br&gt;
-		&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;2. การลบไฟล์วีดีโอออกจากรายการด้วยคีย์ลัด&lt;/a&gt;&lt;br&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt; --&gt;
-
-&lt;hr /&gt;
+        <description>&lt;hr /&gt;
 
 &lt;center&gt;&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
 
@@ -337,7 +451,7 @@
 	  
 	&lt;center&gt;
 
-		&lt;img src=&quot;/static/assets/img/blog/KP-03-remove/01.png&quot; style=&quot;max-width:900px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		&lt;img src=&quot;/static/assets/img/blog/KP-03-remove/01.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 
 	&lt;/center&gt;
 
@@ -371,7 +485,7 @@
 	
 	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
 
-		&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-03-remove/02.png&quot; style=&quot;max-width:900px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-03-remove/02.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 
 		ท่านสามารถใช้คีย์ลัดปุ่ม Delete ในการลบไฟล์ในรายการที่เลือกอยู่ได้
 
@@ -416,17 +530,7 @@
     
       <item>
         <title>การเพิ่มไฟล์วีดีโอเข้ารายการ</title>
-        <description>&lt;!-- &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
-&lt;div id=&quot;wrap&quot;&gt;
-	&lt;div id=&quot;content_title&quot;&gt;
-		&lt;a href=&quot;#1&quot;&gt;1. การเพิ่มไฟล์วีดีโอเข้ารายการ&lt;/a&gt;&lt;br&gt;
-		&lt;a href=&quot;#2&quot;&gt;2. การโหลดไฟล์ซับโดยอัตโนมัติ&lt;/a&gt;&lt;br&gt;
-		&lt;a href=&quot;#3&quot;&gt;3. เมนูคลิกขวาของรายการ&lt;/a&gt;&lt;br&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt; --&gt;
-
-&lt;hr /&gt;
+        <description>&lt;hr /&gt;
 
 &lt;center&gt;&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
 
@@ -446,7 +550,7 @@
 	  
 	&lt;center&gt;
 
-		&lt;img src=&quot;/static/assets/img/blog/KP-02-import/01.png&quot; style=&quot;max-width:900px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		&lt;img src=&quot;/static/assets/img/blog/KP-02-import/01.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 
 	&lt;/center&gt;
 
@@ -480,7 +584,7 @@
 
 	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
 
-		&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-02-import/02.png&quot; style=&quot;max-width:900px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-02-import/02.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 
 		หากในโฟลเดอร์เดียวกับวีดีโอมีไฟล์ซับชื่อเดียวกับวีดีโอ ประกอบไปด้วยนามสกุล .ass .ssa .srt และ .sup โปรแกรมจะโหลดไฟล์ซับเข้ามาให้อัตโนมัติ&lt;br /&gt;
 		ตามตัวอย่างดังภาพด้านบน ซึ่งหากท่านไม่ต้องการสามารถกดปิดได้จากหน้า &lt;a href=&quot;Blank&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Setting&lt;/b&gt;&lt;/a&gt;&lt;br /&gt;
@@ -505,7 +609,7 @@
 	  
 	&lt;center&gt;
 
-		&lt;img src=&quot;/static/assets/img/blog/KP-02-import/03.png&quot; style=&quot;max-width:900px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		&lt;img src=&quot;/static/assets/img/blog/KP-02-import/03.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 
 	&lt;/center&gt;
 
@@ -528,7 +632,7 @@
 	&lt;center&gt;
 	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
 
-		&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-02-import/04.png&quot; style=&quot;max-width:900px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-02-import/04.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 		หน้าต่าง KONAYUKI INFO
 		
 	&lt;/font&gt;
@@ -585,23 +689,23 @@
 		
 &lt;br /&gt;&lt;a class=&quot;btn btn-lg btn-default btn-rounded btn-outline wow bounceIn&quot; href=&quot;https://download.konayuki.moe/plus.html&quot; target=&quot;_blank&quot;&gt;1. ดาวน์โหลดตัวติดตั้ง&lt;/a&gt;&lt;br /&gt;
 
-&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/01.png&quot; style=&quot;max-width:900px;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/01.png&quot; style=&quot;max-width:800px;&quot; /&gt;&lt;br /&gt;
 		
 2. เปิดตัว KONAYUKI_PLUS_SETUP.exe
 
-&lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/02.png&quot; style=&quot;max-width:900px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/02.png&quot; style=&quot;max-width:800px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 		
 3. กด Next ต่อไป
 		
-&lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/03.png&quot; style=&quot;max-width:900px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/03.png&quot; style=&quot;max-width:800px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 		
 4. รอจนกว่าโปรแกรมจะติดตั้งส่วนประกอบจนครบ
 		
-&lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/04.png&quot; style=&quot;max-width:900px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/04.png&quot; style=&quot;max-width:800px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 		
 5. เมื่อเปิดโปรแกรมครั้งแรก ตัวโปรแกรมจะอัปเดตเวอร์ชั่นล่าสุดโดยอัตโนมัติ
 		
-&lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/05.png&quot; style=&quot;max-width:900px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/05.png&quot; style=&quot;max-width:800px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 		
 6. โปรแกรมจะเปิดอัตโนมัติหลังจากโหลดไฟล์เวอร์ชั่นล่าสุดเสร็จ
 
