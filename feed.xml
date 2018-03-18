@@ -5,8 +5,8 @@
     <description>We're Anime lover who making tools to support Fansub.</description>
     <link>https://Konayuki.moe/</link>
     <atom:link href="https://Konayuki.moe/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Mar 2018 11:44:09 +0700</pubDate>
-    <lastBuildDate>Sun, 18 Mar 2018 11:44:09 +0700</lastBuildDate>
+    <pubDate>Sun, 18 Mar 2018 13:13:01 +0700</pubDate>
+    <lastBuildDate>Sun, 18 Mar 2018 13:13:01 +0700</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -53,7 +53,9 @@
 		
 		&lt;img src=&quot;/static/assets/img/blog/KP-07-encode/02.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 		
-		ข้อมูลสถานะการเอ็นโค้ดจะแสดงไว้ในรายการไฟล์ และรายการทางขวามือด้านบน ดังภาพด้านบน&lt;br /&gt;&lt;br /&gt;
+		ข้อมูลสถานะการเอ็นโค้ดจะแสดงไว้ในรายการไฟล์ และรายการทางขวามือด้านบน ดังภาพด้านบน&lt;br /&gt;
+		
+		&lt;hr /&gt;
 		
 		&lt;img src=&quot;/static/assets/img/blog/KP-07-encode/06.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 		
@@ -77,34 +79,27 @@
     &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 2. การหยุดการเอ็นโค้ด
 	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
-    &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse in&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
+    &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
 	  
-	&lt;center&gt;
+	&lt;center&gt;&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
 
-		&lt;img src=&quot;/static/assets/img/blog/KP-07-encode/04.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		&lt;img src=&quot;/static/assets/img/blog/KP-07-encode/07.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		
+		กดปุ่ม&amp;nbsp;
+		&lt;img src=&quot;/static/assets/img/blog/KP-07-encode/ob02.png&quot; style=&quot;max-width:30px;&quot; /&gt;
+		&amp;nbsp;เพื่อเปิดเมนู&lt;br /&gt;&lt;br /&gt;
 
-	&lt;/center&gt;
+	&lt;/font&gt;&lt;/center&gt;
 
 	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
 	&lt;div id=&quot;wrap&quot;&gt;
 	&lt;div id=&quot;content_content&quot;&gt;
-		คลิกขวาที่ไฟล์วีดีโอที่ต้องการตั้งค่า (สามารถเลือกหลายไฟล์พร้อมกันได้) ซึ่งจะอธิบายดังต่อไปนี้&lt;br /&gt;&lt;br /&gt;
-		1. &quot;Play Media&quot; &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การเพิ่มไฟล์วีดีโอเข้ารายการ&quot;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
-		
-		2. &quot;Set Output File&quot; ตั้งชื่อไฟล์ขาออกล่วงหน้า หากมีไฟล์ชื่อนั้นๆ อยู่แล้วไฟล์เดิมจะถูกทับ&lt;br /&gt;
-		3. &quot;Set Output Folder&quot; เลือกโฟลเดอร์ขาออก ชื่อไฟล์จะเป็นชื่อเดียวกับไฟล์ต้นฉบับตามด้วยเลขอันดับในรายการและเวลา ตามรูปแบบด้านล่าง&lt;br /&gt;
-		&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#f796c1&quot;&gt;รูปแบบ&lt;/font&gt; {ชื่อไฟล์วีดีโอ}_{เลขอันดับในรายการ}_{เวลา}&lt;br /&gt;
-		&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#f796c1&quot;&gt;ตัวอย่างเช่น&lt;/font&gt; [Sample] Gamers! - 01 [1080p].mkv&lt;br /&gt;
-		&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#f796c1&quot;&gt;จะได้เป็น&lt;/font&gt; [Sample] Gamers! - 01 [1080p]_1_124500.mkv&lt;br /&gt;
-		4. &quot;Clear Output&quot; ล้างการกำหนดไฟล์และโฟลเดอร์ขาออกให้แต่ละไฟล์&lt;br /&gt;
-		&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#f796c1&quot;&gt;ซึ่งถ้าไฟล์ไหนไม่ได้ตั้งค่าไว้จะเป็นไปตามกรณีดังที่จะยกตัวอย่างในส่วนถัดไป&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
-		
-		5. &quot;Open Input Folder&quot; &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การเพิ่มไฟล์วีดีโอเข้ารายการ&quot;&lt;/a&gt;&lt;br /&gt;
-		6. &quot;Open Output Folder&quot; &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การเพิ่มไฟล์วีดีโอเข้ารายการ&quot;&lt;/a&gt;&lt;br /&gt;
-		7. &quot;Duplicate&quot; &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การเพิ่มไฟล์วีดีโอเข้ารายการ&quot;&lt;/a&gt;&lt;br /&gt;
-		8. &quot;Properties&quot; &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การเพิ่มไฟล์วีดีโอเข้ารายการ&quot;&lt;/a&gt;&lt;br /&gt;
+		1. &quot;Pause&quot; กดเพื่อหยุดการเอ็นโค้ดชั่วคราว สามารถกดปุ่ม&amp;nbsp;&lt;img src=&quot;/static/assets/img/blog/KP-07-encode/ob01.png&quot; style=&quot;max-width:30px;&quot; /&gt;&amp;nbsp;เพื่อกลับมาเอ็นโค้ดต่อจากเดิมได้&lt;br /&gt;
+		2. &quot;Skip&quot; กดเพื่อข้ามรายการที่กำลังเอ็นโค้ดอยู่ เพื่อเอ็นโค้ดไฟล์ถัดไป&lt;br /&gt;
+		3. &quot;Stop All&quot; กดเพื่อหยุดการเอ็นโค้ดทุกอย่าง&lt;br /&gt;
+		4. &quot;Stop After Current&quot; เมื่อกดแล้ว หลังจากที่เอ็นโค้ดไฟล์ที่กำลังเอ็นโค้ดอยู่เสร็จ จะทำการเอ็นโค้ดทุกอย่างหลังจากนั้น&lt;br /&gt;
 	&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
@@ -123,7 +118,31 @@
 	
 	&lt;!-- BODY --&gt;
 	  
+	&lt;center&gt;&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
 
+		&lt;img src=&quot;/static/assets/img/blog/KP-07-encode/03.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		
+		กดปุ่ม&amp;nbsp;
+		&lt;img src=&quot;/static/assets/img/blog/KP-07-encode/ob03.png&quot; style=&quot;max-width:30px;&quot; /&gt;
+		&amp;nbsp;เพื่อกด Settings&lt;br /&gt;
+		
+		&lt;hr /&gt;
+		
+		&lt;img src=&quot;/static/assets/img/blog/KP-07-encode/04.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		
+		ติกถูกช่อง &quot;Preview while encoding (May affect performance)&quot; เพื่อเปิดใช้งาน&lt;br /&gt;
+		สาเหตุที่ไม่เปิดเป็นค่าเริ่มต้นเพราะจะทำให้ความเร็วการเอ็นโค้ดตกลงไป &lt;a href=&quot;Blank&quot; target=&quot;_blank&quot;&gt;แต่มีประโยชน์ในการหาบัค ASS&lt;/a&gt;&lt;br /&gt;
+		
+		&lt;hr /&gt;
+		
+		เมื่อเปิดใช้งานแล้วเวลาเอ็นโค้ดจะมีหน้าต่างแสดงภาพของเฟรมที่กำลังถูกเอ็นโค้ดในขณะนั้น ดังภาพด้านล่าง&lt;br /&gt;
+		ปล. ภาพตอนพรีวิวจะแตกนิดหน่อยเพราะเป็นการพรีวิวเฉยๆ ไม่ได้มี Resizer แบบเวลาเล่นกับโปรแกรมดูหนัง&lt;br /&gt;&lt;br /&gt;
+		
+		&lt;img src=&quot;/static/assets/img/blog/KP-07-encode/05.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		
+		&lt;font style=&quot;color: red;&quot;&gt;คำเตือน : เวลาใช้งานการพรีวิวภาพเอ็นโค้ดห้ามปิดหน้าต่างภาพ เพราะจะเป็นการยกเลิกการเอ็นโค้ดไฟล์รายการนั้นๆ&lt;/font&gt;
+
+	&lt;/font&gt;&lt;/center&gt;
 	
 	&lt;!-- END BODY --&gt;
 	
@@ -1093,10 +1112,12 @@
 	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-06-export.html&quot;&gt;6. การตั้งค่าโฟลเดอร์ขาออกของไฟล์&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 
 	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-07-encode.html&quot;&gt;7. การเริ่มเอ็นโค้ด&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
-
-	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-08-setting.html&quot;&gt;8. การตั้งค่าโปรแกรม&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 	
-	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-09-fix.html&quot;&gt;9. การแก้ไขปัญหาเบื้องต้น&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-08-project.html&quot;&gt;8. การจัดการโปรเจคไฟล์&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+
+	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-09-setting.html&quot;&gt;9. การตั้งค่าโปรแกรม&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-10-fix.html&quot;&gt;10. การแก้ไขปัญหาเบื้องต้น&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 	
 	&lt;/div&gt;
 &lt;/div&gt;
