@@ -5,8 +5,8 @@
     <description>We're Anime lover who making tools to support Fansubers.</description>
     <link>https://Konayuki.moe/</link>
     <atom:link href="https://Konayuki.moe/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 19 Mar 2018 09:59:06 +0700</pubDate>
-    <lastBuildDate>Mon, 19 Mar 2018 09:59:06 +0700</lastBuildDate>
+    <pubDate>Mon, 19 Mar 2018 10:21:22 +0700</pubDate>
+    <lastBuildDate>Mon, 19 Mar 2018 10:21:22 +0700</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -21,10 +21,10 @@
 
 &lt;!------------------------------------- 1. การแก้ไขปัญหาเบื้องต้น -------------------------------------&gt;
 
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 1. การแก้ไขปัญหาเบื้องต้น
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;1&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -59,10 +59,10 @@
   
 &lt;!------------------------------------- 2. การวิเคราะห์ปัญหาที่เกิดจาก VSFilter -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 2. การวิเคราะห์ปัญหาที่เกิดจาก VSFilter
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse in&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -75,10 +75,10 @@
 	
 &lt;!------------------------------------- 3. การติดต่อขอความช่วยเหลือหากยังไม่สามารถแก้ไขปัญหาได้ -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 3. การติดต่อขอความช่วยเหลือหากยังไม่สามารถแก้ไขปัญหาได้
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;3&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -145,10 +145,10 @@
 
 &lt;!------------------------------------- 1. การทำให้หน้าต่างโปรแกรมอยู่ข้างบนสุดเสมอ -------------------------------------&gt;
 
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 1. การทำให้หน้าต่างโปรแกรมอยู่ข้างบนสุดเสมอ
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;1&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -167,10 +167,10 @@
   
 &lt;!------------------------------------- 2. การปรับภาษาของ Tooltip -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 2. การปรับภาษาของ Tooltip
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -197,10 +197,10 @@
 	
 &lt;!------------------------------------- 3. ส่วนต่างๆ ใน Settings -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 3. ส่วนต่างๆ ใน Settings
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;3&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -306,10 +306,10 @@
 
 &lt;!------------------------------------- 1. ประโยชน์ของไฟล์โปรเจค -------------------------------------&gt;
 
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 1. ประโยชน์ของไฟล์โปรเจค
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;1&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -331,10 +331,10 @@
 
 &lt;!------------------------------------- 2. การบันทึกไฟล์โปรเจค -------------------------------------&gt;
 
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 2. การบันทึกไฟล์โปรเจค
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -393,10 +393,10 @@
   
 &lt;!------------------------------------- 3. การเปิดไฟล์โปรเจค -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 3. การเปิดไฟล์โปรเจค
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;3&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -465,10 +465,10 @@
 
 &lt;!------------------------------------- 1. การเริ่มเอ็นโค้ด -------------------------------------&gt;
 
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 1. การเริ่มเอ็นโค้ด
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;1&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -519,10 +519,10 @@
   
 &lt;!------------------------------------- 2. การหยุดการเอ็นโค้ด -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 2. การหยุดการเอ็นโค้ด
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -554,10 +554,10 @@
 	
 &lt;!------------------------------------- 3. การเปิดใช้การดูพรีวิวของการเอ็นโค้ด -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 3. การเปิดใช้การดูพรีวิวของการเอ็นโค้ด
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;3&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -635,10 +635,10 @@
 
 &lt;!------------------------------------- 1. การกำหนดไฟล์และโฟลเดอร์ขาออกให้แต่ละไฟล์ -------------------------------------&gt;
 
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 1. การกำหนดไฟล์และโฟลเดอร์ขาออกให้แต่ละไฟล์
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;1&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -704,10 +704,10 @@
   
 &lt;!------------------------------------- 2. CRC32 คืออะไร? มีความสำคัญอย่างไร? และจะปิดได้ยังไง? -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 2. CRC32 คืออะไร? มีความสำคัญอย่างไร? และจะปิดได้ยังไง?
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -798,10 +798,10 @@
 
 &lt;!------------------------------------- 1. การพรีวิว -------------------------------------&gt;
 
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 1. การพรีวิว
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;1&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -827,12 +827,12 @@
 	
 	&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
   
-&lt;!------------------------------------- 2.  -------------------------------------&gt;
+&lt;!------------------------------------- 2. คีย์ลัดของหน้าต่างพรีวิว -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 2. คีย์ลัดของหน้าต่างพรีวิว
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -859,10 +859,10 @@
 	
 &lt;!------------------------------------- 3. การใช้งานโหมดเปรียบเทียบ (Compare Mode) -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 3. การใช้งานโหมดเปรียบเทียบ (Compare Mode)
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;3&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -928,10 +928,10 @@
 
 &lt;!------------------------------------- 1. แนะนำการตั้งค่า -------------------------------------&gt;
 
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 1. แนะนำการตั้งค่า
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;1&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -959,10 +959,10 @@
   
 &lt;!------------------------------------- 2. การตั้งค่าหน้า Main -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 2. การตั้งค่าหน้า Main
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -1003,10 +1003,10 @@
 	
 &lt;!------------------------------------- 3. การตั้งค่าหน้า Video -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 3. การตั้งค่าหน้า Video
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;3&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -1049,10 +1049,10 @@
 	
 &lt;!------------------------------------- 4. การตั้งค่าหน้า Audio -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#4&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#4&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#4&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 4. การตั้งค่าหน้า Audio
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;4&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -1082,10 +1082,10 @@
 	
 &lt;!------------------------------------- 5. การตั้งค่าหน้า Transition -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#5&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#5&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#5&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 5. การตั้งค่าหน้า Transition
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;5&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -1194,10 +1194,10 @@
 	
 &lt;!------------------------------------- 6. การตั้งค่าหน้า Logo -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#6&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#6&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#6&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 6. การตั้งค่าหน้า Logo
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;6&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -1224,10 +1224,10 @@
 	
 &lt;!------------------------------------- 7. การตั้งค่าหน้า Special (Coming Soon!) -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#7&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#7&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#7&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 7. การตั้งค่าหน้า Special (Coming Soon!)
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;7&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -1240,10 +1240,10 @@
 	
 &lt;!------------------------------------- 8. อธิบายหน้า Log -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#8&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#8&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#8&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 8. อธิบายหน้า Log
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;8&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -1307,10 +1307,10 @@
 
 &lt;!------------------------------------- การลบไฟล์วีดีโอออกจากรายการด้วยเมนู -------------------------------------&gt;
 
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 1. การลบไฟล์วีดีโอออกจากรายการด้วยเมนู
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;1&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -1339,10 +1339,10 @@
   
 &lt;!------------------------------------- การลบไฟล์วีดีโอออกจากรายการด้วยคีย์ลัด -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 2. การลบไฟล์วีดีโอออกจากรายการด้วยคีย์ลัด
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -1406,10 +1406,10 @@
 
 &lt;!------------------------------------- 1. การเพิ่มไฟล์วีดีโอเข้ารายการ -------------------------------------&gt;
 
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 1. การเพิ่มไฟล์วีดีโอเข้ารายการ
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;1&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -1438,10 +1438,10 @@
   
 &lt;!------------------------------------- 2. การโหลดไฟล์ซับโดยอัตโนมัติ -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 2. การโหลดไฟล์ซับโดยอัตโนมัติ
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -1465,10 +1465,10 @@
 	
 &lt;!------------------------------------- 3. เมนูคลิกขวาของรายการ -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 3. เมนูคลิกขวาของรายการ
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;3&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -1551,10 +1551,10 @@
 
 &lt;!------------------------------------- 1. การติดตั้งโปรแกรม -------------------------------------&gt;
 
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 1. การติดตั้งโปรแกรม
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;1&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
@@ -1605,10 +1605,10 @@
   
 &lt;!------------------------------------- 2. วิธีแก้ไขหากเปิดตัวติดตั้งแล้วขึ้นหน้าต่างสีฟ้า -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
-    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 2. วิธีแก้ไขหากเปิดตัวติดตั้งแล้วขึ้นหน้าต่างสีฟ้า
-	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
