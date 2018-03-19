@@ -29,10 +29,10 @@
   <link rel="icon" href="https://Konayuki.moe/favicon.ico">
 
   <!-- Main CSS -->
-  <link href="/static/assets/app-20180315.min.css" rel="stylesheet">
+  <link href="/static/assets/app-20180319.min.css" rel="stylesheet">
 
   <!-- Main Scripts -->
-  <script src="/static/assets/app-20180315.min.js"></script>
+  <script src="/static/assets/app-20180319.min.js"></script>
   
   <script type="text/javascript">
     $(document).ready(function () {
@@ -196,7 +196,8 @@ OneSignal.push(function() {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">Konayuki.moe</a>
+				<!-- ปุ่ม ชื่อเว็บ ซ้ายบน bar ของเว็บ -->
+                <!-- <a class="navbar-brand" href="/">Konayuki.moe</a> -->
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -207,13 +208,6 @@ OneSignal.push(function() {
                         <li class="active">
                         
                         <a class="page-scroll" href="/blog/">Blog</a></li>
-                        
-                    
-                        
-                        
-                        <li>
-                        
-                        <a class="page-scroll" href="/news/">News</a></li>
                         
                     
                         
@@ -239,9 +233,12 @@ OneSignal.push(function() {
 </div>
 <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
-        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-        <li data-target="#inSlider" data-slide-to="1"></li>
-        <li data-target="#inSlider" data-slide-to="2"></li>
+
+		<!-- Cover อันที่ 2/3 -->
+	
+    <!--<li data-target="#inSlider" data-slide-to="0" class="active"></li>
+		<li data-target="#inSlider" data-slide-to="1"></li>
+        <li data-target="#inSlider" data-slide-to="2"></li>-->
     </ol>
     <div class="carousel-inner" role="listbox">
         <div class="item active">
@@ -256,12 +253,14 @@ OneSignal.push(function() {
             <div class="header-back one"></div>
 
         </div>
-        <div class="item">
+		<!-- Set background for slide in style.css and run NPM and edit index.html -->
+		
+        <!-- Cover อันที่ 2/3 -->
+	<!-- <div class="item">
             <div class="container">
                 <div class="carousel-caption blank">
                 </div>
             </div>
-            <!-- Set background for slide in style.css and run NPM and edit index.html -->
             <div class="header-back two"></div>
         </div>
         <div class="item">
@@ -279,7 +278,7 @@ OneSignal.push(function() {
     <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
-    </a>
+    </a> -->
 </div>
 
 	
@@ -291,7 +290,7 @@ OneSignal.push(function() {
     </div>
 </div>
 
-<div class="row">
+<div class="row" style="margin-left:20%; margin-right:20%;">
     <div class="col-lg-8 col-lg-offset-2">
         <div class="wrapper wrapper-content animated fadeInRight">
 
@@ -302,25 +301,142 @@ OneSignal.push(function() {
                     <div class="col-md-10">
                         <div class="vote-actions">
                         </div>
-                        <a href="/knowledge/2018/03/18/KP-07-encode.html" class="vote-title">
+                        <a href="/knowledge/2018/03/18/KP-10-fix.html" class="vote-title" style="margin-top:11px;">
 						
-						<font color="#06af90">การเริ่มเอ็นโค้ด</font>
+						<font style="font-size:24px; font-weight:100;" color="#f796c1">การแก้ไขปัญหาเบื้องต้น</font>
 						
                         </a>
+						<!-- Disable
+						
                         <div class="vote-info">
+
+                        
+                        
+                            <i class="fa fa-comments-o"> </i> <a>Comments (<span class='disqus-comment-count' data-disqus-url="https://Konayuki.moe/knowledge/2018/03/18/KP-10-fix.html">0</span>)</a>
+                        
+
+                        <i class="fa fa-clock-o"></i> <a>18 Mar 2018</a>
+
+                        <i class="fa fa-user"></i> <a>Konayuki.moe</a>
+                        </div>
+						
+						Disable -->
+                    </div>
+					
+                    <div class="col-md-2 ">
+                        <div class="vote-icon">
+                            <i class="fa fa-play-circle"> </i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="vote-item">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="vote-actions">
+                        </div>
+                        <a href="/knowledge/2018/03/18/KP-09-setting.html" class="vote-title" style="margin-top:11px;">
+						
+						<font style="font-size:24px; font-weight:100;" color="#f796c1">การตั้งค่าโปรแกรม</font>
+						
+                        </a>
+						<!-- Disable
+						
+                        <div class="vote-info">
+
+                        
+                        
+                            <i class="fa fa-comments-o"> </i> <a>Comments (<span class='disqus-comment-count' data-disqus-url="https://Konayuki.moe/knowledge/2018/03/18/KP-09-setting.html">0</span>)</a>
+                        
+
+                        <i class="fa fa-clock-o"></i> <a>18 Mar 2018</a>
+
+                        <i class="fa fa-user"></i> <a>Konayuki.moe</a>
+                        </div>
+						
+						Disable -->
+                    </div>
+					
+                    <div class="col-md-2 ">
+                        <div class="vote-icon">
+                            <i class="fa fa-play-circle"> </i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="vote-item">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="vote-actions">
+                        </div>
+                        <a href="/knowledge/2018/03/18/KP-08-project.html" class="vote-title" style="margin-top:11px;">
+						
+						<font style="font-size:24px; font-weight:100;" color="#f796c1">การจัดการไฟล์โปรเจค</font>
+						
+                        </a>
+						<!-- Disable
+						
+                        <div class="vote-info">
+
+                        
+                        
+                            <i class="fa fa-comments-o"> </i> <a>Comments (<span class='disqus-comment-count' data-disqus-url="https://Konayuki.moe/knowledge/2018/03/18/KP-08-project.html">0</span>)</a>
+                        
+
+                        <i class="fa fa-clock-o"></i> <a>18 Mar 2018</a>
+
+                        <i class="fa fa-user"></i> <a>Konayuki.moe</a>
+                        </div>
+						
+						Disable -->
+                    </div>
+					
+                    <div class="col-md-2 ">
+                        <div class="vote-icon">
+                            <i class="fa fa-play-circle"> </i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="vote-item">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="vote-actions">
+                        </div>
+                        <a href="/knowledge/2018/03/18/KP-07-encode.html" class="vote-title" style="margin-top:11px;">
+						
+						<font style="font-size:24px; font-weight:100;" color="#f796c1">การเริ่มเอ็นโค้ด</font>
+						
+                        </a>
+						<!-- Disable
+						
+                        <div class="vote-info">
+
                         
                         
                             <i class="fa fa-comments-o"> </i> <a>Comments (<span class='disqus-comment-count' data-disqus-url="https://Konayuki.moe/knowledge/2018/03/18/KP-07-encode.html">0</span>)</a>
                         
-                            <i class="fa fa-clock-o"></i> <a>18 Mar 2018</a>
-                            <i class="fa fa-user"></i> <a>Konayuki.moe</a>
+
+                        <i class="fa fa-clock-o"></i> <a>18 Mar 2018</a>
+
+                        <i class="fa fa-user"></i> <a>Konayuki.moe</a>
                         </div>
+						
+						Disable -->
                     </div>
+					
                     <div class="col-md-2 ">
                         <div class="vote-icon">
                             <i class="fa fa-play-circle"> </i>
                         </div>
                     </div>
+
                 </div>
             </div>
             
@@ -329,25 +445,34 @@ OneSignal.push(function() {
                     <div class="col-md-10">
                         <div class="vote-actions">
                         </div>
-                        <a href="/knowledge/2018/03/18/KP-06-export.html" class="vote-title">
+                        <a href="/knowledge/2018/03/18/KP-06-export.html" class="vote-title" style="margin-top:11px;">
 						
-						<font color="#06af90">การตั้งค่าโฟลเดอร์ขาออกของไฟล์</font>
+						<font style="font-size:24px; font-weight:100;" color="#f796c1">การตั้งค่าโฟลเดอร์ขาออกของไฟล์</font>
 						
                         </a>
+						<!-- Disable
+						
                         <div class="vote-info">
+
                         
                         
                             <i class="fa fa-comments-o"> </i> <a>Comments (<span class='disqus-comment-count' data-disqus-url="https://Konayuki.moe/knowledge/2018/03/18/KP-06-export.html">0</span>)</a>
                         
-                            <i class="fa fa-clock-o"></i> <a>18 Mar 2018</a>
-                            <i class="fa fa-user"></i> <a>Konayuki.moe</a>
+
+                        <i class="fa fa-clock-o"></i> <a>18 Mar 2018</a>
+
+                        <i class="fa fa-user"></i> <a>Konayuki.moe</a>
                         </div>
+						
+						Disable -->
                     </div>
+					
                     <div class="col-md-2 ">
                         <div class="vote-icon">
                             <i class="fa fa-play-circle"> </i>
                         </div>
                     </div>
+
                 </div>
             </div>
             
@@ -356,25 +481,34 @@ OneSignal.push(function() {
                     <div class="col-md-10">
                         <div class="vote-actions">
                         </div>
-                        <a href="/knowledge/2018/03/18/KP-05-preview.html" class="vote-title">
+                        <a href="/knowledge/2018/03/18/KP-05-preview.html" class="vote-title" style="margin-top:11px;">
 						
-						<font color="#06af90">การใช้งานระบบพรีวิว</font>
+						<font style="font-size:24px; font-weight:100;" color="#f796c1">การใช้งานระบบพรีวิว</font>
 						
                         </a>
+						<!-- Disable
+						
                         <div class="vote-info">
+
                         
                         
                             <i class="fa fa-comments-o"> </i> <a>Comments (<span class='disqus-comment-count' data-disqus-url="https://Konayuki.moe/knowledge/2018/03/18/KP-05-preview.html">0</span>)</a>
                         
-                            <i class="fa fa-clock-o"></i> <a>18 Mar 2018</a>
-                            <i class="fa fa-user"></i> <a>Konayuki.moe</a>
+
+                        <i class="fa fa-clock-o"></i> <a>18 Mar 2018</a>
+
+                        <i class="fa fa-user"></i> <a>Konayuki.moe</a>
                         </div>
+						
+						Disable -->
                     </div>
+					
                     <div class="col-md-2 ">
                         <div class="vote-icon">
                             <i class="fa fa-play-circle"> </i>
                         </div>
                     </div>
+
                 </div>
             </div>
             
@@ -383,25 +517,34 @@ OneSignal.push(function() {
                     <div class="col-md-10">
                         <div class="vote-actions">
                         </div>
-                        <a href="/knowledge/2018/03/18/KP-04-config.html" class="vote-title">
+                        <a href="/knowledge/2018/03/18/KP-04-config.html" class="vote-title" style="margin-top:11px;">
 						
-						<font color="#06af90">การตั้งค่าไฟล์วีดีโอ</font>
+						<font style="font-size:24px; font-weight:100;" color="#f796c1">การตั้งค่าไฟล์วีดีโอ</font>
 						
                         </a>
+						<!-- Disable
+						
                         <div class="vote-info">
+
                         
                         
                             <i class="fa fa-comments-o"> </i> <a>Comments (<span class='disqus-comment-count' data-disqus-url="https://Konayuki.moe/knowledge/2018/03/18/KP-04-config.html">0</span>)</a>
                         
-                            <i class="fa fa-clock-o"></i> <a>18 Mar 2018</a>
-                            <i class="fa fa-user"></i> <a>Konayuki.moe</a>
+
+                        <i class="fa fa-clock-o"></i> <a>18 Mar 2018</a>
+
+                        <i class="fa fa-user"></i> <a>Konayuki.moe</a>
                         </div>
+						
+						Disable -->
                     </div>
+					
                     <div class="col-md-2 ">
                         <div class="vote-icon">
                             <i class="fa fa-play-circle"> </i>
                         </div>
                     </div>
+
                 </div>
             </div>
             
@@ -410,25 +553,34 @@ OneSignal.push(function() {
                     <div class="col-md-10">
                         <div class="vote-actions">
                         </div>
-                        <a href="/knowledge/2018/03/18/KP-03-remove.html" class="vote-title">
+                        <a href="/knowledge/2018/03/18/KP-03-remove.html" class="vote-title" style="margin-top:11px;">
 						
-						<font color="#06af90">การลบไฟล์วีดีโอออกจากรายการ</font>
+						<font style="font-size:24px; font-weight:100;" color="#f796c1">การลบไฟล์วีดีโอออกจากรายการ</font>
 						
                         </a>
+						<!-- Disable
+						
                         <div class="vote-info">
+
                         
                         
                             <i class="fa fa-comments-o"> </i> <a>Comments (<span class='disqus-comment-count' data-disqus-url="https://Konayuki.moe/knowledge/2018/03/18/KP-03-remove.html">0</span>)</a>
                         
-                            <i class="fa fa-clock-o"></i> <a>18 Mar 2018</a>
-                            <i class="fa fa-user"></i> <a>Konayuki.moe</a>
+
+                        <i class="fa fa-clock-o"></i> <a>18 Mar 2018</a>
+
+                        <i class="fa fa-user"></i> <a>Konayuki.moe</a>
                         </div>
+						
+						Disable -->
                     </div>
+					
                     <div class="col-md-2 ">
                         <div class="vote-icon">
                             <i class="fa fa-play-circle"> </i>
                         </div>
                     </div>
+
                 </div>
             </div>
             
@@ -437,25 +589,34 @@ OneSignal.push(function() {
                     <div class="col-md-10">
                         <div class="vote-actions">
                         </div>
-                        <a href="/knowledge/2018/03/18/KP-02-import.html" class="vote-title">
+                        <a href="/knowledge/2018/03/18/KP-02-import.html" class="vote-title" style="margin-top:11px;">
 						
-						<font color="#06af90">การเพิ่มไฟล์วีดีโอเข้ารายการ</font>
+						<font style="font-size:24px; font-weight:100;" color="#f796c1">การเพิ่มไฟล์วีดีโอเข้ารายการ</font>
 						
                         </a>
+						<!-- Disable
+						
                         <div class="vote-info">
+
                         
                         
                             <i class="fa fa-comments-o"> </i> <a>Comments (<span class='disqus-comment-count' data-disqus-url="https://Konayuki.moe/knowledge/2018/03/18/KP-02-import.html">0</span>)</a>
                         
-                            <i class="fa fa-clock-o"></i> <a>18 Mar 2018</a>
-                            <i class="fa fa-user"></i> <a>Konayuki.moe</a>
+
+                        <i class="fa fa-clock-o"></i> <a>18 Mar 2018</a>
+
+                        <i class="fa fa-user"></i> <a>Konayuki.moe</a>
                         </div>
+						
+						Disable -->
                     </div>
+					
                     <div class="col-md-2 ">
                         <div class="vote-icon">
                             <i class="fa fa-play-circle"> </i>
                         </div>
                     </div>
+
                 </div>
             </div>
             
@@ -464,106 +625,34 @@ OneSignal.push(function() {
                     <div class="col-md-10">
                         <div class="vote-actions">
                         </div>
-                        <a href="/knowledge/2018/03/18/KP-01-installation.html" class="vote-title">
+                        <a href="/knowledge/2018/03/18/KP-01-installation.html" class="vote-title" style="margin-top:11px;">
 						
-						<font color="#06af90">การติดตั้งโปรแกรม KONAYUKI PLUS</font>
+						<font style="font-size:24px; font-weight:100;" color="#f796c1">การติดตั้งโปรแกรม KONAYUKI PLUS</font>
 						
                         </a>
+						<!-- Disable
+						
                         <div class="vote-info">
+
                         
                         
                             <i class="fa fa-comments-o"> </i> <a>Comments (<span class='disqus-comment-count' data-disqus-url="https://Konayuki.moe/knowledge/2018/03/18/KP-01-installation.html">0</span>)</a>
                         
-                            <i class="fa fa-clock-o"></i> <a>18 Mar 2018</a>
-                            <i class="fa fa-user"></i> <a>Konayuki.moe</a>
+
+                        <i class="fa fa-clock-o"></i> <a>18 Mar 2018</a>
+
+                        <i class="fa fa-user"></i> <a>Konayuki.moe</a>
                         </div>
+						
+						Disable -->
                     </div>
+					
                     <div class="col-md-2 ">
                         <div class="vote-icon">
                             <i class="fa fa-play-circle"> </i>
                         </div>
                     </div>
-                </div>
-            </div>
-            
-            <div class="vote-item">
-                <div class="row">
-                    <div class="col-md-10">
-                        <div class="vote-actions">
-                        </div>
-                        <a href="/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html" class="vote-title">
-						
-						<font color="#06af90">วิธีการใช้งานโปรแกรม KONAYUKI PLUS</font>
-						
-                        </a>
-                        <div class="vote-info">
-                        
-                        
-                            <i class="fa fa-comments-o"> </i> <a>Comments (<span class='disqus-comment-count' data-disqus-url="https://Konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html">0</span>)</a>
-                        
-                            <i class="fa fa-clock-o"></i> <a>8 Mar 2018</a>
-                            <i class="fa fa-user"></i> <a>Konayuki.moe</a>
-                        </div>
-                    </div>
-                    <div class="col-md-2 ">
-                        <div class="vote-icon">
-                            <i class="fa fa-play-circle"> </i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="vote-item">
-                <div class="row">
-                    <div class="col-md-10">
-                        <div class="vote-actions">
-                        </div>
-                        <a href="/help/2017/10/27/incomplete_installation.html" class="vote-title">
-						
-						<font color="#d44d4d">เกิดปัญหาจากการติดตั้งไม่สมบูรณ์</font>
-						
-                        </a>
-                        <div class="vote-info">
-                        
-                        
-                            <i class="fa fa-comments-o"> </i> <a>Comments (<span class='disqus-comment-count' data-disqus-url="https://Konayuki.moe/help/2017/10/27/incomplete_installation.html">0</span>)</a>
-                        
-                            <i class="fa fa-clock-o"></i> <a>27 Oct 2017</a>
-                            <i class="fa fa-user"></i> <a>Konayuki.moe</a>
-                        </div>
-                    </div>
-                    <div class="col-md-2 ">
-                        <div class="vote-icon">
-                            <i class="fa fa-play-circle"> </i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="vote-item">
-                <div class="row">
-                    <div class="col-md-10">
-                        <div class="vote-actions">
-                        </div>
-                        <a href="/knowledge/2017/04/27/How-to-Use-Lefiya.html" class="vote-title">
-						
-						<font color="#06af90">วิธีการใช้งาน Konayuki Lefiya</font>
-						
-                        </a>
-                        <div class="vote-info">
-                        
-                        
-                            <i class="fa fa-comments-o"> </i> <a>Comments (<span class='disqus-comment-count' data-disqus-url="https://Konayuki.moe/knowledge/2017/04/27/How-to-Use-Lefiya.html">0</span>)</a>
-                        
-                            <i class="fa fa-clock-o"></i> <a>27 Apr 2017</a>
-                            <i class="fa fa-user"></i> <a>Konayuki.moe</a>
-                        </div>
-                    </div>
-                    <div class="col-md-2 ">
-                        <div class="vote-icon">
-                            <i class="fa fa-play-circle"> </i>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             
@@ -576,12 +665,13 @@ OneSignal.push(function() {
 
 
 	
-	    
-  <script id="dsq-count-scr" src="//konayuki.disqus.com/count.js" async></script>
-  <script type="text/javascript">
-    var disqusShortName = "konayuki";
+	    <!-- COMMENTS -->
 
-    var disqusPublicKey = "CJ5F2eSzCQY33o1djFjL0VyxgLMzDQ1zxeblydIxnkOyNOFPcS1wwWGGaSZqvXRo";
+<!-- <script id="dsq-count-scr" src="//.disqus.com/count.js" async></script>
+  <script type="text/javascript">
+    var disqusShortName = "";
+
+    var disqusPublicKey = "";
 
     var urlArray = [];
     $('.disqus-comment-count').each(function () {
@@ -603,7 +693,7 @@ OneSignal.push(function() {
         }
       }
     });
-</script>
+</script> -->
 
 
 	

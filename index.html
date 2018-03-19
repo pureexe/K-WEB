@@ -30,13 +30,13 @@
   <link rel="icon" href="https://Konayuki.moe/favicon.ico">
 
   <!-- Main CSS -->
-  <link href="/static/assets/app-20180315.min.css" rel="stylesheet">
+  <link href="/static/assets/app-20180319.min.css" rel="stylesheet">
 
   <!-- Main scripts -->
-  <script src="/static/assets/app-index-20180315.min.js"></script>
+  <script src="/static/assets/app-index-20180319.min.js"></script>
 
   
-  <script src="/static/assets/i18-20180315.min.js"></script>
+  <script src="/static/assets/i18-20180319.min.js"></script>
   
 
   <link rel="manifest" href="manifest.json">
@@ -122,7 +122,8 @@ OneSignal.push(function() {
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">Konayuki.moe</span></a>
+		<!-- ปุ่ม ชื่อเว็บ ซ้ายบน bar ของเว็บ -->
+        <!-- <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">Konayuki.moe</span></a> -->
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right" id="i18_navbar">
@@ -177,9 +178,12 @@ OneSignal.push(function() {
 </div>
 <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-    <li data-target="#inSlider" data-slide-to="1"></li>
-	<li data-target="#inSlider" data-slide-to="2"></li>
+
+	<!-- Cover อันที่ 2/3 -->
+	
+    <!--<li data-target="#inSlider" data-slide-to="0" class="active"></li>
+	<li data-target="#inSlider" data-slide-to="1"></li>
+	<li data-target="#inSlider" data-slide-to="2"></li>-->
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="item active">
@@ -193,12 +197,15 @@ OneSignal.push(function() {
       <!-- Set background for slide in css -->
       <div class="header-back one"></div>
     </div>
+	<!-- Set background for slide in style.css and run NPM and edit blog_header.html -->
+
+	<!-- Cover อันที่ 2/3 -->
+	<!--
     <div class="item">
       <div class="container">
         <div class="carousel-caption blank">
         </div>
       </div>
-      <!-- Set background for slide in style.css and run NPM and edit blog_header.html -->
       <div class="header-back two"></div>
     </div>
     <div class="item">
@@ -208,7 +215,14 @@ OneSignal.push(function() {
       </div>
       <div class="header-back three"></div>
     </div>
+	-->
+	
   </div>
+  
+  <!-- ปุ่มเปลี่ยน Cover -->
+
+  <!--
+  
   <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -217,6 +231,8 @@ OneSignal.push(function() {
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+  
+  -->
 </div>
 
 

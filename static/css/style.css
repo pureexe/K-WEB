@@ -7497,15 +7497,15 @@ body.landing-page {
 }
 
 .landing-page .header-back.one {
-    background: url(../img/landing/header_1.jpg) 50% 0 no-repeat
+    background: url(../img/landing/header_1.png) 50% 0 no-repeat
 }
 
 .landing-page .header-back.two {
-    background: url(../img/landing/header_2.jpg) 50% 0 no-repeat
+    background: url(../img/landing/header_2.png) 50% 0 no-repeat
 }
 
 .landing-page .header-back.three {
-    background: url(../img/landing/header_3.jpg) 50% 0 no-repeat
+    background: url(../img/landing/header_3.png) 50% 0 no-repeat
 }
 
 .landing-page .carousel {

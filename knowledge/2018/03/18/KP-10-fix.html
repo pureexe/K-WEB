@@ -19,12 +19,12 @@
   
   <meta name="author" content="Konayuki.moe">
     
-        <title>Konayuki.moe | Tools for Fansub | การตั้งค่าโฟลเดอร์ขาออกของไฟล์</title>
-		<meta property="og:title" content="การตั้งค่าโฟลเดอร์ขาออกของไฟล์" />
+        <title>Konayuki.moe | Tools for Fansub | การแก้ไขปัญหาเบื้องต้น</title>
+		<meta property="og:title" content="การแก้ไขปัญหาเบื้องต้น" />
 		<meta property="og:description" content="HOW TO USE KONAYUKI PLUS" />
 		<meta property="og:image" content="https://Konayuki.moe/static/assets/img/blog/KP-sharepic/share.png" />
 		<meta property="og:image:secure_url" content="https://Konayuki.moe/static/assets/img/blog/KP-sharepic/share.png" />
-		<meta property="twitter:title" content="การตั้งค่าโฟลเดอร์ขาออกของไฟล์" />
+		<meta property="twitter:title" content="การแก้ไขปัญหาเบื้องต้น" />
 		<meta property="twitter:description" content="HOW TO USE KONAYUKI PLUS" />
 		<meta property="twitter:image" content="https://Konayuki.moe/static/assets/img/blog/KP-sharepic/share.png" />
 	
@@ -302,7 +302,7 @@ OneSignal.push(function() {
 					<!-- DATE -->
                     <!-- <span class="text-muted"><i class="fa fa-clock-o"></i> 18 Mar 2018</span> -->
                         <h1>
-                            <font style="font-size:40px; font-weight:100;" color="#f796c1">การตั้งค่าโฟลเดอร์ขาออกของไฟล์</font>
+                            <font style="font-size:40px; font-weight:100;" color="#f796c1">การแก้ไขปัญหาเบื้องต้น</font>
                         </h1>
                     </div>
                     	<hr />
@@ -313,122 +313,83 @@ OneSignal.push(function() {
 
 <div class="panel-group" id="accordion">
 
-<!------------------------------------- 1. การกำหนดไฟล์และโฟลเดอร์ขาออกให้แต่ละไฟล์ ------------------------------------->
+<!------------------------------------- 1. การแก้ไขปัญหาเบื้องต้น ------------------------------------->
 
 	<div class="panel panel-default"><div class="panel-heading">
     <center><h1 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#1"><font class="bold" color="#f796c1">
-	 1. การกำหนดไฟล์และโฟลเดอร์ขาออกให้แต่ละไฟล์
+	 1. การแก้ไขปัญหาเบื้องต้น
 	</font></a></h1></center></div>
     <div id="1" class="panel-collapse collapse"><div class="panel-body"><br />
 	
 	<!-- BODY -->
 	  
 	<center>
-
-	<img src="/static/assets/img/blog/KP-06-export/01.png" style="max-width:100%;" /><br /><br />
-
+	
+	<font style="font-size:18px; font-weight:100;">
+	
+	<font style="font-size:24px; font-weight:100;" color="#f796c1">ปัญหาเกี่ยวกับ Video Codec</font><br /><br />
+	
+	หนึ่งในปัญหาที่พบบ่อยที่สุดคือการที่ผู้ใช้ลงโปรแกรมที่ลง <a href="https://en.wikipedia.org/wiki/Video_codec" target="_blank">Video Codec</a> รุ่นเก่า หรือเป็นรุ่นที่เสียทับ<br />
+	ซึ่งอาจจะส่งผลให้เกิดปัญหาเอ็นโค้ดไม่ผ่าน หรือภาพเสีย ตัวอย่างเช่น ภาพด้านล่างเป็นต้น<br /><br />
+	
+	<img src="/static/assets/img/blog/KP-10-fix/03.png" style="max-width:100%;" /><br /><br />
+	
+	<font style="font-size:24px; font-weight:100;" color="#f796c1">วิธีแก้ปัญหา</font><br /><br />
+	
+	<img src="/static/assets/img/blog/KP-10-fix/01.png" style="max-width:100%;" /><br /><br />
+	
+	กดปุ่ม&nbsp;
+	<img src="/static/assets/img/blog/KP-10-fix/ob01.png" style="max-width:30px;" />
+	&nbsp;แล้วกด Repair Program<br /><br />
+	โปรแกรมจะทำการโหลดโปรแกรมเวอร์ชั่นล่าสุด พร้อมกับ Video Codec ตัวล่าสุดลงมาติดตั้งให้ใหม่
+	
+	</font>
+	
 	</center>
-
-	<div style="clear: both;"></div>
-	<div id="wrap">
-	<div id="content_content">
-		คลิกขวาที่ไฟล์วีดีโอที่ต้องการตั้งค่า (สามารถเลือกหลายไฟล์พร้อมกันได้) ซึ่งจะอธิบายดังต่อไปนี้<br /><br />
-		1. "Play Media" <a href="https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html" target="_blank">อ่านเพิ่มเติมที่ "การเพิ่มไฟล์วีดีโอเข้ารายการ"</a><br /><br />
-		
-		2. "Set Output File" ตั้งชื่อไฟล์ขาออกล่วงหน้า หากมีไฟล์ชื่อนั้นๆ อยู่แล้วไฟล์เดิมจะถูกทับ<br />
-		3. "Set Output Folder" เลือกโฟลเดอร์ขาออก ชื่อไฟล์จะเป็นชื่อเดียวกับไฟล์ต้นฉบับตามด้วยเลขอันดับในรายการและเวลา ตามรูปแบบด้านล่าง<br />
-		&nbsp;&nbsp;&nbsp;&nbsp; <font color="#f796c1">รูปแบบ</font> {ชื่อไฟล์วีดีโอ}_{เลขอันดับในรายการ}_{เวลา}<br />
-		&nbsp;&nbsp;&nbsp;&nbsp; <font color="#f796c1">ตัวอย่างเช่น</font> [Sample] Gamers! - 01 [1080p].mkv<br />
-		&nbsp;&nbsp;&nbsp;&nbsp; <font color="#f796c1">จะได้เป็น</font> [Sample] Gamers! - 01 [1080p]_1_124500.mkv<br />
-		4. "Clear Output" ล้างการกำหนดไฟล์และโฟลเดอร์ขาออกให้แต่ละไฟล์<br />
-		&nbsp;&nbsp;&nbsp;&nbsp; <font color="#f796c1">ซึ่งถ้าไฟล์ไหนไม่ได้ตั้งค่าไว้จะเป็นไปตามกรณีดังที่จะยกตัวอย่างในส่วนถัดไป</font><br /><br />
-		
-		5. "Open Input Folder" <a href="https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html" target="_blank">อ่านเพิ่มเติมที่ "การเพิ่มไฟล์วีดีโอเข้ารายการ"</a><br />
-		6. "Open Output Folder" <a href="https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html" target="_blank">อ่านเพิ่มเติมที่ "การเพิ่มไฟล์วีดีโอเข้ารายการ"</a><br />
-		7. "Duplicate" <a href="https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html" target="_blank">อ่านเพิ่มเติมที่ "การเพิ่มไฟล์วีดีโอเข้ารายการ"</a><br />
-		8. "Properties" <a href="https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html" target="_blank">อ่านเพิ่มเติมที่ "การเพิ่มไฟล์วีดีโอเข้ารายการ"</a><br />
-	</div>
-	</div>
-	<div style="clear: both;"></div>
-	
-	<center><font style="font-size:24px; font-weight:100;" color="#f796c1">
-
-	<br />กรณีตัวอย่าง<br />
-	<br /><img src="/static/assets/img/blog/KP-06-export/02.png" style="max-width:100%;" /><br /><br />
-	
-	</font></center>
-	
-	<div style="clear: both;"></div>
-	<div id="wrap">
-	<div id="content_content">
-		1. ไฟล์ที่ 1 จะอยู่ที่/และมีชื่อเป็น <font color="#f796c1">D:\TEST\TEST.mkv</font><br />
-		2. ไฟล์ที่ 2 จะอยู่ที่/และมีชื่อเป็น <font color="#f796c1">D:\TEST\[Blizzard-fs &amp; Kryxelix] Gamers! - 02 (WebRIP 1920x1080 HEVC AAC)_2_083907.mkv</font><br />
-		3. เนื่องจากไฟล์ที่ 3 ไม่ได้กำหนดไฟล์หรือโฟลเดอร์ขาออก ไฟล์ที่ 3 จะยึดจาก Output ด้านล่าง ซึ่งจะเป็น<br />
-		&nbsp;&nbsp;&nbsp;&nbsp;<font color="#f796c1">C:\[Blizzard-fs &amp; Kryxelix] Gamers! - 03 (WebRIP 1920x1080 HEVC AAC)_3_091011.mkv</font><br />
-		4. ช่อง "Master Output" สำหรับไฟล์ไหนที่ไม่ได้มีการกำหนดไฟล์ขาออก หรือโฟลเดอร์ขาออกจะถูกนำไฟล์ไปวางไว้ตามที่อยู่นี้<br />
-		5. หากเลือก "Same as input" ไฟล์ขาออกจะยึดตามโฟลเดอร์เดียวกับไฟล์ต้นฉบับ<br />
-	</div>
-	</div>
-	<div style="clear: both;"></div>
-	
-	<hr />
-	
-	<center><font style="font-size:26px; font-weight:100;" color="#f796c1">
-	หากท่านใช้งานครั้งแรกจะเจอชื่อไฟล์ตามด้วยรหัส CRC32 ตัวอย่างเช่น [4ED7E371]<br />
-	ซึ่งสามารถ เปิด-ปิด ได้ เรียนรู้เพิ่มเติมได้ <a data-toggle="collapse" data-parent="#accordion" href="#2">ที่นี่</a>
-	</font></center>
 	
 	<!-- END BODY -->
 	
 	<br /></div></div></div>
   
-<!------------------------------------- 2. CRC32 คืออะไร? มีความสำคัญอย่างไร? และจะปิดได้ยังไง? ------------------------------------->
+<!------------------------------------- 2. การวิเคราะห์ปัญหาที่เกิดจาก VSFilter ------------------------------------->
   
 	<div class="panel panel-default"><div class="panel-heading">
     <center><h1 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#2"><font class="bold" color="#f796c1">
-	 2. CRC32 คืออะไร? มีความสำคัญอย่างไร? และจะปิดได้ยังไง?
+	 2. การวิเคราะห์ปัญหาที่เกิดจาก VSFilter
 	</font></a></h1></center></div>
-    <div id="2" class="panel-collapse collapse"><div class="panel-body"><br />
+    <div id="2" class="panel-collapse collapse in"><div class="panel-body"><br />
 	
 	<!-- BODY -->
-
+	
+	
+	
+	<!-- END BODY -->
+	
+	<br /></div></div></div>
+	
+<!------------------------------------- 3. การติดต่อขอความช่วยเหลือหากยังไม่สามารถแก้ไขปัญหาได้ ------------------------------------->
+  
+	<div class="panel panel-default"><div class="panel-heading">
+    <center><h1 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#3"><font class="bold" color="#f796c1">
+	 3. การติดต่อขอความช่วยเหลือหากยังไม่สามารถแก้ไขปัญหาได้
+	</font></a></h1></center></div>
+    <div id="3" class="panel-collapse collapse"><div class="panel-body"><br />
+	
+	<!-- BODY -->
+	  
 	<center>
 	
-	<font style="font-size:24px; font-weight:100;" color="#f796c1">CRC32 คืออะไร?</font><br /><br />
-	
 	<font style="font-size:18px; font-weight:100;">
 	
-	<div style="max-width:850px;">
-	
-	อธิบายอย่างเข้าใจง่าย CRC32 เปรียบเสมือนลายนิ้วมือของไฟล์ ไฟล์แต่ละไฟล์จะมีค่า CRC32 เป็นของตัวเอง
-	หากไฟล์มีการเปลี่ยนแปลง เช่นโดน Re-Encode หรือการอัปโหลด/ดาวน์โหลดไฟล์ไม่สมบูรณ์ เลขดังกล่าวจะมีการเปลี่ยนแปลง
-	CRC32 จึงมีความสำคัญในการใช้เช็คไฟล์ว่าตรงกับผู้สร้างหรือไม่ <a href="https://en.wikipedia.org/wiki/Cyclic_redundancy_check" target="_blank">อ่านเพิ่มเติมได้ที่นี่</a>
-	<br />
-	
-	</div>
+	<img src="/static/assets/img/blog/KP-10-fix/02.png" style="max-width:100%;" /><br /><br />
+	  
+	กดปุ่ม&nbsp;
+	<img src="/static/assets/img/blog/KP-10-fix/ob02.png" style="max-width:30px;" />
+	&nbsp;แล้วกด Send Feedback<br /><br />
+	โปรแกรมจะเปิดลิงก์นำทางไปยังช่องทางขอความช่วยเหลือ หรือ <a href="https://link.konayuki.moe/discord.html" target="_blank"><b>คลิก</b></a>
 	
 	</font>
 	
-	<br /><img src="/static/assets/img/blog/KP-06-export/03.png" style="max-width:100%;" /><br />
-	
-	<hr />
-	
-	<font style="font-size:24px; font-weight:100;" color="#f796c1">หากไม่ต้องการใช้จะปิด CRC32 ได้อย่างไร?</font><br /><br />
-	
-	<font style="font-size:18px; font-weight:100;">
-	
-	<br /><img src="/static/assets/img/blog/KP-06-export/04.png" style="max-width:100%;" /><br /><br />
-	
-	 กดปุ่ม&nbsp;
-	<img src="/static/assets/img/blog/KP-06-export/ob01.png" style="max-width:30px;" />
-	&nbsp;แล้วกดที่ Settings<br />
-	
-	<br /><img src="/static/assets/img/blog/KP-06-export/05.png" style="max-width:100%;" /><br /><br />
-	
-	จากนั้นติกถูกออกตรงที่ลูกศรชี้ "Add CRC32 at the end of filename" ตามภาพด้านบน
-	
-	</font>
-
 	</center>
 	
 	<!-- END BODY -->
@@ -470,7 +431,7 @@ OneSignal.push(function() {
                                 <div>
                                 
                                 
-                                <i class="fa fa-comments-o"> </i> <span class='disqus-comment-count' data-disqus-url="https://Konayuki.moe/knowledge/2018/03/18/KP-06-export.html">0</span> comments
+                                <i class="fa fa-comments-o"> </i> <span class='disqus-comment-count' data-disqus-url="https://Konayuki.moe/knowledge/2018/03/18/KP-10-fix.html">0</span> comments
                                 
                                 </div>
                             </div>

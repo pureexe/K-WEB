@@ -29,10 +29,10 @@
   <link rel="icon" href="https://Konayuki.moe/favicon.ico">
 
   <!-- Main CSS -->
-  <link href="/static/assets/app-20180315.min.css" rel="stylesheet">
+  <link href="/static/assets/app-20180319.min.css" rel="stylesheet">
 
   <!-- Main Scripts -->
-  <script src="/static/assets/app-20180315.min.js"></script>
+  <script src="/static/assets/app-20180319.min.js"></script>
   
   <script type="text/javascript">
     $(document).ready(function () {
@@ -196,7 +196,8 @@ OneSignal.push(function() {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">Konayuki.moe</a>
+				<!-- ปุ่ม ชื่อเว็บ ซ้ายบน bar ของเว็บ -->
+                <!-- <a class="navbar-brand" href="/">Konayuki.moe</a> -->
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -207,13 +208,6 @@ OneSignal.push(function() {
                         <li>
                         
                         <a class="page-scroll" href="/blog/">Blog</a></li>
-                        
-                    
-                        
-                        
-                        <li>
-                        
-                        <a class="page-scroll" href="/news/">News</a></li>
                         
                     
                         
@@ -239,9 +233,12 @@ OneSignal.push(function() {
 </div>
 <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
-        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-        <li data-target="#inSlider" data-slide-to="1"></li>
-        <li data-target="#inSlider" data-slide-to="2"></li>
+
+		<!-- Cover อันที่ 2/3 -->
+	
+    <!--<li data-target="#inSlider" data-slide-to="0" class="active"></li>
+		<li data-target="#inSlider" data-slide-to="1"></li>
+        <li data-target="#inSlider" data-slide-to="2"></li>-->
     </ol>
     <div class="carousel-inner" role="listbox">
         <div class="item active">
@@ -256,12 +253,14 @@ OneSignal.push(function() {
             <div class="header-back one"></div>
 
         </div>
-        <div class="item">
+		<!-- Set background for slide in style.css and run NPM and edit index.html -->
+		
+        <!-- Cover อันที่ 2/3 -->
+	<!-- <div class="item">
             <div class="container">
                 <div class="carousel-caption blank">
                 </div>
             </div>
-            <!-- Set background for slide in style.css and run NPM and edit index.html -->
             <div class="header-back two"></div>
         </div>
         <div class="item">
@@ -279,13 +278,13 @@ OneSignal.push(function() {
     <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
-    </a>
+    </a> -->
 </div>
 
 	
 
         <!-- jPages -->
-<script src="/static/assets/jPage-20180315.min.js"></script>
+<script src="/static/assets/jPage-20180319.min.js"></script>
 <script type="text/javascript">
 $(function(){
   /* initiate the plugin */
@@ -382,12 +381,13 @@ Download
 
 
 	
-	    
-  <script id="dsq-count-scr" src="//konayuki.disqus.com/count.js" async></script>
-  <script type="text/javascript">
-    var disqusShortName = "konayuki";
+	    <!-- COMMENTS -->
 
-    var disqusPublicKey = "CJ5F2eSzCQY33o1djFjL0VyxgLMzDQ1zxeblydIxnkOyNOFPcS1wwWGGaSZqvXRo";
+<!-- <script id="dsq-count-scr" src="//.disqus.com/count.js" async></script>
+  <script type="text/javascript">
+    var disqusShortName = "";
+
+    var disqusPublicKey = "";
 
     var urlArray = [];
     $('.disqus-comment-count').each(function () {
@@ -409,7 +409,7 @@ Download
         }
       }
     });
-</script>
+</script> -->
 
 
 	

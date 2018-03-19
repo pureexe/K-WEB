@@ -33,10 +33,10 @@
   <link rel="icon" href="https://Konayuki.moe/favicon.ico">
 
   <!-- Main CSS -->
-  <link href="/static/assets/app-20180315.min.css" rel="stylesheet">
+  <link href="/static/assets/app-20180319.min.css" rel="stylesheet">
 
   <!-- Main Scripts -->
-  <script src="/static/assets/app-20180315.min.js"></script>
+  <script src="/static/assets/app-20180319.min.js"></script>
   
   <script type="text/javascript">
     $(document).ready(function () {
@@ -200,7 +200,8 @@ OneSignal.push(function() {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">Konayuki.moe</a>
+				<!-- ปุ่ม ชื่อเว็บ ซ้ายบน bar ของเว็บ -->
+                <!-- <a class="navbar-brand" href="/">Konayuki.moe</a> -->
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -211,13 +212,6 @@ OneSignal.push(function() {
                         <li>
                         
                         <a class="page-scroll" href="/blog/">Blog</a></li>
-                        
-                    
-                        
-                        
-                        <li>
-                        
-                        <a class="page-scroll" href="/news/">News</a></li>
                         
                     
                         
@@ -243,9 +237,12 @@ OneSignal.push(function() {
 </div>
 <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
-        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-        <li data-target="#inSlider" data-slide-to="1"></li>
-        <li data-target="#inSlider" data-slide-to="2"></li>
+
+		<!-- Cover อันที่ 2/3 -->
+	
+    <!--<li data-target="#inSlider" data-slide-to="0" class="active"></li>
+		<li data-target="#inSlider" data-slide-to="1"></li>
+        <li data-target="#inSlider" data-slide-to="2"></li>-->
     </ol>
     <div class="carousel-inner" role="listbox">
         <div class="item active">
@@ -260,12 +257,14 @@ OneSignal.push(function() {
             <div class="header-back one"></div>
 
         </div>
-        <div class="item">
+		<!-- Set background for slide in style.css and run NPM and edit index.html -->
+		
+        <!-- Cover อันที่ 2/3 -->
+	<!-- <div class="item">
             <div class="container">
                 <div class="carousel-caption blank">
                 </div>
             </div>
-            <!-- Set background for slide in style.css and run NPM and edit index.html -->
             <div class="header-back two"></div>
         </div>
         <div class="item">
@@ -283,7 +282,7 @@ OneSignal.push(function() {
     <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
-    </a>
+    </a> -->
 </div>
 
 	
@@ -293,17 +292,19 @@ OneSignal.push(function() {
         <div class="col-lg-10 col-lg-offset-1">
             <div class="ibox">
                 <div class="ibox-content" style="padding-left:14%; padding-right:14%;">
-                    <div class="pull-right">
+					<!-- RIGHT TAGs -->
+                    <!--<div class="pull-right">
                     	
                         	<button class="btn btn-white btn-xs" type="button">Knowledge</button>
                         
-                    </div>
+                    </div> -->
                     <div class="text-center article-title">
-                    <span class="text-muted"><i class="fa fa-clock-o"></i> 18 Mar 2018</span>
+					<!-- DATE -->
+                    <!-- <span class="text-muted"><i class="fa fa-clock-o"></i> 18 Mar 2018</span> -->
                         <h1>
                             <font style="font-size:40px; font-weight:100;" color="#f796c1">การเริ่มเอ็นโค้ด</font>
                         </h1>
-                    </div><br />
+                    </div>
                     	<hr />
 
 <center><a href="https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html"><h1><font class="bold">กลับสู่รายการหลัก</font></h1></a></center>
@@ -392,7 +393,7 @@ OneSignal.push(function() {
 		1. "Pause" กดเพื่อหยุดการเอ็นโค้ดชั่วคราว สามารถกดปุ่ม&nbsp;<img src="/static/assets/img/blog/KP-07-encode/ob01.png" style="max-width:30px;" />&nbsp;เพื่อกลับมาเอ็นโค้ดต่อจากเดิมได้<br />
 		2. "Skip" กดเพื่อข้ามรายการที่กำลังเอ็นโค้ดอยู่ เพื่อเอ็นโค้ดไฟล์ถัดไป<br />
 		3. "Stop All" กดเพื่อหยุดการเอ็นโค้ดทุกอย่าง<br />
-		4. "Stop After Current" เมื่อกดแล้ว หลังจากที่เอ็นโค้ดไฟล์ที่กำลังเอ็นโค้ดอยู่เสร็จ จะทำการเอ็นโค้ดทุกอย่างหลังจากนั้น<br />
+		4. "Stop After Current" เมื่อกดแล้ว หลังจากที่เอ็นโค้ดไฟล์ที่กำลังเอ็นโค้ดอยู่เสร็จ จะทำการหยุดเอ็นโค้ดทุกทุกไฟล์ต่อจากนั้น<br />
 	</div>
 	</div>
 	<div style="clear: both;"></div>
@@ -424,7 +425,7 @@ OneSignal.push(function() {
 		<img src="/static/assets/img/blog/KP-07-encode/04.png" style="max-width:100%;" /><br /><br />
 		
 		ติกถูกช่อง "Preview while encoding (May affect performance)" เพื่อเปิดใช้งาน<br />
-		สาเหตุที่ไม่เปิดเป็นค่าเริ่มต้นเพราะจะทำให้ความเร็วการเอ็นโค้ดตกลงไป <a href="Blank" target="_blank">แต่มีประโยชน์ในการหาบัค ASS</a><br />
+		สาเหตุที่ไม่เปิดเป็นค่าเริ่มต้นเพราะจะทำให้ความเร็วการเอ็นโค้ดตกลงไป <a href="https://konayuki.moe/knowledge/2018/03/18/KP-10-fix.html" target="_blank">แต่มีประโยชน์ในการหาบัค ASS</a><br />
 		
 		<hr />
 		
@@ -486,48 +487,11 @@ OneSignal.push(function() {
                     <div class="row">
                         <div class="col-lg-12">
                             <!-- donate -->
+							
+                            <!-- share <br> -->
                             
-                            <br>
-                            <!-- share -->
-                            <!-- <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-<a class="a2a_button_facebook"></a>
-<a class="a2a_button_twitter"></a>
-<a class="a2a_button_google_plus"></a>
-<a class="a2a_button_line"></a>
-<a class="a2a_button_wechat"></a>
-<a class="a2a_button_whatsapp"></a>
-<a class="a2a_button_skype"></a>
-</div>
-<script>
-var a2a_config = a2a_config || {};
-a2a_config.color_main = "D7E5ED";
-a2a_config.color_border = "AECADB";
-a2a_config.color_link_text = "333333";
-a2a_config.color_link_text_hover = "333333";
-</script>
-<script async src="https://static.addtoany.com/menu/page.js"></script> -->
-                            <br>
-                            <!-- comment -->
-                            <!-- 
-<div id="disqus_thread"></div>
-<script>
-/** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
-	/*
-	var disqus_config = function () { this.page.url = PAGE_URL;
-	// Replace PAGE_URL with your page's canonical URL variable this.page.identifier = PAGE_IDENTIFIER;
-	// Replace PAGE_IDENTIFIER with your page's unique identifier variable };
-	*/
-	(function() { // DON'T EDIT BELOW THIS LINE
-			var d = document, s = d.createElement('script');
-			s.src = '//konayuki.disqus.com/embed.js';
-			s.setAttribute('data-timestamp', +new Date());
-			(d.head || d.body).appendChild(s);
-		})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-
- -->
+                            <!-- comment <br> -->
+                            
                         </div>
                     </div>
                 </div>
@@ -564,12 +528,13 @@ hr {
 </style>
 
 	
-	    
-  <script id="dsq-count-scr" src="//konayuki.disqus.com/count.js" async></script>
-  <script type="text/javascript">
-    var disqusShortName = "konayuki";
+	    <!-- COMMENTS -->
 
-    var disqusPublicKey = "CJ5F2eSzCQY33o1djFjL0VyxgLMzDQ1zxeblydIxnkOyNOFPcS1wwWGGaSZqvXRo";
+<!-- <script id="dsq-count-scr" src="//.disqus.com/count.js" async></script>
+  <script type="text/javascript">
+    var disqusShortName = "";
+
+    var disqusPublicKey = "";
 
     var urlArray = [];
     $('.disqus-comment-count').each(function () {
@@ -591,7 +556,7 @@ hr {
         }
       }
     });
-</script>
+</script> -->
 
 
 	

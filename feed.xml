@@ -5,9 +5,453 @@
     <description>We're Anime lover who making tools to support Fansub.</description>
     <link>https://Konayuki.moe/</link>
     <atom:link href="https://Konayuki.moe/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Mar 2018 13:13:01 +0700</pubDate>
-    <lastBuildDate>Sun, 18 Mar 2018 13:13:01 +0700</lastBuildDate>
+    <pubDate>Mon, 19 Mar 2018 09:05:02 +0700</pubDate>
+    <lastBuildDate>Mon, 19 Mar 2018 09:05:02 +0700</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>การแก้ไขปัญหาเบื้องต้น</title>
+        <description>&lt;hr /&gt;
+
+&lt;center&gt;&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;panel-group&quot; id=&quot;accordion&quot;&gt;
+
+&lt;!------------------------------------- 1. การแก้ไขปัญหาเบื้องต้น -------------------------------------&gt;
+
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
+    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	 1. การแก้ไขปัญหาเบื้องต้น
+	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+    &lt;div id=&quot;1&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
+	
+	&lt;!-- BODY --&gt;
+	  
+	&lt;center&gt;
+	
+	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
+	
+	&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;ปัญหาเกี่ยวกับ Video Codec&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	หนึ่งในปัญหาที่พบบ่อยที่สุดคือการที่ผู้ใช้ลงโปรแกรมที่ลง &lt;a href=&quot;https://en.wikipedia.org/wiki/Video_codec&quot; target=&quot;_blank&quot;&gt;Video Codec&lt;/a&gt; รุ่นเก่า หรือเป็นรุ่นที่เสียทับ&lt;br /&gt;
+	ซึ่งอาจจะส่งผลให้เกิดปัญหาเอ็นโค้ดไม่ผ่าน หรือภาพเสีย ตัวอย่างเช่น ภาพด้านล่างเป็นต้น&lt;br /&gt;&lt;br /&gt;
+	
+	&lt;img src=&quot;/static/assets/img/blog/KP-10-fix/03.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;วิธีแก้ปัญหา&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	&lt;img src=&quot;/static/assets/img/blog/KP-10-fix/01.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	กดปุ่ม&amp;nbsp;
+	&lt;img src=&quot;/static/assets/img/blog/KP-10-fix/ob01.png&quot; style=&quot;max-width:30px;&quot; /&gt;
+	&amp;nbsp;แล้วกด Repair Program&lt;br /&gt;&lt;br /&gt;
+	โปรแกรมจะทำการโหลดโปรแกรมเวอร์ชั่นล่าสุด พร้อมกับ Video Codec ตัวล่าสุดลงมาติดตั้งให้ใหม่
+	
+	&lt;/font&gt;
+	
+	&lt;/center&gt;
+	
+	&lt;!-- END BODY --&gt;
+	
+	&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+  
+&lt;!------------------------------------- 2. การวิเคราะห์ปัญหาที่เกิดจาก VSFilter -------------------------------------&gt;
+  
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
+    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	 2. การวิเคราะห์ปัญหาที่เกิดจาก VSFilter
+	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+    &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse in&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
+	
+	&lt;!-- BODY --&gt;
+	
+	
+	
+	&lt;!-- END BODY --&gt;
+	
+	&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+	
+&lt;!------------------------------------- 3. การติดต่อขอความช่วยเหลือหากยังไม่สามารถแก้ไขปัญหาได้ -------------------------------------&gt;
+  
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
+    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	 3. การติดต่อขอความช่วยเหลือหากยังไม่สามารถแก้ไขปัญหาได้
+	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+    &lt;div id=&quot;3&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
+	
+	&lt;!-- BODY --&gt;
+	  
+	&lt;center&gt;
+	
+	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
+	
+	&lt;img src=&quot;/static/assets/img/blog/KP-10-fix/02.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+	  
+	กดปุ่ม&amp;nbsp;
+	&lt;img src=&quot;/static/assets/img/blog/KP-10-fix/ob02.png&quot; style=&quot;max-width:30px;&quot; /&gt;
+	&amp;nbsp;แล้วกด Send Feedback&lt;br /&gt;&lt;br /&gt;
+	โปรแกรมจะเปิดลิงก์นำทางไปยังช่องทางขอความช่วยเหลือ หรือ &lt;a href=&quot;https://link.konayuki.moe/discord.html&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;คลิก&lt;/b&gt;&lt;/a&gt;
+	
+	&lt;/font&gt;
+	
+	&lt;/center&gt;
+	
+	&lt;!-- END BODY --&gt;
+	
+	&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+  
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 18 Mar 2018 00:00:00 +0700</pubDate>
+        <link>https://Konayuki.moe/knowledge/2018/03/18/KP-10-fix.html</link>
+        <guid isPermaLink="true">https://Konayuki.moe/knowledge/2018/03/18/KP-10-fix.html</guid>
+        
+        <category>Konayuki.moe</category>
+        
+        <category>Konayuki</category>
+        
+        <category>Plus</category>
+        
+        <category>Video</category>
+        
+        <category>Subtitle</category>
+        
+        <category>Hardsub</category>
+        
+        <category>Fansub</category>
+        
+        <category>Help</category>
+        
+        <category>Knowledge</category>
+        
+        <category>Howto</category>
+        
+        
+        <category>Knowledge</category>
+        
+      </item>
+    
+      <item>
+        <title>การตั้งค่าโปรแกรม</title>
+        <description>&lt;hr /&gt;
+
+&lt;center&gt;&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;panel-group&quot; id=&quot;accordion&quot;&gt;
+
+&lt;!------------------------------------- 1. การทำให้หน้าต่างโปรแกรมอยู่ข้างบนสุดเสมอ -------------------------------------&gt;
+
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
+    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	 1. การทำให้หน้าต่างโปรแกรมอยู่ข้างบนสุดเสมอ
+	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+    &lt;div id=&quot;1&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
+	
+	&lt;!-- BODY --&gt;
+	  
+	&lt;center&gt;&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
+
+		กดปุ่ม&amp;nbsp;
+		&lt;img src=&quot;/static/assets/img/blog/KP-09-setting/01.png&quot; style=&quot;max-width:100%;&quot; /&gt;
+		&amp;nbsp;เพื่อ เปิด-ปิด การทำให้หน้าต่างโปรแกรมอยู่ข้างบนสุดเสมอ&lt;br /&gt;
+
+	&lt;/font&gt;&lt;/center&gt;
+	
+	&lt;!-- END BODY --&gt;
+	
+	&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+  
+&lt;!------------------------------------- 2. การปรับภาษาของ Tooltip -------------------------------------&gt;
+  
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
+    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	 2. การปรับภาษาของ Tooltip
+	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+    &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
+	
+	&lt;!-- BODY --&gt;
+
+	&lt;center&gt;&lt;img src=&quot;/static/assets/img/blog/KP-09-setting/02.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/center&gt;
+		
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	&lt;div id=&quot;wrap&quot;&gt;
+	&lt;div id=&quot;content_content&quot;&gt;
+		1. กดปุ่ม&amp;nbsp;
+		&lt;img src=&quot;/static/assets/img/blog/KP-09-setting/ob01.png&quot; style=&quot;max-width:30px;&quot; /&gt;
+		&amp;nbsp;เพื่อเปิดเมนู แล้วไปที่ &quot;Tooltip Language&quot; และเลือกภาษาที่ต้องการ&lt;br /&gt;
+		2. เมื่อเปลี่ยนภาษาเสร็จแล้วต้อง ปิด-เปิด โปรแกรมใหม่หนึ่งครั้ง&lt;br /&gt;
+		3. จากนั้น Tooltip จะเป็นภาษาที่ต้องการดังภาพด้านล่าง&lt;br /&gt;&lt;br /&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	
+	&lt;center&gt;&lt;img src=&quot;/static/assets/img/blog/KP-09-setting/03.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;/center&gt;
+
+	&lt;!-- END BODY --&gt;
+	
+	&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+	
+&lt;!------------------------------------- 3. ส่วนต่างๆ ใน Settings -------------------------------------&gt;
+  
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
+    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	 3. ส่วนต่างๆ ใน Settings
+	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+    &lt;div id=&quot;3&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
+	
+	&lt;!-- BODY --&gt;
+	
+	&lt;center&gt;&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
+	
+	&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;การเปิดหน้าต่างการตั้งค่า&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	&lt;img src=&quot;/static/assets/img/blog/KP-09-setting/04.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+	  
+	กดปุ่ม&amp;nbsp;
+	&lt;img src=&quot;/static/assets/img/blog/KP-09-setting/ob01.png&quot; style=&quot;max-width:30px;&quot; /&gt;
+	&amp;nbsp;เพื่อเปิดเมนู แล้วกดที่ Settings เพื่อเปิดหน้าต่างการตั้งค่า
+	
+	&lt;/font&gt;&lt;/center&gt;
+	
+	&lt;hr /&gt;
+	
+	&lt;center&gt;
+	
+	&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;หน้า General&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	&lt;img src=&quot;/static/assets/img/blog/KP-09-setting/05.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	&lt;/center&gt;
+	
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	&lt;div id=&quot;wrap&quot;&gt;
+	&lt;div id=&quot;content_content&quot;&gt;
+		1. เปิด-ปิด การใช้งานการโหลดไฟล์ซับอัตโนมัติ อ่านเพิ่มเติมได้ &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html&quot; target=&quot;_blank&quot;&gt;ที่นี่&lt;/a&gt; &lt;font color=&quot;#f796c1&quot;&gt;[ค่าเริ่มต้น : เปิด]&lt;/font&gt;&lt;br /&gt;
+		2. เปิด-ปิด การใช้งานมัลติเทรดสำหรับคนที่มี CPU หลายเทรดแนะนำให้เปิดใช้เพื่อประสิทธิภาพสูงสุด &lt;font color=&quot;#f796c1&quot;&gt;[ค่าเริ่มต้น : เปิด]&lt;/font&gt;&lt;br /&gt;
+		3. เปิด-ปิด การใช้งานพรีวิวภาพขณะเอ็นโค้ด (จะทำให้ความเร็วลดลง) อ่านเพิ่มเติมได้ &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-07-encode.html&quot; target=&quot;_blank&quot;&gt;ที่นี่&lt;/a&gt; &lt;font color=&quot;#f796c1&quot;&gt;[ค่าเริ่มต้น : ปิด]&lt;/font&gt;&lt;br /&gt;
+		4. เปิด-ปิด การใส่ CRC32 ต่อท้ายชื่อไฟล์ อ่านเพิ่มเติมได้ &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-06-export.html&quot; target=&quot;_blank&quot;&gt;ที่นี่&lt;/a&gt; &lt;font color=&quot;#f796c1&quot;&gt;[ค่าเริ่มต้น : เปิด]&lt;/font&gt;&lt;br /&gt;
+		5. การสั่งงานหลังเอ็นโค้ดเสร็จ เช่น Shutdown, Restart, Log Off &lt;font color=&quot;#f796c1&quot;&gt;[ค่าเริ่มต้น : Do Nothing]&lt;/font&gt;&lt;br /&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	
+	&lt;hr /&gt;
+	
+	&lt;center&gt;
+	
+	&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;หน้า Notification&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	&lt;img src=&quot;/static/assets/img/blog/KP-09-setting/06.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	&lt;/center&gt;
+	
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	&lt;div id=&quot;wrap&quot;&gt;
+	&lt;div id=&quot;content_content&quot;&gt;
+		1. เลือกเสียงแจ้งเตือน&lt;br /&gt;
+		2. กดเพื่อเล่นตัวอย่างเสียง&lt;br /&gt;
+		3. กดเพื่อกำหนดเสียงเอง รองรับแค่ไฟล์นามสกุล .mp3&lt;br /&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	
+	&lt;!-- END BODY --&gt;
+	
+	&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+  
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 18 Mar 2018 00:00:00 +0700</pubDate>
+        <link>https://Konayuki.moe/knowledge/2018/03/18/KP-09-setting.html</link>
+        <guid isPermaLink="true">https://Konayuki.moe/knowledge/2018/03/18/KP-09-setting.html</guid>
+        
+        <category>Konayuki.moe</category>
+        
+        <category>Konayuki</category>
+        
+        <category>Plus</category>
+        
+        <category>Video</category>
+        
+        <category>Subtitle</category>
+        
+        <category>Hardsub</category>
+        
+        <category>Fansub</category>
+        
+        <category>Help</category>
+        
+        <category>Knowledge</category>
+        
+        <category>Howto</category>
+        
+        
+        <category>Knowledge</category>
+        
+      </item>
+    
+      <item>
+        <title>การจัดการไฟล์โปรเจค</title>
+        <description>&lt;hr /&gt;
+
+&lt;center&gt;&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;panel-group&quot; id=&quot;accordion&quot;&gt;
+
+&lt;!------------------------------------- 1. ประโยชน์ของไฟล์โปรเจค -------------------------------------&gt;
+
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
+    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	 1. ประโยชน์ของไฟล์โปรเจค
+	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+    &lt;div id=&quot;1&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
+	
+	&lt;!-- BODY --&gt;
+	
+	&lt;center&gt;
+	  
+	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
+	
+	การบันทึกไฟล์โปรเจคมีประโยชน์ในการเก็บรายการไฟล์เพื่อไว้ใช้เอ็นโค้ดในภายหลัง หรือเป็นการเก็บข้อมูลการตั้งค่า&lt;br /&gt;
+	เช่น อนิเมะแต่ละเรื่องมีการตั้งค่าแตกต่างกัน การบันทึกไฟล์โปรเจคจะทำให้เราไม่ต้องเสียเวลามาตั้งค่าใหม่ในภายหลัง
+	
+	&lt;/font&gt;
+	
+	&lt;/center&gt;
+	
+	&lt;!-- END BODY --&gt;
+	
+	&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;!------------------------------------- 2. การบันทึกไฟล์โปรเจค -------------------------------------&gt;
+
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
+    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	 2. การบันทึกไฟล์โปรเจค
+	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+    &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
+	
+	&lt;!-- BODY --&gt;
+	  
+	&lt;center&gt;
+	  
+	&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;การบันทึกไฟล์โปรเจคด้วยเมนู&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	&lt;img src=&quot;/static/assets/img/blog/KP-08-project/01.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+
+	&lt;/center&gt;
+	
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	&lt;div id=&quot;wrap&quot;&gt;
+		&lt;div id=&quot;content_content&quot;&gt;
+		กดปุ่ม&amp;nbsp;
+		&lt;img src=&quot;/static/assets/img/blog/KP-08-project/ob01.png&quot; style=&quot;max-width:30px;&quot; /&gt;
+		&amp;nbsp;เพื่อเปิดหน้าเมนู ซึ่งจะอธิบายดังต่อไปนี้&lt;br /&gt;&lt;br /&gt;
+		1. กดปุ่ม &quot;New Project&quot; เป็นการเริ่มโปรเจคใหม่ ซึ่งหากยังไม่ได้บันทึกจะมีการถามว่าจะบันทึกโปรเจคหรือไม่ ก่อนจะเริ่มโปรเจคใหม่&lt;br /&gt;
+		2. กดปุ่ม &quot;Open Project&quot; เปิดโปรเจคที่เคยบันทึกไว้ &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;ซึ่งสามารถเปิดจากไฟล์โปรเจคโดยตรงได้อีกวิธี&lt;/a&gt;&lt;br /&gt;
+		3. กดปุ่ม &quot;Save Project&quot; กดเพื่อบันทึกโปรเจค สามารถใช้คีย์ลัด &lt;font color=&quot;#f796c1&quot;&gt;&lt;b&gt;CTRL+S&lt;/b&gt;&lt;/font&gt; ได้&lt;br /&gt;
+		4. กดปุ่ม &quot;Save as Project&quot; กดเพื่อ &quot;บันทึกเป็น&quot; เป็นการบันทึกโปรเจคแยกจากของเดิม
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	
+	&lt;hr /&gt;
+	
+	&lt;center&gt;
+	  
+	&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;การบันทึกไฟล์โปรเจคด้วยการออกจากโปรแกรม ขณะยังไม่ได้บันทึก&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	&lt;img src=&quot;/static/assets/img/blog/KP-08-project/02.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;การบันทึกไฟล์โปรเจคด้วยการออกจากโปรแกรม เมื่อมีการเปลี่ยนแปลงโปรเจค ขณะยังไม่ได้บันทึก&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	&lt;img src=&quot;/static/assets/img/blog/KP-08-project/05.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	&lt;hr /&gt;
+	
+	&lt;img src=&quot;/static/assets/img/blog/KP-08-project/03.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+
+	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
+	
+	เมื่อมีการบันทึกไฟล์โปรเจค จะมีไอคอน&amp;nbsp;
+	&lt;img src=&quot;/static/assets/img/blog/KP-08-project/ob02.png&quot; style=&quot;max-width:30px;&quot; /&gt;
+	&amp;nbsp;ขึ้นมาแจ้งเตือนว่าได้บันทึกไปแล้ว
+	
+	&lt;/font&gt;
+	
+	&lt;/center&gt;
+	
+	&lt;!-- END BODY --&gt;
+	
+	&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+  
+&lt;!------------------------------------- 3. การเปิดไฟล์โปรเจค -------------------------------------&gt;
+  
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
+    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	 3. การเปิดไฟล์โปรเจค
+	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+    &lt;div id=&quot;3&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
+	
+	&lt;!-- BODY --&gt;
+	
+	&lt;center&gt;
+
+	&lt;img src=&quot;/static/assets/img/blog/KP-08-project/04.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+
+	&lt;/center&gt;
+	
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	&lt;div id=&quot;wrap&quot;&gt;
+		&lt;div id=&quot;content_content&quot;&gt;
+		การเปิดไฟล์โปรเจคทำได้ด้วย 2 วิธีคือ&lt;br /&gt;&lt;br /&gt;
+		1. &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;การเปิดจากเมนู&lt;/a&gt;&amp;nbsp;
+		&lt;img src=&quot;/static/assets/img/blog/KP-08-project/ob01.png&quot; style=&quot;max-width:30px;&quot; /&gt;&lt;br /&gt;
+		2. การเปิดจากไฟล์โปรเจคโดยตรง ซึ่งไฟล์จะมีไอคอนดังภาพด้านบน นามสกุล .kpj (KONAYUKI PROJECT)&lt;br /&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	
+	&lt;!-- END BODY --&gt;
+	
+	&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+  
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 18 Mar 2018 00:00:00 +0700</pubDate>
+        <link>https://Konayuki.moe/knowledge/2018/03/18/KP-08-project.html</link>
+        <guid isPermaLink="true">https://Konayuki.moe/knowledge/2018/03/18/KP-08-project.html</guid>
+        
+        <category>Konayuki.moe</category>
+        
+        <category>Konayuki</category>
+        
+        <category>Plus</category>
+        
+        <category>Video</category>
+        
+        <category>Subtitle</category>
+        
+        <category>Hardsub</category>
+        
+        <category>Fansub</category>
+        
+        <category>Help</category>
+        
+        <category>Knowledge</category>
+        
+        <category>Howto</category>
+        
+        
+        <category>Knowledge</category>
+        
+      </item>
     
       <item>
         <title>การเริ่มเอ็นโค้ด</title>
@@ -99,7 +543,7 @@
 		1. &quot;Pause&quot; กดเพื่อหยุดการเอ็นโค้ดชั่วคราว สามารถกดปุ่ม&amp;nbsp;&lt;img src=&quot;/static/assets/img/blog/KP-07-encode/ob01.png&quot; style=&quot;max-width:30px;&quot; /&gt;&amp;nbsp;เพื่อกลับมาเอ็นโค้ดต่อจากเดิมได้&lt;br /&gt;
 		2. &quot;Skip&quot; กดเพื่อข้ามรายการที่กำลังเอ็นโค้ดอยู่ เพื่อเอ็นโค้ดไฟล์ถัดไป&lt;br /&gt;
 		3. &quot;Stop All&quot; กดเพื่อหยุดการเอ็นโค้ดทุกอย่าง&lt;br /&gt;
-		4. &quot;Stop After Current&quot; เมื่อกดแล้ว หลังจากที่เอ็นโค้ดไฟล์ที่กำลังเอ็นโค้ดอยู่เสร็จ จะทำการเอ็นโค้ดทุกอย่างหลังจากนั้น&lt;br /&gt;
+		4. &quot;Stop After Current&quot; เมื่อกดแล้ว หลังจากที่เอ็นโค้ดไฟล์ที่กำลังเอ็นโค้ดอยู่เสร็จ จะทำการหยุดเอ็นโค้ดทุกทุกไฟล์ต่อจากนั้น&lt;br /&gt;
 	&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
@@ -131,7 +575,7 @@
 		&lt;img src=&quot;/static/assets/img/blog/KP-07-encode/04.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 		
 		ติกถูกช่อง &quot;Preview while encoding (May affect performance)&quot; เพื่อเปิดใช้งาน&lt;br /&gt;
-		สาเหตุที่ไม่เปิดเป็นค่าเริ่มต้นเพราะจะทำให้ความเร็วการเอ็นโค้ดตกลงไป &lt;a href=&quot;Blank&quot; target=&quot;_blank&quot;&gt;แต่มีประโยชน์ในการหาบัค ASS&lt;/a&gt;&lt;br /&gt;
+		สาเหตุที่ไม่เปิดเป็นค่าเริ่มต้นเพราะจะทำให้ความเร็วการเอ็นโค้ดตกลงไป &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-10-fix.html&quot; target=&quot;_blank&quot;&gt;แต่มีประโยชน์ในการหาบัค ASS&lt;/a&gt;&lt;br /&gt;
 		
 		&lt;hr /&gt;
 		
@@ -201,7 +645,7 @@
 	  
 	&lt;center&gt;
 
-		&lt;img src=&quot;/static/assets/img/blog/KP-06-export/01.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;img src=&quot;/static/assets/img/blog/KP-06-export/01.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 
 	&lt;/center&gt;
 
@@ -227,7 +671,7 @@
 	&lt;/div&gt;
 	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
 	
-	&lt;center&gt;&lt;font style=&quot;font-size:26px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;center&gt;&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;
 
 	&lt;br /&gt;กรณีตัวอย่าง&lt;br /&gt;
 	&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-06-export/02.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
@@ -249,7 +693,7 @@
 	
 	&lt;hr /&gt;
 	
-	&lt;center&gt;&lt;font style=&quot;font-size:28px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;
+	&lt;center&gt;&lt;font style=&quot;font-size:26px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;
 	หากท่านใช้งานครั้งแรกจะเจอชื่อไฟล์ตามด้วยรหัส CRC32 ตัวอย่างเช่น [4ED7E371]&lt;br /&gt;
 	ซึ่งสามารถ เปิด-ปิด ได้ เรียนรู้เพิ่มเติมได้ &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;ที่นี่&lt;/a&gt;
 	&lt;/font&gt;&lt;/center&gt;
@@ -270,7 +714,7 @@
 
 	&lt;center&gt;
 	
-	&lt;font style=&quot;font-size:26px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;CRC32 คืออะไร?&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;CRC32 คืออะไร?&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
 	
 	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
 	
@@ -278,7 +722,7 @@
 	
 	อธิบายอย่างเข้าใจง่าย CRC32 เปรียบเสมือนลายนิ้วมือของไฟล์ ไฟล์แต่ละไฟล์จะมีค่า CRC32 เป็นของตัวเอง
 	หากไฟล์มีการเปลี่ยนแปลง เช่นโดน Re-Encode หรือการอัปโหลด/ดาวน์โหลดไฟล์ไม่สมบูรณ์ เลขดังกล่าวจะมีการเปลี่ยนแปลง
-	CRC32 จึงมีความสำคัญในการใช้เช็คไฟล์ว่าตรงกับผู้สร้างหรือไม่
+	CRC32 จึงมีความสำคัญในการใช้เช็คไฟล์ว่าตรงกับผู้สร้างหรือไม่ &lt;a href=&quot;https://en.wikipedia.org/wiki/Cyclic_redundancy_check&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมได้ที่นี่&lt;/a&gt;
 	&lt;br /&gt;
 	
 	&lt;/div&gt;
@@ -289,7 +733,7 @@
 	
 	&lt;hr /&gt;
 	
-	&lt;font style=&quot;font-size:26px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;หากไม่ต้องการใช้จะปิด CRC32 ได้อย่างไร?&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;หากไม่ต้องการใช้จะปิด CRC32 ได้อย่างไร?&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
 	
 	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
 	
@@ -501,7 +945,7 @@
 	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
 	&lt;div id=&quot;wrap&quot;&gt;
 		&lt;div id=&quot;content_content&quot;&gt;
-		1. สามารถใช้เมาส์ลากรายการ หรือกด &lt;b&gt;SHIFT&lt;/b&gt; หรือกด &lt;b&gt;CTRL&lt;/b&gt; ค้างเพื่อตั้งค่าวีดีโอพร้อมกันหลายรายการได้&lt;br /&gt;
+		1. สามารถใช้เมาส์ลากรายการ หรือกด &lt;font color=&quot;#f796c1&quot;&gt;&lt;b&gt;SHIFT&lt;/b&gt;&lt;/font&gt; หรือกด &lt;font color=&quot;#f796c1&quot;&gt;&lt;b&gt;CTRL&lt;/b&gt;&lt;/font&gt; ค้างเพื่อตั้งค่าวีดีโอพร้อมกันหลายรายการได้ หรือจะใช้คีย์ลัด &lt;font color=&quot;#f796c1&quot;&gt;&lt;b&gt;CTRL+A&lt;/b&gt;&lt;/font&gt; ก็ได้&lt;br /&gt;
 		2. กดปุ่ม&amp;nbsp;
 		&lt;img src=&quot;/static/assets/img/blog/KP-04-config/ob01.png&quot; style=&quot;max-width:40px;&quot; /&gt;
 		&amp;nbsp; เพื่อ เปิด-ปิด การใช้งานฟังก์ชั่นนั้นๆ&lt;br /&gt;
@@ -645,14 +1089,101 @@
     &lt;div id=&quot;5&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
-	  
+
+		&lt;center&gt;&lt;img src=&quot;/static/assets/img/blog/KP-04-config/06.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;/center&gt;&lt;br /&gt;
+		
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	&lt;div id=&quot;wrap&quot;&gt;
+		&lt;div id=&quot;content_content&quot;&gt;
+		เลือกรูปแบบ Transition ตรงกล่องที่ลูกษรชี้ ซึ่งประกอบไปด้วย&lt;br /&gt;
+		1. &quot;Disable&quot; ปิดการใช้งาน Transition&lt;br /&gt;
+		2. &quot;Fade&quot; เป็นการเลือนภาพจากเฟรมสีที่กำหนดแล้วค่อยๆ ปรากฏภาพให้เห็น หรือจนจางหายไป&lt;br /&gt;
+		3. &quot;Dissolve&quot; การจางซ้อนโดยที่ภาพแรกค่อยๆ เลือนจางหายไป ในขณะที่ภาพที่สองก็ค่อยๆ ชัดเจนขึ้นมา&lt;br /&gt;
+		4. &quot;Custom Transition&quot; เป็นการใช้วีดีโอ Mask ภาพนามสกุล .mov โดยใช้พิกัดสี RGBA ของท่านเอง&lt;br /&gt;&lt;br /&gt;
+		หมายเหตุ : หากไม่ได้ใส่ Intro หรือ EndCard การตั้งค่าตรงนี้จะไม่มีผล
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+		&lt;hr /&gt;
+		
 	&lt;center&gt;
 
 	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
+		
+		&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;การตั้งค่า Fade Transition&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+		
+		&lt;img src=&quot;/static/assets/img/blog/KP-04-config/09.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		
+		ในแต่ละช่องจะเป็นการแยก Fade ของแต่ละส่วน Source, Intro, EndCard&lt;br /&gt;
+		อย่างละ 2 ช่องคือ Fade เข้า (In) และ Fade ออก (Out) ซึ่งแต่ละกล่องประกอบไปด้วย&lt;br /&gt;&lt;br /&gt;
+		
+	&lt;/font&gt;
 
-		&lt;img src=&quot;/static/assets/img/blog/KP-04-config/06.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;
-		เลือกรูปแบบ Transition ตรงกล่องที่ลูกษรชี้ และตั้งค่า Transition ตามต้องการ
+	&lt;/center&gt;
+		
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	&lt;div id=&quot;wrap&quot;&gt;
+		&lt;div id=&quot;content_content&quot;&gt;
+		1. เปิด-ปิด การ Fade ของส่วนนั้นๆ&lt;br /&gt;
+		2. เลือกสีของการ Fade โดยมีตัวอย่างสีให้ทางด้านขวาของปุ่ม&lt;br /&gt;
+		3. ตั้งเวลาของการ Fade&lt;br /&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	
+		&lt;hr /&gt;
+		
+	&lt;center&gt;
+		
+		&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;การตั้งค่า Dissolve Transition&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+		
+		&lt;img src=&quot;/static/assets/img/blog/KP-04-config/10.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		
+	&lt;/center&gt;
+		
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	&lt;div id=&quot;wrap&quot;&gt;
+		&lt;div id=&quot;content_content&quot;&gt;
+		1. ปรับเวลาของการ Dissolve&lt;br /&gt;
+		2. ปรับเวลาของการ Fade เข้าวีดีโอ&lt;br /&gt;
+		3. ปรับเวลาของการ Fade ออกวีดีโอ&lt;br /&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	
+		&lt;hr /&gt;
+		
+	&lt;center&gt;
 
+	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
+		
+		&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;การตั้งค่า Custom Transition&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+		
+		&lt;img src=&quot;/static/assets/img/blog/KP-04-config/11.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+		
+		ในแต่ละกล่องจะแยกเป็น Intro และ EndCard ซึ่งภายในจะประกอบไปด้วย&lt;br /&gt;&lt;br /&gt;
+		
+	&lt;/font&gt;
+
+	&lt;/center&gt;
+		
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	&lt;div id=&quot;wrap&quot;&gt;
+		&lt;div id=&quot;content_content&quot;&gt;
+		1. เลือกไฟล์ Transition Mask&lt;br /&gt;
+		2. เลือกไฟล์ Transition Overlay&lt;br /&gt;
+		3. ตั้งเวลาของการ Transition&lt;br /&gt;&lt;br /&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	
+	&lt;center&gt;
+
+	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
+	
+	&lt;a href=&quot;https://link.konayuki.moe/KonayukiPlus/CUSTOM_TRANSITION_SAMPLE.html&quot; target=&quot;_blank&quot;&gt;ดาวน์โหลดไฟล์ตัวอย่าง Custom Transition&lt;/a&gt; (มีแค่ Transition Mask ไม่มีตัว Overlay)
+	
 	&lt;/font&gt;
 
 	&lt;/center&gt;
@@ -722,7 +1253,7 @@
 	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
 
 		&lt;img src=&quot;/static/assets/img/blog/KP-04-config/08.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
-		หน้า Log มีไว้แสดงข้อมูลของการ Encode ในกรณีที่ใช้&lt;a href=&quot;Blank&quot; target=&quot;_blank&quot;&gt;พรีวิว&lt;/a&gt;แล้วขึ้นหน้า Error สีชมพู การใช้&lt;a href=&quot;Blank&quot; target=&quot;_blank&quot;&gt;การเอ็นโค้ด&lt;/a&gt;จะแสดง Log อย่างละเอียดที่ตรงนี้&lt;br /&gt;&lt;br /&gt;
+		หน้า Log มีไว้แสดงข้อมูลของการ Encode ในกรณีที่ใช้&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-05-preview.html&quot; target=&quot;_blank&quot;&gt;พรีวิว&lt;/a&gt;แล้วขึ้นหน้า Error สีชมพู การใช้&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-07-encode.html&quot; target=&quot;_blank&quot;&gt;การเอ็นโค้ด&lt;/a&gt;จะแสดง Log อย่างละเอียดที่ตรงนี้&lt;br /&gt;&lt;br /&gt;
 		หากท่านยังไม่สามารถแก้ปัญหาด้วยตัวเองได้ สามารถกดปุ่มที่ลูกษรชี้อยู่เพื่อขอความช่วยเหลือได้ หรือ &lt;a href=&quot;https://link.konayuki.moe/discord.html&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;คลิก&lt;/b&gt;&lt;/a&gt;&lt;br /&gt;
 
 	&lt;/font&gt;
@@ -795,7 +1326,7 @@
 		&lt;div id=&quot;content_content&quot;&gt;
 		กดปุ่ม&amp;nbsp;
 		&lt;img src=&quot;/static/assets/img/blog/KP-03-remove/ob01.png&quot; style=&quot;max-width:30px;&quot; /&gt;
-		&amp;nbsp;เพื่อเปิดหน้าเมนู ซึ่งจะอธิบายดังต่อไปนี้&lt;br /&gt;
+		&amp;nbsp;เพื่อเปิดหน้าเมนู ซึ่งจะอธิบายดังต่อไปนี้&lt;br /&gt;&lt;br /&gt;
 		1. กดปุ่ม &quot;Empty Queue&quot; เพื่อล้างไฟล์ทั้งหมดออกจากรายการ&lt;br /&gt;
 		2. กดปุ่ม &quot;Add Folder&quot; เพื่อเลือกลบไฟล์ที่เลือกอยู่ในรายการ
 		&lt;/div&gt;
@@ -822,7 +1353,7 @@
 
 		&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-03-remove/02.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 
-		ท่านสามารถใช้คีย์ลัดปุ่ม Delete ในการลบไฟล์ในรายการที่เลือกอยู่ได้
+		ท่านสามารถใช้คีย์ลัดปุ่ม &lt;font color=&quot;#f796c1&quot;&gt;&lt;b&gt;DELETE&lt;/b&gt;&lt;/font&gt; ในการลบไฟล์ในรายการที่เลือกอยู่ได้
 
 	&lt;/font&gt;
 	
@@ -894,7 +1425,7 @@
 		&lt;div id=&quot;content_content&quot;&gt;
 		กดปุ่ม&amp;nbsp;
 		&lt;img src=&quot;/static/assets/img/blog/KP-02-import/ob01.png&quot; style=&quot;max-width:30px;&quot; /&gt;
-		&amp;nbsp;เพื่อเปิดหน้าเมนู ซึ่งจะอธิบายดังต่อไปนี้&lt;br /&gt;
+		&amp;nbsp;เพื่อเปิดหน้าเมนู ซึ่งจะอธิบายดังต่อไปนี้&lt;br /&gt;&lt;br /&gt;
 		1. กดปุ่ม &quot;Add Files&quot; เพื่อเลือกไฟล์เข้าโปรแกรม โดยสามารถเลือกได้หลายไฟล์พร้อมกัน&lt;br /&gt;
 		2. กดปุ่ม &quot;Add Folder&quot; เพื่อเลือกโฟลเดอร์ ไฟล์วีดีโอในโฟลเดอร์จะถูกนำเข้ารายการ ซึ่งประกอบไปด้วยไฟล์นามสกุล .mp4 .mkv .avi .wmv .mov .mpg
 		&lt;/div&gt;
@@ -922,7 +1453,7 @@
 		&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-02-import/02.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 
 		หากในโฟลเดอร์เดียวกับวีดีโอมีไฟล์ซับชื่อเดียวกับวีดีโอ ประกอบไปด้วยนามสกุล .ass .ssa .srt และ .sup โปรแกรมจะโหลดไฟล์ซับเข้ามาให้อัตโนมัติ&lt;br /&gt;
-		ตามตัวอย่างดังภาพด้านบน ซึ่งหากท่านไม่ต้องการสามารถกดปิดได้จากหน้า &lt;a href=&quot;Blank&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Setting&lt;/b&gt;&lt;/a&gt;&lt;br /&gt;
+		ตามตัวอย่างดังภาพด้านบน ซึ่งหากท่านไม่ต้องการสามารถกดปิดได้จากหน้า &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-09-setting.html&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Settings&lt;/b&gt;&lt;/a&gt;&lt;br /&gt;
 
 	&lt;/font&gt;
 
@@ -1016,51 +1547,102 @@
 
 &lt;hr /&gt;
 
-&lt;center&gt;
+&lt;div class=&quot;panel-group&quot; id=&quot;accordion&quot;&gt;
 
-&lt;h1&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;การติดตั้ง&lt;/font&gt;&lt;/h1&gt;
+&lt;!------------------------------------- 1. การติดตั้งโปรแกรม -------------------------------------&gt;
 
-&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
-		
-&lt;a class=&quot;btn btn-lg btn-default btn-rounded btn-outline wow bounceIn&quot; href=&quot;https://download.konayuki.moe/plus.html&quot; target=&quot;_blank&quot;&gt;1. ดาวน์โหลดตัวติดตั้ง&lt;/a&gt;&lt;br /&gt;
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
+    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	 1. การติดตั้งโปรแกรม
+	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+    &lt;div id=&quot;1&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
+	
+	&lt;!-- BODY --&gt;
+	  
+	&lt;center&gt;
 
-&lt;hr /&gt;
+	&lt;a class=&quot;btn btn-lg btn-default btn-rounded btn-outline&quot; href=&quot;https://download.konayuki.moe/plus.html&quot; target=&quot;_blank&quot;&gt;1. ดาวน์โหลดตัวติดตั้ง&lt;/a&gt;&lt;br /&gt;
 
-&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/01.png&quot; style=&quot;max-width:800px;&quot; /&gt;&lt;br /&gt;
-		
-2. เปิดตัว KONAYUKI_PLUS_SETUP.exe
+	&lt;hr /&gt;
 
-&lt;hr /&gt;
+	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
 
-&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/02.png&quot; style=&quot;max-width:800px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
-		
-3. กด Next ต่อไป
+	&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/01.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;
+			
+	2. เปิดตัว KONAYUKI_PLUS_SETUP.exe
 
-&lt;hr /&gt;
-		
-&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/03.png&quot; style=&quot;max-width:800px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
-		
-4. รอจนกว่าโปรแกรมจะติดตั้งส่วนประกอบจนครบ
+	&lt;hr /&gt;
 
-&lt;hr /&gt;
-		
-&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/04.png&quot; style=&quot;max-width:800px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
-		
-5. เมื่อเปิดโปรแกรมครั้งแรก ตัวโปรแกรมจะอัปเดตเวอร์ชั่นล่าสุดโดยอัตโนมัติ
+	&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/02.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+			
+	3. กด Next ต่อไป
 
-&lt;hr /&gt;
-		
-&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/05.png&quot; style=&quot;max-width:800px;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
-		
-6. โปรแกรมจะเปิดอัตโนมัติหลังจากโหลดไฟล์เวอร์ชั่นล่าสุดเสร็จ
+	&lt;hr /&gt;
+			
+	&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/03.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+			
+	4. รอจนกว่าโปรแกรมจะติดตั้งส่วนประกอบจนครบ
 
-&lt;/font&gt;
+	&lt;hr /&gt;
+			
+	&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/04.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+			
+	5. เมื่อเปิดโปรแกรมครั้งแรก ตัวโปรแกรมจะอัปเดตเวอร์ชั่นล่าสุดโดยอัตโนมัติ
 
-&lt;/center&gt;
+	&lt;hr /&gt;
+			
+	&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/05.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+			
+	6. โปรแกรมจะเปิดอัตโนมัติหลังจากโหลดไฟล์เวอร์ชั่นล่าสุดเสร็จ
 
-&lt;hr /&gt;
+	&lt;/font&gt;
 
-&lt;center&gt;&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
+	&lt;/center&gt;
+	
+	&lt;!-- END BODY --&gt;
+	
+	&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+  
+&lt;!------------------------------------- 2. วิธีแก้ไขหากเปิดตัวติดตั้งแล้วขึ้นหน้าต่างสีฟ้า -------------------------------------&gt;
+  
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;
+    &lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	 2. วิธีแก้ไขหากเปิดตัวติดตั้งแล้วขึ้นหน้าต่างสีฟ้า
+	&lt;/font&gt;&lt;/a&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/div&gt;
+    &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
+	
+	&lt;!-- BODY --&gt;
+	
+	&lt;center&gt;
+	
+	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
+	
+	&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;หากเปิดตัวติดตั้งแล้วขึ้นหน้าต่างฟ้าดังภาพด้านล่าง ให้ทำตามวิธีดังต่อไปนี้&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/06.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;
+	
+	&lt;hr /&gt;
+	
+	&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/07.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	1. คลิกขวาที่ตัวติดตั้งแล้วกดเข้าไปที่ Properties
+	
+	&lt;hr /&gt;
+	
+	&lt;img src=&quot;/static/assets/img/blog/KP-01-installation/08.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	2. ติกถูกในช่อง Unblock แล้วกด OK จากนั้นให้เปิดตัวติดตั้งอีกครัง&lt;br /&gt;&lt;br /&gt;
+	หมายเหตุ : สำหรับ Windows 7 และ Windows 8/8.1 จะเป็นปุ่ม &lt;img src=&quot;/static/assets/img/blog/KP-01-installation/ob01.png&quot; style=&quot;max-width:100%;&quot; /&gt;
+	
+	&lt;/font&gt;
+	
+	&lt;/center&gt;
+	
+	&lt;!-- END BODY --&gt;
+	
+	&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+	
+&lt;/div&gt;
 </description>
         <pubDate>Sun, 18 Mar 2018 00:00:00 +0700</pubDate>
         <link>https://Konayuki.moe/knowledge/2018/03/18/KP-01-installation.html</link>
@@ -1095,6 +1677,8 @@
         <title>วิธีการใช้งานโปรแกรม KONAYUKI PLUS</title>
         <description>&lt;!--skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz--&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
 &lt;div id=&quot;wrap&quot;&gt;
 	&lt;div id=&quot;content_title&quot;&gt;
@@ -1113,7 +1697,7 @@
 
 	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-07-encode.html&quot;&gt;7. การเริ่มเอ็นโค้ด&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 	
-	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-08-project.html&quot;&gt;8. การจัดการโปรเจคไฟล์&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-08-project.html&quot;&gt;8. การจัดการไฟล์โปรเจค&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 
 	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-09-setting.html&quot;&gt;9. การตั้งค่าโปรแกรม&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 	
