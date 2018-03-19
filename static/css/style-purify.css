@@ -1082,10 +1082,6 @@ a:focus,a:hover {
   text-decoration: none;
 }
 
-.border-bottom {
-  border-bottom: 1px solid #e7eaec!important;
-}
-
 .b-r {
   border-right: 1px solid #e7eaec;
 }
@@ -1246,26 +1242,6 @@ body.body-small .footer.fixed {
   padding: 20px 0;
 }
 
-.border-left,.border-left-right,.border-right {
-  border-top: none;
-  border-bottom: none;
-}
-
-.border-left-right {
-  border-left: 1px solid #e7eaec;
-  border-right: 1px solid #e7eaec;
-}
-
-.border-left {
-  border-left: 1px solid #e7eaec;
-  border-right: none;
-}
-
-.border-right {
-  border-left: none;
-  border-right: 1px solid #e7eaec;
-}
-
 .link-block {
   padding: 10px;
 }
@@ -1273,11 +1249,6 @@ body.body-small .footer.fixed {
 .link-block a {
   font-size: 10px;
   color: inherit;
-}
-
-img.circle-border {
-  border: 6px solid #FFF;
-  border-radius: 50%;
 }
 
 .icons-box h3 {
@@ -2423,7 +2394,8 @@ body.landing-page {
 }
 
 .landing-page .navbar-default .navbar-nav>li>a:focus,.landing-page .navbar-default .navbar-nav>li>a:hover {
-  color: #F796C1;
+  color: #d375a2;
+  /* สี hover ปุ่มด้านบน navbar */
   background: inherit;
 }
 

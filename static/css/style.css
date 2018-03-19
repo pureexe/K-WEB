@@ -7415,7 +7415,7 @@ body.landing-page {
 
 .landing-page .navbar-default .navbar-nav>li>a:focus,
 .landing-page .navbar-default .navbar-nav>li>a:hover {
-    color: #F796C1;
+    color: #d375a2; /* สี hover ปุ่มด้านบน navbar */
     background: inherit
 }
 
