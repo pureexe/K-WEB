@@ -5,15 +5,15 @@
     <description>We're Anime lover who making tools to support Fansubers.</description>
     <link>https://Konayuki.moe/</link>
     <atom:link href="https://Konayuki.moe/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 19 Mar 2018 11:19:08 +0700</pubDate>
-    <lastBuildDate>Mon, 19 Mar 2018 11:19:08 +0700</lastBuildDate>
+    <pubDate>Tue, 20 Mar 2018 19:21:02 +0700</pubDate>
+    <lastBuildDate>Tue, 20 Mar 2018 19:21:02 +0700</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
         <title>การแก้ไขปัญหาเบื้องต้น</title>
         <description>&lt;hr /&gt;
 
-&lt;center&gt;&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
+&lt;center&gt;&lt;a href=&quot;/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
 
 &lt;hr /&gt;
 
@@ -137,7 +137,7 @@
         <title>การตั้งค่าโปรแกรม</title>
         <description>&lt;hr /&gt;
 
-&lt;center&gt;&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
+&lt;center&gt;&lt;a href=&quot;/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
 
 &lt;hr /&gt;
 
@@ -230,10 +230,10 @@
 	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
 	&lt;div id=&quot;wrap&quot;&gt;
 	&lt;div id=&quot;content_content&quot;&gt;
-		1. เปิด-ปิด การใช้งานการโหลดไฟล์ซับอัตโนมัติ อ่านเพิ่มเติมได้ &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html&quot; target=&quot;_blank&quot;&gt;ที่นี่&lt;/a&gt; &lt;font color=&quot;#f796c1&quot;&gt;[ค่าเริ่มต้น : เปิด]&lt;/font&gt;&lt;br /&gt;
+		1. เปิด-ปิด การใช้งานการโหลดไฟล์ซับอัตโนมัติ อ่านเพิ่มเติมได้ &lt;a href=&quot;/knowledge/2018/03/18/KP-02-import.html&quot; target=&quot;_blank&quot;&gt;ที่นี่&lt;/a&gt; &lt;font color=&quot;#f796c1&quot;&gt;[ค่าเริ่มต้น : เปิด]&lt;/font&gt;&lt;br /&gt;
 		2. เปิด-ปิด การใช้งานมัลติเทรดสำหรับคนที่มี CPU หลายเทรดแนะนำให้เปิดใช้เพื่อประสิทธิภาพสูงสุด &lt;font color=&quot;#f796c1&quot;&gt;[ค่าเริ่มต้น : เปิด]&lt;/font&gt;&lt;br /&gt;
-		3. เปิด-ปิด การใช้งานพรีวิวภาพขณะเอ็นโค้ด (จะทำให้ความเร็วลดลง) อ่านเพิ่มเติมได้ &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-07-encode.html&quot; target=&quot;_blank&quot;&gt;ที่นี่&lt;/a&gt; &lt;font color=&quot;#f796c1&quot;&gt;[ค่าเริ่มต้น : ปิด]&lt;/font&gt;&lt;br /&gt;
-		4. เปิด-ปิด การใส่ CRC32 ต่อท้ายชื่อไฟล์ อ่านเพิ่มเติมได้ &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-06-export.html&quot; target=&quot;_blank&quot;&gt;ที่นี่&lt;/a&gt; &lt;font color=&quot;#f796c1&quot;&gt;[ค่าเริ่มต้น : เปิด]&lt;/font&gt;&lt;br /&gt;
+		3. เปิด-ปิด การใช้งานพรีวิวภาพขณะเอ็นโค้ด (จะทำให้ความเร็วลดลง) อ่านเพิ่มเติมได้ &lt;a href=&quot;/knowledge/2018/03/18/KP-07-encode.html&quot; target=&quot;_blank&quot;&gt;ที่นี่&lt;/a&gt; &lt;font color=&quot;#f796c1&quot;&gt;[ค่าเริ่มต้น : ปิด]&lt;/font&gt;&lt;br /&gt;
+		4. เปิด-ปิด การใส่ CRC32 ต่อท้ายชื่อไฟล์ อ่านเพิ่มเติมได้ &lt;a href=&quot;/knowledge/2018/03/18/KP-06-export.html&quot; target=&quot;_blank&quot;&gt;ที่นี่&lt;/a&gt; &lt;font color=&quot;#f796c1&quot;&gt;[ค่าเริ่มต้น : เปิด]&lt;/font&gt;&lt;br /&gt;
 		5. การสั่งงานหลังเอ็นโค้ดเสร็จ เช่น Shutdown, Restart, Log Off &lt;font color=&quot;#f796c1&quot;&gt;[ค่าเริ่มต้น : Do Nothing]&lt;/font&gt;&lt;br /&gt;
 	&lt;/div&gt;
 	&lt;/div&gt;
@@ -298,7 +298,7 @@
         <title>การจัดการไฟล์โปรเจค</title>
         <description>&lt;hr /&gt;
 
-&lt;center&gt;&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
+&lt;center&gt;&lt;a href=&quot;/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
 
 &lt;hr /&gt;
 
@@ -457,7 +457,7 @@
         <title>การเริ่มเอ็นโค้ด</title>
         <description>&lt;hr /&gt;
 
-&lt;center&gt;&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
+&lt;center&gt;&lt;a href=&quot;/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
 
 &lt;hr /&gt;
 
@@ -506,8 +506,8 @@
 		เมื่อเอ็นโค้ดสำเร็จ สามารถกดที่แจ้งเตือน (Notification) ขวาล่างของจอ ดังภาพด้านบน&lt;br /&gt;
 		เพื่อทำการเปิดโฟลเดอร์ของไฟล์ที่เอ็นโค้ดเสร็จได้ทันที&lt;br /&gt;&lt;br /&gt;
 		
-		&lt;font style=&quot;font-size:20px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;Tips: ขณะที่เอ็นโค้ด สามารถแก้ไข &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-04-config.html&quot; target=&quot;_blank&quot;&gt;การตั้งค่าไฟล์วีดีโอ&lt;/a&gt;
-		และ &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-05-preview.html&quot; target=&quot;_blank&quot;&gt;พรีวิว&lt;/a&gt; ของไฟล์ที่ยังไม่ได้เริ่มเอ็นโค้ดได้ตลอดเวลา&lt;/font&gt;
+		&lt;font style=&quot;font-size:20px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;Tips: ขณะที่เอ็นโค้ด สามารถแก้ไข &lt;a href=&quot;/knowledge/2018/03/18/KP-04-config.html&quot; target=&quot;_blank&quot;&gt;การตั้งค่าไฟล์วีดีโอ&lt;/a&gt;
+		และ &lt;a href=&quot;/knowledge/2018/03/18/KP-05-preview.html&quot; target=&quot;_blank&quot;&gt;พรีวิว&lt;/a&gt; ของไฟล์ที่ยังไม่ได้เริ่มเอ็นโค้ดได้ตลอดเวลา&lt;/font&gt;
 
 	&lt;/font&gt;
 	
@@ -575,7 +575,7 @@
 		&lt;img src=&quot;/static/assets/img/blog/KP-07-encode/04.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 		
 		ติกถูกช่อง &quot;Preview while encoding (May affect performance)&quot; เพื่อเปิดใช้งาน&lt;br /&gt;
-		สาเหตุที่ไม่เปิดเป็นค่าเริ่มต้นเพราะจะทำให้ความเร็วการเอ็นโค้ดตกลงไป &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-10-fix.html&quot; target=&quot;_blank&quot;&gt;แต่มีประโยชน์ในการหาบัค ASS&lt;/a&gt;&lt;br /&gt;
+		สาเหตุที่ไม่เปิดเป็นค่าเริ่มต้นเพราะจะทำให้ความเร็วการเอ็นโค้ดตกลงไป &lt;a href=&quot;/knowledge/2018/03/18/KP-10-fix.html&quot; target=&quot;_blank&quot;&gt;แต่มีประโยชน์ในการหาบัค ASS&lt;/a&gt;&lt;br /&gt;
 		
 		&lt;hr /&gt;
 		
@@ -627,7 +627,7 @@
         <title>การตั้งค่าโฟลเดอร์ขาออกของไฟล์</title>
         <description>&lt;hr /&gt;
 
-&lt;center&gt;&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
+&lt;center&gt;&lt;a href=&quot;/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
 
 &lt;hr /&gt;
 
@@ -653,7 +653,7 @@
 	&lt;div id=&quot;wrap&quot;&gt;
 	&lt;div id=&quot;content_content&quot;&gt;
 		คลิกขวาที่ไฟล์วีดีโอที่ต้องการตั้งค่า (สามารถเลือกหลายไฟล์พร้อมกันได้) ซึ่งจะอธิบายดังต่อไปนี้&lt;br /&gt;&lt;br /&gt;
-		1. &quot;Play Media&quot; &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การเพิ่มไฟล์วีดีโอเข้ารายการ&quot;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+		1. &quot;Play Media&quot; &lt;a href=&quot;/knowledge/2018/03/18/KP-02-import.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การเพิ่มไฟล์วีดีโอเข้ารายการ&quot;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 		
 		2. &quot;Set Output File&quot; ตั้งชื่อไฟล์ขาออกล่วงหน้า หากมีไฟล์ชื่อนั้นๆ อยู่แล้วไฟล์เดิมจะถูกทับ&lt;br /&gt;
 		3. &quot;Set Output Folder&quot; เลือกโฟลเดอร์ขาออก ชื่อไฟล์จะเป็นชื่อเดียวกับไฟล์ต้นฉบับตามด้วยเลขอันดับในรายการและเวลา ตามรูปแบบด้านล่าง&lt;br /&gt;
@@ -663,10 +663,10 @@
 		4. &quot;Clear Output&quot; ล้างการกำหนดไฟล์และโฟลเดอร์ขาออกให้แต่ละไฟล์&lt;br /&gt;
 		&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#f796c1&quot;&gt;ซึ่งถ้าไฟล์ไหนไม่ได้ตั้งค่าไว้จะเป็นไปตามกรณีดังที่จะยกตัวอย่างในส่วนถัดไป&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
 		
-		5. &quot;Open Input Folder&quot; &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การเพิ่มไฟล์วีดีโอเข้ารายการ&quot;&lt;/a&gt;&lt;br /&gt;
-		6. &quot;Open Output Folder&quot; &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การเพิ่มไฟล์วีดีโอเข้ารายการ&quot;&lt;/a&gt;&lt;br /&gt;
-		7. &quot;Duplicate&quot; &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การเพิ่มไฟล์วีดีโอเข้ารายการ&quot;&lt;/a&gt;&lt;br /&gt;
-		8. &quot;Properties&quot; &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การเพิ่มไฟล์วีดีโอเข้ารายการ&quot;&lt;/a&gt;&lt;br /&gt;
+		5. &quot;Open Input Folder&quot; &lt;a href=&quot;/knowledge/2018/03/18/KP-02-import.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การเพิ่มไฟล์วีดีโอเข้ารายการ&quot;&lt;/a&gt;&lt;br /&gt;
+		6. &quot;Open Output Folder&quot; &lt;a href=&quot;/knowledge/2018/03/18/KP-02-import.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การเพิ่มไฟล์วีดีโอเข้ารายการ&quot;&lt;/a&gt;&lt;br /&gt;
+		7. &quot;Duplicate&quot; &lt;a href=&quot;/knowledge/2018/03/18/KP-02-import.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การเพิ่มไฟล์วีดีโอเข้ารายการ&quot;&lt;/a&gt;&lt;br /&gt;
+		8. &quot;Properties&quot; &lt;a href=&quot;/knowledge/2018/03/18/KP-02-import.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การเพิ่มไฟล์วีดีโอเข้ารายการ&quot;&lt;/a&gt;&lt;br /&gt;
 	&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
@@ -790,7 +790,7 @@
         <title>การใช้งานระบบพรีวิว</title>
         <description>&lt;hr /&gt;
 
-&lt;center&gt;&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
+&lt;center&gt;&lt;a href=&quot;/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
 
 &lt;hr /&gt;
 
@@ -877,7 +877,7 @@
 		
 		&lt;img src=&quot;/static/assets/img/blog/KP-05-preview/05.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 		
-		โดยใช้เพื่อการเปรียบเทียบภาพจากการปรับ Filters อ่านการปรับภาพได้ &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-04-config.html&quot;&gt;ที่นี่&lt;/a&gt;&lt;br /&gt;
+		โดยใช้เพื่อการเปรียบเทียบภาพจากการปรับ Filters อ่านการปรับภาพได้ &lt;a href=&quot;/knowledge/2018/03/18/KP-04-config.html&quot;&gt;ที่นี่&lt;/a&gt;&lt;br /&gt;
 
 	&lt;/font&gt;&lt;/center&gt;
 	
@@ -920,7 +920,7 @@
         <title>การตั้งค่าไฟล์วีดีโอ</title>
         <description>&lt;hr /&gt;
 
-&lt;center&gt;&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
+&lt;center&gt;&lt;a href=&quot;/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
 
 &lt;hr /&gt;
 
@@ -1253,7 +1253,7 @@
 	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
 
 		&lt;img src=&quot;/static/assets/img/blog/KP-04-config/08.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
-		หน้า Log มีไว้แสดงข้อมูลของการ Encode ในกรณีที่ใช้&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-05-preview.html&quot; target=&quot;_blank&quot;&gt;พรีวิว&lt;/a&gt;แล้วขึ้นหน้า Error สีชมพู การใช้&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-07-encode.html&quot; target=&quot;_blank&quot;&gt;การเอ็นโค้ด&lt;/a&gt;จะแสดง Log อย่างละเอียดที่ตรงนี้&lt;br /&gt;&lt;br /&gt;
+		หน้า Log มีไว้แสดงข้อมูลของการ Encode ในกรณีที่ใช้&lt;a href=&quot;/knowledge/2018/03/18/KP-05-preview.html&quot; target=&quot;_blank&quot;&gt;พรีวิว&lt;/a&gt;แล้วขึ้นหน้า Error สีชมพู การใช้&lt;a href=&quot;/knowledge/2018/03/18/KP-07-encode.html&quot; target=&quot;_blank&quot;&gt;การเอ็นโค้ด&lt;/a&gt;จะแสดง Log อย่างละเอียดที่ตรงนี้&lt;br /&gt;&lt;br /&gt;
 		หากท่านยังไม่สามารถแก้ปัญหาด้วยตัวเองได้ สามารถกดปุ่มที่ลูกษรชี้อยู่เพื่อขอความช่วยเหลือได้ หรือ &lt;a href=&quot;https://link.konayuki.moe/discord.html&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;คลิก&lt;/b&gt;&lt;/a&gt;&lt;br /&gt;
 
 	&lt;/font&gt;
@@ -1299,7 +1299,7 @@
         <title>การลบไฟล์วีดีโอออกจากรายการ</title>
         <description>&lt;hr /&gt;
 
-&lt;center&gt;&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
+&lt;center&gt;&lt;a href=&quot;/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
 
 &lt;hr /&gt;
 
@@ -1398,7 +1398,7 @@
         <title>การเพิ่มไฟล์วีดีโอเข้ารายการ</title>
         <description>&lt;hr /&gt;
 
-&lt;center&gt;&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
+&lt;center&gt;&lt;a href=&quot;/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
 
 &lt;hr /&gt;
 
@@ -1453,7 +1453,7 @@
 		&lt;br /&gt;&lt;img src=&quot;/static/assets/img/blog/KP-02-import/02.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 
 		หากในโฟลเดอร์เดียวกับวีดีโอมีไฟล์ซับชื่อเดียวกับวีดีโอ ประกอบไปด้วยนามสกุล .ass .ssa .srt และ .sup โปรแกรมจะโหลดไฟล์ซับเข้ามาให้อัตโนมัติ&lt;br /&gt;
-		ตามตัวอย่างดังภาพด้านบน ซึ่งหากท่านไม่ต้องการสามารถกดปิดได้จากหน้า &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-09-setting.html&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Settings&lt;/b&gt;&lt;/a&gt;&lt;br /&gt;
+		ตามตัวอย่างดังภาพด้านบน ซึ่งหากท่านไม่ต้องการสามารถกดปิดได้จากหน้า &lt;a href=&quot;/knowledge/2018/03/18/KP-09-setting.html&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Settings&lt;/b&gt;&lt;/a&gt;&lt;br /&gt;
 
 	&lt;/font&gt;
 
@@ -1484,9 +1484,9 @@
 		&lt;div id=&quot;content_content&quot;&gt;
 		คลิกขวาที่ไฟล์วีดีโอในรายการที่เพิ่มเข้ามาจะเจอเมนู ซึ่งจะอธิบายดังต่อไปนี้&lt;br /&gt;&lt;br /&gt;
 		1. &quot;Play Media&quot; เล่นไฟล์วีดีโอต้นฉบับ&lt;br /&gt;
-		2. &quot;Set Output File&quot; &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-06-export.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การตั้งค่าโฟลเดอร์ขาออกของไฟล์&quot;&lt;/a&gt;&lt;br /&gt;
-		3. &quot;Set Output Folder&quot; &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-06-export.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การตั้งค่าโฟลเดอร์ขาออกของไฟล์&quot;&lt;/a&gt;&lt;br /&gt;
-		4. &quot;Clear Output&quot; &lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-06-export.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การตั้งค่าโฟลเดอร์ขาออกของไฟล์&quot;&lt;/a&gt;&lt;br /&gt;
+		2. &quot;Set Output File&quot; &lt;a href=&quot;/knowledge/2018/03/18/KP-06-export.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การตั้งค่าโฟลเดอร์ขาออกของไฟล์&quot;&lt;/a&gt;&lt;br /&gt;
+		3. &quot;Set Output Folder&quot; &lt;a href=&quot;/knowledge/2018/03/18/KP-06-export.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การตั้งค่าโฟลเดอร์ขาออกของไฟล์&quot;&lt;/a&gt;&lt;br /&gt;
+		4. &quot;Clear Output&quot; &lt;a href=&quot;/knowledge/2018/03/18/KP-06-export.html&quot; target=&quot;_blank&quot;&gt;อ่านเพิ่มเติมที่ &quot;การตั้งค่าโฟลเดอร์ขาออกของไฟล์&quot;&lt;/a&gt;&lt;br /&gt;
 		5. &quot;Open Input Folder&quot; เปิดโฟลเดอร์ที่อยู่ของไฟล์วีดีโอต้นฉบับ&lt;br /&gt;
 		6. &quot;Open Output Folder&quot; เปิดโฟลเดอร์ที่อยู่ของไฟล์วีดีโอขาออก&lt;br /&gt;
 		7. &quot;Duplicate&quot; ทำการทำซ่ำรายการที่เลือกอยู่&lt;br /&gt;
@@ -1543,19 +1543,49 @@
         <title>การติดตั้งโปรแกรม KONAYUKI PLUS</title>
         <description>&lt;hr /&gt;
 
-&lt;center&gt;&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
+&lt;center&gt;&lt;a href=&quot;/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html&quot;&gt;&lt;h1&gt;&lt;font class=&quot;bold&quot;&gt;กลับสู่รายการหลัก&lt;/font&gt;&lt;/h1&gt;&lt;/a&gt;&lt;/center&gt;
 
 &lt;hr /&gt;
 
 &lt;div class=&quot;panel-group&quot; id=&quot;accordion&quot;&gt;
 
-&lt;!------------------------------------- 1. การติดตั้งโปรแกรม -------------------------------------&gt;
+&lt;!------------------------------------- 1. ความต้องการขั้นต่ำของระบบ -------------------------------------&gt;
 
 	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;
     &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
-	 1. การติดตั้งโปรแกรม
+	 1. ความต้องการขั้นต่ำของระบบ
 	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;1&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
+	
+	&lt;!-- BODY --&gt;
+
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	&lt;div id=&quot;wrap&quot;&gt;
+		&lt;div id=&quot;content_content&quot;&gt;
+		- Microsoft Windows 7 Service Pack 1 64-Bit หรือสูงกว่า&lt;br /&gt;
+		- CPU 1 Ghz หรือมากกว่า&lt;br /&gt;
+		- RAM 4 GB or หรือมากกว่า&lt;br /&gt;
+		- On-Board GPU หรือ Graphics Card &lt;b&gt;(สำหรับการเอ็นโค้ดด้วยการ์ดจอ)&lt;/b&gt;&lt;br /&gt;
+		&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; - &lt;font style=&quot;color:#125ea4;&quot;&gt;Intel GPU&lt;/font&gt; สำหรับ H.264 สถาปัตยกรรม Sandy Bridge ขึ้นไป &lt;a href=&quot;https://en.wikipedia.org/wiki/Intel_Quick_Sync_Video#Hardware_decoding_and_encoding&quot; target=&quot;_blank&quot;&gt;เรียนรู้เพิ่มเติม&lt;/a&gt;&lt;br /&gt;
+		&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; - &lt;font style=&quot;color:#76B900;&quot;&gt;Nvidia GPU&lt;/font&gt; สำหรับ H.264 สถาปัตยกรรม Kepler ขึ้นไป &lt;a href=&quot;https://en.wikipedia.org/wiki/Nvidia_NVENC#Versions&quot; target=&quot;_blank&quot;&gt;เรียนรู้เพิ่มเติม&lt;/a&gt;&lt;br /&gt;
+		&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; - &lt;font style=&quot;color:#ef0707;&quot;&gt;AMD GPU&lt;/font&gt; สำหรับ H.264 สถาปัตยกรรม GCN ขึ้นไป &lt;a href=&quot;https://en.wikipedia.org/wiki/Video_Coding_Engine#Overview&quot; target=&quot;_blank&quot;&gt;เรียนรู้เพิ่มเติม&lt;/a&gt;&lt;br /&gt;
+		- HDD ต้องการพื้นที่ว่างขั้นต่ำสำหรับไฟล์วีดีโอที่จะเอ็นโค้ดออกมา&lt;br /&gt;
+		- Internet เพื่ออัปเดตโปรแกรมเป็นเวอร์ชั่นล่าสุดอยู่เสมอ
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+	
+	&lt;!-- END BODY --&gt;
+	
+	&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+	
+&lt;!------------------------------------- 2. การติดตั้งโปรแกรม -------------------------------------&gt;
+
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	 2. การติดตั้งโปรแกรม
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
+    &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
 	  
@@ -1603,13 +1633,13 @@
 	
 	&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
   
-&lt;!------------------------------------- 2. วิธีแก้ไขหากเปิดตัวติดตั้งแล้วขึ้นหน้าต่างสีฟ้า -------------------------------------&gt;
+&lt;!------------------------------------- 3. วิธีแก้ไขหากเปิดตัวติดตั้งแล้วขึ้นหน้าต่างสีฟ้า -------------------------------------&gt;
   
-	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;
-    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
-	 2. วิธีแก้ไขหากเปิดตัวติดตั้งแล้วขึ้นหน้าต่างสีฟ้า
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	 3. วิธีแก้ไขหากเปิดตัวติดตั้งแล้วขึ้นหน้าต่างสีฟ้า
 	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
-    &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
+    &lt;div id=&quot;3&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
 	
@@ -1683,29 +1713,38 @@
 &lt;div id=&quot;wrap&quot;&gt;
 	&lt;div id=&quot;content_title&quot;&gt;
 
-	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-01-installation.html&quot;&gt;1. การติดตั้งโปรแกรม&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;/knowledge/2018/03/18/KP-01-installation.html&quot;&gt;1. การติดตั้งโปรแกรม&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 
-	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-02-import.html&quot;&gt;2. การแอดไฟล์วีดีโอเข้ารายการ&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;/knowledge/2018/03/18/KP-02-import.html&quot;&gt;2. การเพิ่มไฟล์วีดีโอเข้ารายการ&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 
-	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-03-remove.html&quot;&gt;3. การลบไฟล์วีดีโอออกจากรายการ&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;/knowledge/2018/03/18/KP-03-remove.html&quot;&gt;3. การลบไฟล์วีดีโอออกจากรายการ&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 
-	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-04-config.html&quot;&gt;4. การตั้งค่าไฟล์วีดีโอ&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;/knowledge/2018/03/18/KP-04-config.html&quot;&gt;4. การตั้งค่าไฟล์วีดีโอ&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 
-	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-05-preview.html&quot;&gt;5. การใช้งานระบบพรีวิว&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;/knowledge/2018/03/18/KP-05-preview.html&quot;&gt;5. การใช้งานระบบพรีวิว&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 
-	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-06-export.html&quot;&gt;6. การตั้งค่าโฟลเดอร์ขาออกของไฟล์&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;/knowledge/2018/03/18/KP-06-export.html&quot;&gt;6. การตั้งค่าโฟลเดอร์ขาออกของไฟล์&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 
-	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-07-encode.html&quot;&gt;7. การเริ่มเอ็นโค้ด&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;/knowledge/2018/03/18/KP-07-encode.html&quot;&gt;7. การเริ่มเอ็นโค้ด&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 	
-	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-08-project.html&quot;&gt;8. การจัดการไฟล์โปรเจค&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;/knowledge/2018/03/18/KP-08-project.html&quot;&gt;8. การจัดการไฟล์โปรเจค&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 
-	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-09-setting.html&quot;&gt;9. การตั้งค่าโปรแกรม&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;/knowledge/2018/03/18/KP-09-setting.html&quot;&gt;9. การตั้งค่าโปรแกรม&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 	
-	&lt;a href=&quot;https://konayuki.moe/knowledge/2018/03/18/KP-10-fix.html&quot;&gt;10. การแก้ไขปัญหาเบื้องต้น&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;/knowledge/2018/03/18/KP-10-fix.html&quot;&gt;10. การแก้ไขปัญหาเบื้องต้น&lt;/a&gt;&lt;br /&gt;
 	
 	&lt;/div&gt;
 &lt;/div&gt;
 &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- VIEW COUNTER --&gt;
+&lt;center&gt;
+&lt;font style=&quot;font-size:20px;&quot; color=&quot;#f796c1&quot;&gt;จำนวนผู้เยื่ยมชม&lt;/font&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://smallseotools.com/counterDisplay?code=c548b0f2824da46dc2fb730f71356004&amp;amp;style=0013&amp;amp;pad=5&amp;amp;type=page&amp;amp;initCount=&quot; title=&quot;Web Counter&quot; alt=&quot;Web Counter&quot; border=&quot;0&quot; /&gt;
+&lt;/center&gt;
 </description>
         <pubDate>Thu, 08 Mar 2018 00:00:00 +0700</pubDate>
         <link>https://Konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html</link>
@@ -1843,58 +1882,6 @@
         
         <category>Howto</category>
         
-        
-        <category>Knowledge</category>
-        
-      </item>
-    
-      <item>
-        <title>ความต้องการของระบบสำหรับ Konayuki Encoder</title>
-        <description>&lt;!--skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz--&gt;
-
-&lt;h2 id=&quot;สำหรับความต้องการขั้นต่ำของโปรแกรม-konayuki-encoder-คือ&quot;&gt;&lt;font color=&quot;#d44d4d&quot;&gt;สำหรับความต้องการขั้นต่ำของโปรแกรม Konayuki Encoder คือ:&lt;/font&gt;&lt;/h2&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. OS: Windows Vista 32Bit หรือสูงกว่า
-
-2. CPU: Core 2 Duo หรือสูงกว่า
-
-3. Ram: 512MB หรือสูงกว่า
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;สำหรับสเป็คแนะนำสำหรับโปรแกรม-konayuki-encoder-คือ&quot;&gt;&lt;font color=&quot;#06af90&quot;&gt;สำหรับสเป็คแนะนำสำหรับโปรแกรม Konayuki Encoder คือ:&lt;/font&gt;&lt;/h2&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. OS: Windows 8 32Bit หรือสูงกว่า
-
-2. CPU: Intel Core i5 Gen 3 หรือสูงกว่า
-
-3. Ram: 4GB หรือสูงกว่า
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Mon, 24 Apr 2017 00:00:00 +0700</pubDate>
-        <link>https://Konayuki.moe/backup/knowledge/2017/04/24/Konayuki_Encoder_Requirement.html</link>
-        <guid isPermaLink="true">https://Konayuki.moe/backup/knowledge/2017/04/24/Konayuki_Encoder_Requirement.html</guid>
-        
-        <category>Konayuki.moe</category>
-        
-        <category>Konayuki</category>
-        
-        <category>Encoder</category>
-        
-        <category>Video</category>
-        
-        <category>Subtitle</category>
-        
-        <category>Hardsub</category>
-        
-        <category>Fansub</category>
-        
-        <category>Knowledge</category>
-        
-        
-        <category>backup</category>
         
         <category>Knowledge</category>
         

@@ -125,37 +125,56 @@ OneSignal.push(function() {
 		<!-- ปุ่ม ชื่อเว็บ ซ้ายบน bar ของเว็บ -->
         <!-- <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">Konayuki.moe</span></a> -->
       </div>
-      <div id="navbar" class="navbar-collapse collapse">
+	  
+	  <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right" id="i18_navbar">
           
           <li>
+			
             <a class="page-scroll" href="#projects">
-              <span data-i18n="nav.projects">Projects</span>
+              <span data-i18n="nav.projects" style="font-size:16px; font-weight:100;">โปรเจค</span>
             </a>
+			
           </li>
           
           <li>
+			
             <a class="page-scroll" href="#about-me">
-              <span data-i18n="nav.about_me">About</span>
+              <span data-i18n="nav.about_me" style="font-size:16px; font-weight:100;">เกี่ยวกับเรา</span>
             </a>
+			
           </li>
           
           <li>
-            <a class="page-scroll" href="#career">
-              <span data-i18n="nav.career">Changelog</span>
-            </a>
+			
+			<a class="page-scroll collapsebutton" href="#career" data-toggle="tab" data-target="#knyk3project">
+			<span data-i18n="nav.career" style="font-size:16px; font-weight:100;">มีอะไรใหม่</span>
+			</a>
+			
           </li>
           
           <li>
+			
+            <a href="https://www.facebook.com/Konayuki.moe/" target="_blank">
+              <span data-i18n="nav.facebook" style="font-size:16px; font-weight:100;">แฟนเพจ</span>
+            </a>
+			
+          </li>
+          
+          <li>
+			
             <a class="page-scroll" href="#blog">
-              <span data-i18n="nav.blog">Blog</span>
+              <span data-i18n="nav.blog" style="font-size:16px; font-weight:100;">บล็อก</span>
             </a>
+			
           </li>
           
           <li>
+			
             <a class="page-scroll" href="#links">
-              <span data-i18n="nav.link">Links</span>
+              <span data-i18n="nav.link" style="font-size:16px; font-weight:100;">ติดต่อ</span>
             </a>
+			
           </li>
           
           
@@ -173,6 +192,7 @@ OneSignal.push(function() {
           
         </ul>
       </div>
+	  
     </div>
   </nav>
 </div>
@@ -242,7 +262,7 @@ OneSignal.push(function() {
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
             <div class="navy-line"></div>
-            <h1><span data-i18n="projects.my_projects">Our Projects</span></h1>
+            <h1><span data-i18n="projects.my_projects">โปรเจคของเรา</span></h1>
         </div>
     </div>
 	<!-- HEAD END -->
@@ -254,21 +274,20 @@ OneSignal.push(function() {
 	<img height="210" width="210" src="/static/assets/img/landing/pluslogo.png" class="img-responsive img-rounded knyk3" alt="">
 	<br>
     <h4>
-	<span class="navy">KONAYUKI PLUS</span>
+	<span class="navy" style="font-size:20px;">KONAYUKI PLUS</span>
 	</h4>
-	<p><span data-i18n="projects.knyk3">Description</span></p>
+	<p><span data-i18n="projects.knyk3" style="font-size:16px;">Description</span></p>
 	
 				  <!-- DOWNLOAD -->
-				  <br /><a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" disabled >Coming Soon</a>&nbsp;&nbsp;
-				  <!-- <br /><a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://download.konayuki.moe/plus.html" target="_blank" ><span data-i18n="projects.button">Download</span></a>&nbsp;&nbsp; -->
+				  <br /><a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="#" target="_blank" disabled><span data-i18n="projects.button">เร็วๆ นี้</span></a>&nbsp;&nbsp;
+				  <!-- <br /><a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://download.konayuki.moe/plus.html" target="_blank" ><span data-i18n="projects.button">ดาวน์โหลด</span></a>&nbsp;&nbsp; -->
 				  <!-- CHANGELOG -->
 				  <span data-toggle="tab" data-target="#knyk3project"><span data-toggle="tab" data-target="#knyk3changelognav">
 				  <a class="page-scroll btn btn-lg btn-default btn-rounded btn-outline wow bounceIn collapsebutton" href="#career">
-				  <span data-i18n="career.my_career">What's New</span></a>
+				  <span data-i18n="career.my_career">มีอะไรใหม่</span></a>
 				  </span></span>
 				  <!-- HOT TO -->
-				  &nbsp;&nbsp;<a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" disabled ><span data-i18n="projects.button2">How to Use</span></a>
-				  <!-- &nbsp;&nbsp;<a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html" target="_blank" ><span data-i18n="projects.button2">How to Use</span></a> -->
+				  &nbsp;&nbsp;<a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html" target="_blank" ><span data-i18n="projects.button2">วิธีใช้</span></a>
 				  <br><br/>
 				  <p><h4><span data-i18n="projects.versiontxt"></span> <span class="navy" >1.0.6650.8274</span> <span data-i18n="projects.versiontxt2"></span> <span class="navy" >18/03/2018</span></h4></p>
 	
@@ -293,27 +312,29 @@ $(document).ready(function(){
 				  <br>
                   <h4>
                   
-                  <span class="navy">Konayuki Encoder</span>
+                  <span class="navy" style="font-size:20px;">Konayuki Encoder</span>
                   
                   </h4>
-                  <p><span data-i18n="projects.knyk1">โปรแกรม Konayuki Encoder เป็นโปรแกรมเอ็นโค้ดสำหรับทำ Hardsub ที่จะช่วยแก้ปัญหารบกวนใจสำหรับแฟนซับทุกท่านให้หมดไป</span></p>
+                  <p><span data-i18n="projects.knyk1" style="font-size:16px;">โปรแกรม Konayuki Encoder เป็นโปรแกรมเอ็นโค้ดสำหรับทำ Hardsub ที่จะช่วยแก้ปัญหารบกวนใจสำหรับแฟนซับทุกท่านให้หมดไป</span></p>
                   
 				  
 				  <!-- onclick="AlertFunction()" -->
 				  
 				  <!-- DOWNLOAD -->
-				  <br /><a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://download.konayuki.moe/enc.html" target="_blank" ><span data-i18n="projects.button">Download</span></a>&nbsp;&nbsp;
+				  <br /><a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://download.konayuki.moe/enc.html" target="_blank" ><span data-i18n="projects.button">ดาวน์โหลด</span></a>&nbsp;&nbsp;
 				  <!-- CHANGELOG -->
 				  <span data-toggle="tab" data-target="#knyk1project"><span data-toggle="tab" data-target="#knyk1changelognav">
 				  <a class="page-scroll btn btn-lg btn-default btn-rounded btn-outline wow bounceIn collapsebutton" href="#career">
-				  <span data-i18n="career.my_career">What's New</span></a>
+				  <span data-i18n="career.my_career">มีอะไรใหม่</span></a>
 				  </span></span>
 				  <!-- HOW TO -->
 				  <!-- OLD Video -->
-				  <!-- <button onclick="knyk1play()" type="button" class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" data-toggle="modal" data-target="#knyk1popup"><span data-i18n="projects.button2">How to Use</span></button> -->
-				  &nbsp;&nbsp;<a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://konayuki.moe/knowledge/2017/04/27/How-to-Use-Encoder.html" target="_blank" ><span data-i18n="projects.button2">How to Use</span></a>
+				  <!-- <button onclick="knyk1play()" type="button" class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" data-toggle="modal" data-target="#knyk1popup"><span data-i18n="projects.button2">วิธีใช้</span></button> -->
+				  &nbsp;&nbsp;<a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="/knowledge/2017/04/27/How-to-Use-Encoder.html" target="_blank" ><span data-i18n="projects.button2">วิธีใช้</span></a>
 				  <br><br/>
 				  <p><h4><span data-i18n="projects.versiontxt">"></span> <span class="navy" data-i18n="projects.version1"></span> <span data-i18n="projects.versiontxt2">"></span> <span class="navy" data-i18n="projects.date1"></span></h4></p>
+				  
+				  <br>
 				  
 <!-- popup box modal starts here -->
 <div class="modal fade" id="knyk1popup" role="dialog">
@@ -322,7 +343,7 @@ $(document).ready(function(){
 			<!-- HEAD POPUP -->
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h2 class="modal-title"><span data-i18n="projects.button2">How to Use</span></h2>
+				<h2 class="modal-title"><span data-i18n="projects.button2">วิธีใช้</span></h2>
 			</div>
 			<!-- BODY POPUP -->
 			<div class="modal-body">
@@ -337,12 +358,11 @@ $(document).ready(function(){
 				<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
 					<span class="glyphicon glyphicon-remove"></span><span data-i18n="projects.closepopup">Close</span>
 				</button>
-				<p><a href="https://konayuki.moe/knowledge/2017/04/27/How-to-Use-Encoder.html"><span data-i18n="projects.blogbutton">How to Use (Blog Edition)</span></a></p>
+				<p><a href="/knowledge/2017/04/27/How-to-Use-Encoder.html"><span data-i18n="projects.blogbutton">How to Use (Blog Edition)</span></a></p>
 			</div>
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->
 </div><!-- /.modal-->
-
 <!-- Script -->
 <script>
 $(document).ready(function(){
@@ -375,27 +395,29 @@ function AlertFunction() {
 				  <br>
                   <h4>
                   
-                  <span class="navy">Konayuki Lefiya</span>
+                  <span class="navy" style="font-size:20px;">Konayuki Lefiya</span>
                   
                   </h4>
-                  <p><span data-i18n="projects.knyk2">โปรแกรม Konayuki Lefiya เป็นโปรแกรมทำคอมเม้นให้ซับอังกฤษสำหรับอำนวยความสะดวกให้คนตรวจสอบซับ (QC)</span></p>
+                  <p><span data-i18n="projects.knyk2" style="font-size:16px;">โปรแกรม Konayuki Lefiya เป็นโปรแกรมทำคอมเม้นให้ซับอังกฤษสำหรับอำนวยความสะดวกให้คนตรวจสอบซับ (QC)</span></p>
                   
 				  
 				  <!-- onclick="AlertFunction()" -->
 				  
 				  <!-- DOWNLOAD -->
-				  <br /><a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://download.konayuki.moe/Konayuki Lefiya.exe" target="_blank" ><span data-i18n="projects.button">Download</span></a>&nbsp;&nbsp;
+				  <br /><a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://download.konayuki.moe/Konayuki Lefiya.exe" target="_blank" ><span data-i18n="projects.button">ดาวน์โหลด</span></a>&nbsp;&nbsp;
 				  <!-- CHANGELOG -->
 				  <span data-toggle="tab" data-target="#knyk2project"><span data-toggle="tab" data-target="#knyk2changelognav">
 				  <a class="page-scroll btn btn-lg btn-default btn-rounded btn-outline wow bounceIn collapsebutton" href="#career">
-				  <span data-i18n="career.my_career">What's New</span></a>
+				  <span data-i18n="career.my_career">มีอะไรใหม่</span></a>
 				  </span></span>
 				  <!-- HOW TO -->
 				  <!-- OLD Video -->
-				  <!-- <button onclick="knyk2play()" type="button" class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" data-toggle="modal" data-target="#knyk2popup"><span data-i18n="projects.button2">How to Use</span></button> -->
-				  &nbsp;&nbsp;<a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://konayuki.moe/knowledge/2017/04/27/How-to-Use-Lefiya.html" target="_blank" ><span data-i18n="projects.button2">How to Use</span></a>
+				  <!-- <button onclick="knyk2play()" type="button" class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" data-toggle="modal" data-target="#knyk2popup"><span data-i18n="projects.button2">วิธีใช้</span></button> -->
+				  &nbsp;&nbsp;<a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="/knowledge/2017/04/27/How-to-Use-Lefiya.html" target="_blank" ><span data-i18n="projects.button2">วิธีใช้</span></a>
 				  <br><br/>
 				  <p><h4><span data-i18n="projects.versiontxt">"></span> <span class="navy" data-i18n="projects.version2"></span> <span data-i18n="projects.versiontxt2">"></span> <span class="navy" data-i18n="projects.date2"></span></h4></p>
+				  
+				  <br>
 				  
 <!-- popup box modal starts here -->
 <div class="modal fade" id="knyk2popup" role="dialog">
@@ -404,7 +426,7 @@ function AlertFunction() {
 			<!-- HEAD POPUP -->
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h2 class="modal-title"><span data-i18n="projects.button2">How to Use</span></h2>
+				<h2 class="modal-title"><span data-i18n="projects.button2">วิธีใช้</span></h2>
 			</div>
 			<!-- BODY POPUP -->
 			<div class="modal-body">
@@ -419,12 +441,11 @@ function AlertFunction() {
 				<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
 					<span class="glyphicon glyphicon-remove"></span><span data-i18n="projects.closepopup">Close</span>
 				</button>
-				<p><a href="https://konayuki.moe/knowledge/2017/04/27/How-to-Use-Lefiya.html"><span data-i18n="projects.blogbutton">How to Use (Blog Edition)</span></a></p>
+				<p><a href="/knowledge/2017/04/27/How-to-Use-Lefiya.html"><span data-i18n="projects.blogbutton">How to Use (Blog Edition)</span></a></p>
 			</div>
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->
 </div><!-- /.modal-->
-
 <!-- Script -->
 <script>
 $(document).ready(function(){
@@ -460,7 +481,7 @@ function AlertFunction() {
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
             <div class="navy-line"></div>
-            <h1><span data-i18n="about_me.about_me">Our Story</span></h1>
+            <h1><span data-i18n="about_me.about_me">เรื่องราวของเรา</span></h1>
             <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
         </div>
     </div>
@@ -528,11 +549,9 @@ function AlertFunction() {
     </div>
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
-            <p><span data-i18n="about_me.des">We're Anime lover and we want to help Fansub. First, we look at the most classic problem for Fansub it is encoding problem, for instance, encoding is complicated, subtitle sliding from frame to frame, subtitle invalid display and more. So, we made Konayuki Encoder fix all the problems and you can totally forget about it. In the future, we will bring the new tools to help Fansub as much as we can.</span></p>
+            <p><span data-i18n="about_me.des" style="font-size:16px;">We're Anime lover and we want to help Fansub. First, we look at the most classic problem for Fansub it is encoding problem, for instance, encoding is complicated, subtitle sliding from frame to frame, subtitle invalid display and more. So, we made Konayuki Encoder fix all the problems and you can totally forget about it. In the future, we will bring the new tools to help Fansub as much as we can.</span></p>
         </div>
     </div>
-	<!-- fontawesome 5.0.8 -->
-	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </div>
 
 </section>
@@ -541,10 +560,10 @@ function AlertFunction() {
 <section id="career" class="features  timeline" style="margin-top: 0;">
   <div class="panel-group" id="changelog1">
   <div class="panel panel-default">
-    <div data-toggle="tab" data-target="#knyk3project" class="panel-heading" id="i18_career">
+    <div data-toggle="tab" class="panel-heading" id="i18_career">
       <h1 class="panel-title">
         <a class="collapsed" aria-expanded="false" data-toggle="collapse" data-parent="#changelog1" href="#collapse1">
-        <center><span style="color:#676a6c" data-i18n="career.my_career">What's New</span></center></a>
+        <center><span style="color:#676a6c" data-i18n="career.my_career">มีอะไรใหม่</span></center></a>
       </h1>
     </div>
     <div id="collapse1" class="panel-collapse collapse collapsechangelog">
@@ -559,13 +578,13 @@ function AlertFunction() {
 	<!-- table tab -->
 	<br/>
 	  <ul class="nav nav-tabs">
-	  <li id="knyk3changelognav" class="active"><a data-toggle="tab" href="#knyk3project"><font color="#F796C1">KONAYUKI PLUS</font></a></li>
-	  <li id="knyk1changelognav" ><a data-toggle="tab" href="#knyk1project"><font color="#F796C1">Konayuki Encoder</font></a></li>
-    <li id="knyk2changelognav" ><a data-toggle="tab" href="#knyk2project"><font color="#F796C1">Konayuki Lefiya</font></a></li>
+	  <li id="knyk3changelognav" class="active"><a data-toggle="tab" href="#knyk3project"><font color="#F796C1" style="font-size: 20px; font-weight:100;">KONAYUKI PLUS</font></a></li>
+	  <li id="knyk1changelognav" ><a data-toggle="tab" href="#knyk1project"><font color="#F796C1" style="font-size: 20px; font-weight:100;">Konayuki Encoder</font></a></li>
+    <li id="knyk2changelognav" ><a data-toggle="tab" href="#knyk2project"><font color="#F796C1" style="font-size: 20px; font-weight:100;">Konayuki Lefiya</font></a></li>
   </ul>
     <div class="tab-content">
 	<!-- table tab -->
-	<div id="knyk3project" class="tab-pane fade in active"> <div class="row features-block"> <!-- table tab -->
+	<div id="knyk3project" class="tab-pane in active"> <div class="row features-block"> <!-- table tab -->
         <div class="col-lg-12">
             <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
             
@@ -575,16 +594,16 @@ function AlertFunction() {
                         <i class="fa fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>V=1.0.6650.8274 / API=2018.03.15.14.46.50</h2>
-                        <p><b style="color:rgb(255,192,0)">CHANGE</b><br>
+                        <h2 style="font-size: 18px;">V=1.0.6650.8274 / API=2018.03.15.14.46.50</h2>
+                        <p style="font-size: 16px;"><b style="color:rgb(255,192,0)">CHANGE</b><br>
 - Add custom output folder back in.<br>
 <br>
 <b style="color:rgb(255,50,50)">FIX</b><br>
 - Fix log dialog bug.<br>
 - Fix Software Encoder bug if close the preview while encoding.
 </p>
-                        <span class="vertical-date">18/03/2018
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">18/03/2018
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -594,8 +613,8 @@ function AlertFunction() {
                         <i class="fa fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>V=1.0.6650.8274 / API=2018.03.15.14.46.50</h2>
-                        <p><b style="color:rgb(255,192,0)">CHANGE</b><br>
+                        <h2 style="font-size: 18px;">V=1.0.6650.8274 / API=2018.03.15.14.46.50</h2>
+                        <p style="font-size: 16px;"><b style="color:rgb(255,192,0)">CHANGE</b><br>
 - Change name "Change-log" to "What's New"<br>
 - Now the "What's New" using website instead of plain text.<br>
 - Change information box title from clip name to details.<br>
@@ -604,8 +623,8 @@ function AlertFunction() {
 - Fix preview conflict with encode while indexing.<br>
 - Fix bug that can delete when indexing.
 </p>
-                        <span class="vertical-date">17/03/2018
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">17/03/2018
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -615,8 +634,8 @@ function AlertFunction() {
                         <i class="fa fa-plus-square" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>V=1.0.6649.30988 / API=2018.03.15.14.46.50</h2>
-                        <p><b style="color:rgb(0,176,240)">NEW</b><br>
+                        <h2 style="font-size: 18px;">V=1.0.6649.30988 / API=2018.03.15.14.46.50</h2>
+                        <p style="font-size: 16px;"><b style="color:rgb(0,176,240)">NEW</b><br>
 - Introducing "KONAYUKI INFO" instead of plain Notepad.<br>
 <br>
 <b style="color:rgb(255,192,0)">CHANGE</b><br>
@@ -629,8 +648,8 @@ function AlertFunction() {
 - Fix HEVC software encoder return skip with FLAC audio.<br>
 - Fix main path is different folder from main path in the project file.
 </p>
-                        <span class="vertical-date">16/03/2018
-                        <br/> <small>Major Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">16/03/2018
+                        <br/> <small style="font-size: 14px;">Major Update</small> </span>
                     </div>
                 </div>
             
@@ -640,12 +659,12 @@ function AlertFunction() {
                         <i class="fa fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>V=1.0.6648.35795 / API=2018.03.15.14.46.50</h2>
-                        <p><b style="color:rgb(255,50,50)">FIX</b><br>
+                        <h2 style="font-size: 18px;">V=1.0.6648.35795 / API=2018.03.15.14.46.50</h2>
+                        <p style="font-size: 16px;"><b style="color:rgb(255,50,50)">FIX</b><br>
 - Hot Fix : Bug audio track with old project file.
 </p>
-                        <span class="vertical-date">15/03/2018
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">15/03/2018
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -655,8 +674,8 @@ function AlertFunction() {
                         <i class="fa fa-plus-square" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>V=1.0.6648.29184 / API=2018.03.15.14.46.50</h2>
-                        <p><b style="color:rgb(0,176,240)">NEW</b><br>
+                        <h2 style="font-size: 18px;">V=1.0.6648.29184 / API=2018.03.15.14.46.50</h2>
+                        <p style="font-size: 16px;"><b style="color:rgb(0,176,240)">NEW</b><br>
 - Show progress while indexing.<br>
 - Add ability to select audio track.<br>
 - Add Software Encoder HEVC 10-bit<br>
@@ -677,8 +696,8 @@ function AlertFunction() {
 - Fix can't encode if not focusing to the list.<br>
 - Fix can't remove file from the list if the file was deleted after encoding error.
 </p>
-                        <span class="vertical-date">15/03/2018
-                        <br/> <small>Major Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">15/03/2018
+                        <br/> <small style="font-size: 14px;">Major Update</small> </span>
                     </div>
                 </div>
             
@@ -688,15 +707,15 @@ function AlertFunction() {
                         <i class="fa fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>V=1.0.6646.2709 / API=2018.03.12.22.24.12</h2>
-                        <p><b style="color:rgb(255,192,0)">CHANGE</b><br>
+                        <h2 style="font-size: 18px;">V=1.0.6646.2709 / API=2018.03.12.22.24.12</h2>
+                        <p style="font-size: 16px;"><b style="color:rgb(255,192,0)">CHANGE</b><br>
 - Change folder name "language" to "languages".<br>
 <br>
 <b style="color:rgb(255,50,50)">FIX</b><br>
 - Fix changelog window bug.
 </p>
-                        <span class="vertical-date">13/03/2018
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">13/03/2018
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -706,8 +725,8 @@ function AlertFunction() {
                         <i class="fa fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>V=1.0.6645.41295 / API=2018.03.12.22.24.12</h2>
-                        <p><b style="color:rgb(0,176,240)">NEW</b><br>
+                        <h2 style="font-size: 18px;">V=1.0.6645.41295 / API=2018.03.12.22.24.12</h2>
+                        <p style="font-size: 16px;"><b style="color:rgb(0,176,240)">NEW</b><br>
 - Add changelog in the information menu.<br>
 <br>
 <b style="color:rgb(0,176,80)">UPDATE</b><br>
@@ -717,8 +736,8 @@ function AlertFunction() {
 <b style="color:rgb(255,192,0)">CHANGE</b><br>
 - Minor change in API code.
 </p>
-                        <span class="vertical-date">12/03/2018
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">12/03/2018
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -728,8 +747,8 @@ function AlertFunction() {
                         <i class="fa fa-plus-square" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>V=1.0.6645.28430 / API=2018.03.12.15.28.50</h2>
-                        <p><b style="color:rgb(0,176,80)">UPDATE</b><br>
+                        <h2 style="font-size: 18px;">V=1.0.6645.28430 / API=2018.03.12.15.28.50</h2>
+                        <p style="font-size: 16px;"><b style="color:rgb(0,176,80)">UPDATE</b><br>
 - Update from .Net Framework 4.6.2 to 4.7.1<br>
 <br>
 <b style="color:rgb(255,192,0)">CHANGE</b><br>
@@ -738,8 +757,8 @@ function AlertFunction() {
 - Change "Subtitle Remover" status to coming soon.<br>
 - Remove "Cross-Interlace" feature.
 </p>
-                        <span class="vertical-date">11/03/2018
-                        <br/> <small>Major Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">11/03/2018
+                        <br/> <small style="font-size: 14px;">Major Update</small> </span>
                     </div>
                 </div>
             
@@ -749,8 +768,8 @@ function AlertFunction() {
                         <i class="fa fa-plus-square" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>V=1.0.6643.35940 / API=2018.03.06.21.34.15</h2>
-                        <p><b style="color:rgb(0,176,240)">NEW</b><br>
+                        <h2 style="font-size: 18px;">V=1.0.6643.35940 / API=2018.03.06.21.34.15</h2>
+                        <p style="font-size: 16px;"><b style="color:rgb(0,176,240)">NEW</b><br>
 - Add duplicate button in queue's context menu.<br>
 - Add "After Completion" system in setting.<br>
 - Add support CPU's AVX2 instruction with "Resizers" algorithm.<br>
@@ -774,8 +793,8 @@ function AlertFunction() {
 - Fix update system bug.<br>
 - Fix FFmpeg AAC audio broken sound. [Special Thanks to PeaLz-FS]
 </p>
-                        <span class="vertical-date">11/03/2018
-                        <br/> <small>Major Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">11/03/2018
+                        <br/> <small style="font-size: 14px;">Major Update</small> </span>
                     </div>
                 </div>
             
@@ -785,8 +804,8 @@ function AlertFunction() {
                         <i class="fa fa-globe" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>V=1.0.6639.40274 / API=2018.03.06.21.34.15</h2>
-                        <p><b style="color:rgb(0,176,240)">NEW</b><br>
+                        <h2 style="font-size: 18px;">V=1.0.6639.40274 / API=2018.03.06.21.34.15</h2>
+                        <p style="font-size: 16px;"><b style="color:rgb(0,176,240)">NEW</b><br>
 - Introduce encode by queues system.<br>
 - Add ability to save queues to project file as "Konayuki Project File [.kpj]"<br>
 - Add preview while encoding feature in the setting. [Default: Disable]<br>
@@ -797,8 +816,8 @@ function AlertFunction() {
 - Support subtitle filename for all languages.<br>
 - Support AMD GPU Encoder both H.264 and HEVC. [Special Thanks to WindSky-Fs]
 </p>
-                        <span class="vertical-date">06/03/2018
-                        <br/> <small>First Version</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">06/03/2018
+                        <br/> <small style="font-size: 14px;">First Version</small> </span>
                     </div>
                 </div>
             
@@ -807,7 +826,7 @@ function AlertFunction() {
     </div>
 	</div>
 	<!-- table tab -->
-    <div id="knyk1project" class="tab-pane fade in active"> <div class="row features-block">
+    <div id="knyk1project" class="tab-pane in active"> <div class="row features-block">
         <div class="col-lg-12">
             <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
             
@@ -817,11 +836,11 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>Konayuki Encoder 1.1.2.1 R4</h2>
-                        <p>- Fix bug.
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.1 R4</h2>
+                        <p style="font-size: 16px;">- Fix bug.
 </p>
-                        <span class="vertical-date">03 March 2018
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">03 March 2018
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -831,12 +850,12 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>Konayuki Encoder 1.1.2.1 R3_S7</h2>
-                        <p>- Update component.<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.1 R3_S7</h2>
+                        <p style="font-size: 16px;">- Update component.<br>
 - Fix bug.
 </p>
-                        <span class="vertical-date">21 January 2018
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">21 January 2018
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -846,12 +865,12 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>Konayuki Encoder 1.1.2.1 R3_S6</h2>
-                        <p>- Update component.<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.1 R3_S6</h2>
+                        <p style="font-size: 16px;">- Update component.<br>
 - Fix bug. (Thank to Onigiri-FS)
 </p>
-                        <span class="vertical-date">25 December 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">25 December 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -861,11 +880,11 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>Konayuki Encoder 1.1.2.1 R3_S5</h2>
-                        <p>- Fix bug. (Thank to WindSky-Fs)
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.1 R3_S5</h2>
+                        <p style="font-size: 16px;">- Fix bug. (Thank to WindSky-Fs)
 </p>
-                        <span class="vertical-date">21 December 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">21 December 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -875,13 +894,13 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>Konayuki Encoder 1.1.2.1 R3_S4</h2>
-                        <p>- [Update] Smart Script v6.<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.1 R3_S4</h2>
+                        <p style="font-size: 16px;">- [Update] Smart Script v6.<br>
 - Performance improvement.
 - Fix bugs.
 </p>
-                        <span class="vertical-date">20 December 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">20 December 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -891,14 +910,14 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>Konayuki Encoder 1.1.2.1 R3_S3</h2>
-                        <p>- New error display design. (Thank to Season-Subs)<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.1 R3_S3</h2>
+                        <p style="font-size: 16px;">- New error display design. (Thank to Season-Subs)<br>
 - Fix issue for some users. (Thank to JEDAi Encoder)<br>
 - [Update] Konayuki Setting.<br>
 - Fix bugs.
 </p>
-                        <span class="vertical-date">06 December 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">06 December 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -908,11 +927,11 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>Konayuki Encoder 1.1.2.1 R3_S2</h2>
-                        <p>- Fix Performance Issue. (Thank to JEDAi Encoder)
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.1 R3_S2</h2>
+                        <p style="font-size: 16px;">- Fix Performance Issue. (Thank to JEDAi Encoder)
 </p>
-                        <span class="vertical-date">30 November 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">30 November 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -922,14 +941,14 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>Konayuki Encoder 1.1.2.1 R3_S</h2>
-                        <p>- NEW! Konayuki Setting (UI).<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.1 R3_S</h2>
+                        <p style="font-size: 16px;">- NEW! Konayuki Setting (UI).<br>
 - Subtitle/Logo removal feature.<br>
 - Update Smart Script to version 5.<br>
 - Fix bug.
 </p>
-                        <span class="vertical-date">29 November 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">29 November 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -939,14 +958,14 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>Konayuki Encoder 1.1.2.1 R3</h2>
-                        <p>- Improvement and fix bug for 60FPS engine.<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.1 R3</h2>
+                        <p style="font-size: 16px;">- Improvement and fix bug for 60FPS engine.<br>
 - Add Debanding feature to Smart Script Setting.<br>
 - Update Smart Script to version 4.<br>
 - Fix bug.
 </p>
-                        <span class="vertical-date">08 November 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">08 November 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -956,12 +975,12 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>Konayuki Encoder 1.1.2.1 R2</h2>
-                        <p>- Update to .Net Framework 4.5.2<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.1 R2</h2>
+                        <p style="font-size: 16px;">- Update to .Net Framework 4.5.2<br>
 - Website security update to TLS 1.2
 </p>
-                        <span class="vertical-date">30 October 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">30 October 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -971,8 +990,8 @@ function AlertFunction() {
                         <i class="fas fa-plus-square" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>Konayuki Encoder 1.1.2.1 R1</h2>
-                        <p>- Support NVIDIA GPU Encoder. (NVENC)<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.1 R1</h2>
+                        <p style="font-size: 16px;">- Support NVIDIA GPU Encoder. (NVENC)<br>
 - Support HEVC with NVENC. (H.265)<br>
 - Support 10Bit color depth.<br>
 - Sound notification upon encode completion.<br>
@@ -980,8 +999,8 @@ function AlertFunction() {
 - Compare Mode 4 (4K) now ready for encode!<br>
 - Fix some major bugs.
 </p>
-                        <span class="vertical-date">29 October 2017
-                        <br/> <small>Major Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">29 October 2017
+                        <br/> <small style="font-size: 14px;">Major Update</small> </span>
                     </div>
                 </div>
             
@@ -991,13 +1010,13 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>Konayuki Encoder 1.1.2.0 R17_4</h2>
-                        <p>- Fix video logo bug. (Thank to NaTa Subtitle)<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.0 R17_4</h2>
+                        <p style="font-size: 16px;">- Fix video logo bug. (Thank to NaTa Subtitle)<br>
 - Rewrite the core code of the logo engine.<br>
 - Fix some other bugs and typo.
 </p>
-                        <span class="vertical-date">24 October 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">24 October 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -1007,16 +1026,16 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>Konayuki Encoder 1.1.2.0 R17_3</h2>
-                        <p>- Ability to use custom logo name.<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.0 R17_3</h2>
+                        <p style="font-size: 16px;">- Ability to use custom logo name.<br>
 - Support transparent video RGBA 32Bit for logo.<br>
 - Improve HQ setting length for precision.<br>
 - Add fix old Anime tool, Fix_1. (Smart Script Setting)<br>
 - Update component.<br>
 - Fix bug.
 </p>
-                        <span class="vertical-date">23 October 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">23 October 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -1026,11 +1045,11 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>Konayuki Encoder 1.1.2.0 R17_2</h2>
-                        <p>- Fix bug. (Thank to Google Translate Fansub)
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.0 R17_2</h2>
+                        <p style="font-size: 16px;">- Fix bug. (Thank to Google Translate Fansub)
 </p>
-                        <span class="vertical-date">12 October 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">12 October 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -1040,8 +1059,8 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>Konayuki Encoder 1.1.2.0 R17</h2>
-                        <p>- Support subtitle srt/ssa/sup (PGS) extension.<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.0 R17</h2>
+                        <p style="font-size: 16px;">- Support subtitle srt/ssa/sup (PGS) extension.<br>
 - Support custom transition.<br>
 - All new 60FPS profile.<br>
 - New compare mode 4 and 5.<br>
@@ -1049,8 +1068,8 @@ function AlertFunction() {
 - Improved HQ setting from 0 up to 10.<br>
 - Fix bug.
 </p>
-                        <span class="vertical-date">10 October 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">10 October 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -1060,13 +1079,13 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>Konayuki Encoder 1.1.2.0 R16_2</h2>
-                        <p>-̶̶U̶n̶l̶o̶c̶k̶e̶d̶ ̶u̶p̶s̶c̶a̶l̶e̶ ̶t̶o̶ ̶4̶K̶.̶<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.0 R16_2</h2>
+                        <p style="font-size: 16px;">-̶̶U̶n̶l̶o̶c̶k̶e̶d̶ ̶u̶p̶s̶c̶a̶l̶e̶ ̶t̶o̶ ̶4̶K̶.̶<br>
 - Improved encode profile.<br>
 - Fix bug. (Thank to RubyFansub)
 </p>
-                        <span class="vertical-date">26 September 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">26 September 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -1076,12 +1095,12 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>Konayuki Encoder 1.1.2.0 R16</h2>
-                        <p>- Improved performance 60FPS engine by 60%.<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.0 R16</h2>
+                        <p style="font-size: 16px;">- Improved performance 60FPS engine by 60%.<br>
 - Fix bug.
 </p>
-                        <span class="vertical-date">15 September 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">15 September 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -1091,15 +1110,15 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>Konayuki Encoder 1.1.2.0 R15</h2>
-                        <p>- Using DAR instead of SAR.<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.0 R15</h2>
+                        <p style="font-size: 16px;">- Using DAR instead of SAR.<br>
 - New resize system.<br>
 - New compare mode system.<br>
 - Add CRC-32 to the default output file name.<br>
 - Fix Bug.
 </p>
-                        <span class="vertical-date">07 July 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">07 July 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -1109,13 +1128,13 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>Konayuki Encoder 1.1.2.0 R14</h2>
-                        <p>- Add automatic detect and fix interlaced video.<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.0 R14</h2>
+                        <p style="font-size: 16px;">- Add automatic detect and fix interlaced video.<br>
 - Upgrade to AviSynth+ r2508.<br>
 - Fix Bug.
 </p>
-                        <span class="vertical-date">02 July 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">02 July 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -1125,13 +1144,13 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>Konayuki Encoder 1.1.2.0 R13</h2>
-                        <p>- Improve logo insert performance by 90%.<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.0 R13</h2>
+                        <p style="font-size: 16px;">- Improve logo insert performance by 90%.<br>
 - Add more features in Smart Script Setting.<br>
 - Fix Bug.
 </p>
-                        <span class="vertical-date">20 June 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">20 June 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -1141,13 +1160,13 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>Konayuki Encoder 1.1.2.0 R12</h2>
-                        <p>- Upgrade to AviSynth+ r2506.<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.0 R12</h2>
+                        <p style="font-size: 16px;">- Upgrade to AviSynth+ r2506.<br>
 - Support Thai filename except subtitle file (.ass). <br>
 - Fix Bug.
 </p>
-                        <span class="vertical-date">13 June 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">13 June 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -1157,11 +1176,11 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>Konayuki Encoder 1.1.2.0 R11</h2>
-                        <p>- Upgrade to AviSynth+ r2487.
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.0 R11</h2>
+                        <p style="font-size: 16px;">- Upgrade to AviSynth+ r2487.
 </p>
-                        <span class="vertical-date">29 May 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">29 May 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -1171,14 +1190,14 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>Konayuki Encoder 1.1.2.0 R10</h2>
-                        <p>- Support AAC and WAV media extensions for music.<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.0 R10</h2>
+                        <p style="font-size: 16px;">- Support AAC and WAV media extensions for music.<br>
 - Improve preview perfermance by 75%.<br>
 - Add more parameter.<br>
 - Fix AVS bug.
 </p>
-                        <span class="vertical-date">28 May 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">28 May 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -1188,14 +1207,14 @@ function AlertFunction() {
                         <i class="fas fa-plus-square" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>Konayuki Encoder 1.1.2.0</h2>
-                        <p>- All new UI with new icon.<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.2.0</h2>
+                        <p style="font-size: 16px;">- All new UI with new icon.<br>
 - Move some setting from Smart Script Setting into UI.<br>
 - More parameters.<br>
 - Fix bugs
 </p>
-                        <span class="vertical-date">10 May 2017
-                        <br/> <small>Major Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">10 May 2017
+                        <br/> <small style="font-size: 14px;">Major Update</small> </span>
                     </div>
                 </div>
             
@@ -1205,13 +1224,13 @@ function AlertFunction() {
                         <i class="fas fa-plus-square" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>Konayuki Encoder 1.1.1.9</h2>
-                        <p>- Add Konayuki Sync Engine (KSE).<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.1.9</h2>
+                        <p style="font-size: 16px;">- Add Konayuki Sync Engine (KSE).<br>
 - Update to Smart Script v2.<br>
 - Add new parameters.
 </p>
-                        <span class="vertical-date">17 April 2017
-                        <br/> <small>Major Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">17 April 2017
+                        <br/> <small style="font-size: 14px;">Major Update</small> </span>
                     </div>
                 </div>
             
@@ -1221,12 +1240,12 @@ function AlertFunction() {
                         <i class="fas fa-plus-square" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>Konayuki Encoder 1.1.1.8</h2>
-                        <p>- Upgrade to AviSynth+ r2455.<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.1.8</h2>
+                        <p style="font-size: 16px;">- Upgrade to AviSynth+ r2455.<br>
 - Add ability to enable frame interpolation for Smart Script.
 </p>
-                        <span class="vertical-date">17 April 2017
-                        <br/> <small>Major Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">17 April 2017
+                        <br/> <small style="font-size: 14px;">Major Update</small> </span>
                     </div>
                 </div>
             
@@ -1236,13 +1255,13 @@ function AlertFunction() {
                         <i class="fas fa-plus-square" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>Konayuki Encoder 1.1.1.7</h2>
-                        <p>- Add new parameters.<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.1.7</h2>
+                        <p style="font-size: 16px;">- Add new parameters.<br>
 - Support MKV extension output.<br>
 - Support FLAC audio output.
 </p>
-                        <span class="vertical-date">14 March 2017
-                        <br/> <small>Major Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">14 March 2017
+                        <br/> <small style="font-size: 14px;">Major Update</small> </span>
                     </div>
                 </div>
             
@@ -1252,14 +1271,14 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>Konayuki Encoder 1.1.1.6</h2>
-                        <p>- Add FPS indicator.<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.1.6</h2>
+                        <p style="font-size: 16px;">- Add FPS indicator.<br>
 - Add time remaining meter.<br>
 - Extend video quality custom range.
 - Fix bugs
 </p>
-                        <span class="vertical-date">13 March 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">13 March 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -1269,8 +1288,8 @@ function AlertFunction() {
                         <i class="fas fa-plus-square" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>Konayuki Encoder 1.1.1.5</h2>
-                        <p>- Change default video quality to 20.<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.1.5</h2>
+                        <p style="font-size: 16px;">- Change default video quality to 20.<br>
 - Fix random error after encode.<br>
 - Fix tooltip to display 2,048 character.<br>
 - Fix error with AVI extension.<br>
@@ -1281,8 +1300,8 @@ function AlertFunction() {
 - Add Smart Script v1.<br>
 - Fix process duplicate bug.
 </p>
-                        <span class="vertical-date">03 March 2017
-                        <br/> <small>Major Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">03 March 2017
+                        <br/> <small style="font-size: 14px;">Major Update</small> </span>
                     </div>
                 </div>
             
@@ -1292,11 +1311,11 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>Konayuki Encoder 1.1.1.4</h2>
-                        <p>- Add ability to change AAC audio bitrate from 128Kbps to 320Kbps.
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.1.4</h2>
+                        <p style="font-size: 16px;">- Add ability to change AAC audio bitrate from 128Kbps to 320Kbps.
 </p>
-                        <span class="vertical-date">01 March 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">01 March 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -1306,13 +1325,13 @@ function AlertFunction() {
                         <i class="fas fa-plus" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>Konayuki Encoder 1.1.1.3 R2</h2>
-                        <p>- Update Codec.<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.1.3 R2</h2>
+                        <p style="font-size: 16px;">- Update Codec.<br>
 - Change DSS2 to DSS2Mod.<br>
 - Add more custom scripts.
 </p>
-                        <span class="vertical-date">23 January 2017
-                        <br/> <small>Minor Update</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">23 January 2017
+                        <br/> <small style="font-size: 14px;">Minor Update</small> </span>
                     </div>
                 </div>
             
@@ -1322,15 +1341,15 @@ function AlertFunction() {
                         <i class="fas fa-globe" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpLeft ">
-                        <h2>Konayuki Encoder 1.1.1.3</h2>
-                        <p>- Published to the public.<br>
+                        <h2 style="font-size: 18px;">Konayuki Encoder 1.1.1.3</h2>
+                        <p style="font-size: 16px;">- Published to the public.<br>
 - Tested with 19 Fansubs.<br>
 - AVS Script v0.1 with 60 scripts in total.<br>
 - Add more parameters to the script.<br>
 - Remove the Trim function to fix subtitle accuracy issue.
 </p>
-                        <span class="vertical-date">21 January 2017
-                        <br/> <small>First Publish</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">21 January 2017
+                        <br/> <small style="font-size: 14px;">First Publish</small> </span>
                     </div>
                 </div>
             
@@ -1338,7 +1357,7 @@ function AlertFunction() {
         </div>
     </div>
 	</div> <!-- table tab -->
-	<div id="knyk2project" class="tab-pane fade in active"> <!-- table tab -->
+	<div id="knyk2project" class="tab-pane in active"> <!-- table tab -->
     <div class="row features-block">
         <div class="col-lg-12">
             <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
@@ -1349,13 +1368,13 @@ function AlertFunction() {
                         <i class="fa fa-globe" style="margin-top:27%;" ></i>
                     </div>
                     <div class="vertical-timeline-content  rotateInUpRight ">
-                        <h2>Konayuki Lefiya 1.0</h2>
-                        <p>- Published to the public.<br>
+                        <h2 style="font-size: 18px;">Konayuki Lefiya 1.0</h2>
+                        <p style="font-size: 16px;">- Published to the public.<br>
 - Add Konayuki Sync Engine (KSE).<br>
 - Convenience to use.
 </p>		
-                        <span class="vertical-date">12 May 2017
-                        <br/> <small>First Publish</small> </span>
+                        <span class="vertical-date" style="font-size: 16px;">12 May 2017
+                        <br/> <small style="font-size: 14px;">First Publish</small> </span>
                     </div>
                 </div>
             
@@ -1379,12 +1398,17 @@ $(document).ready(function(){
 </section>
 
 
-<section id="blog" class="features  gray-section  testimonials navy-section" style="margin-top: 0;">
+<section id="facebook" class="features  gray-section  " style="margin-top: 0;">
+  
+</section>
+
+
+<section id="blog" class="features  testimonials navy-section" style="margin-top: 0;">
   <div class="container">
     <div class="row">
         <div class="col-lg-12 text-center wow zoomIn" id="i18_blog">
             <div style="height: 80px;"></div>
-            <a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://www.facebook.com/Konayuki.moe/" target="_blank"><span data-i18n="blog.my_blog">Our Facebook Fanpage</span></a>
+            <a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="/blog/" target="_blank"><span data-i18n="blog.my_blog">บล็อกของเรา</span></a>
 			<!--<a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="/blog/"><span data-i18n="blog.my_blog">Our Blog</span></a>-->
             <div style="height: 80px;"></div>
         </div>
@@ -1394,12 +1418,12 @@ $(document).ready(function(){
 </section>
 
 
-<section id="links" class="features  contact" style="margin-top: 0;">
+<section id="links" class="features  gray-section  contact" style="margin-top: 0;">
   <div class="container" id="i18_link">
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
             <div class="navy-line"></div>
-            <h1><span data-i18n="link.link">Contact</span></h1>
+            <h1><span data-i18n="link.link">ติดต่อ</span></h1>
         </div>
     </div>
     <div class="row">
@@ -1409,8 +1433,8 @@ $(document).ready(function(){
         <div class="col-sm-4 wow  fadeInLeft ">
         
         <div class="team-member">
-            <h4><span class="navy">Kona</span> Chan</h4>
-            <p><span data-i18n="link.desc1">Founder, Software Developer</span></p>
+            <h4><span class="navy">Proflylab</span> </h4>
+            <p><span data-i18n="link.desc1" style="font-size:16px;">ผู้ก่อตั้ง, นักพัฒนาซอฟต์แวร์</span></p>
             <ul class="list-inline social-icon">
                 <li><a href="https://konayuki.moe" target="blank"><i class="fa fa-link"></i></a>
                 </li>
@@ -1429,8 +1453,8 @@ $(document).ready(function(){
             
         
         <div class="team-member">
-            <h4><span class="navy">Yuki</span> Chan</h4>
-            <p><span data-i18n="link.desc2">Co-Founder, Website Developer, AviSynth+ Script Developer</span></p>
+            <h4><span class="navy">MinorMole</span> </h4>
+            <p><span data-i18n="link.desc2" style="font-size:16px;">ผู้ร่วมก่อตั้ง, นักพัฒนาเว็บไซต์, นักพัฒนา AviSynth+ Script</span></p>
             <ul class="list-inline social-icon">
                 <li><a href="https://konayuki.moe" target="blank"><i class="fa fa-link"></i></a>
                 </li>
@@ -1444,12 +1468,12 @@ $(document).ready(function(){
     
     </div>
     <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+        <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg" style="font-size:16px;">
 		
 			<!-- &nbsp;<span data-i18n="link.view">views</span> -->
 			&nbsp;<strong>&copy; 2016 - 2018 Konayuki.moe | Tools for Fansub</strong></p>
 			<!-- VIEW COUNTER -->
-			<img src="https://smallseotools.com/counterDisplay?code=c548b0f2824da46dc2fb730f71356004&style=0004&pad=5&type=page&initCount="  title="Web Counter" Alt="Web Counter" border="0">
+			<img src="https://smallseotools.com/counterDisplay?code=c548b0f2824da46dc2fb730f71356004&style=0013&pad=5&type=page&initCount="  title="Web Counter" Alt="Web Counter" border="0">
 			
         </div>
     </div>
@@ -1476,10 +1500,20 @@ iframe {
      });
 </script> -->
 
-
 	
 		
 	
 
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Athiti:500&amp;subset=thai" rel="stylesheet">
+	<style> 
+	* {
+	   font-family: 'Athiti', sans-serif;
+	}
+	</style>
+	
+	<!-- fontawesome 5.0.8 -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	
 </body>
 </html>

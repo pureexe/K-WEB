@@ -6,9 +6,10 @@
     "home": "Home",
     "about_me": "Our Story",
     "skills": "",
-    "projects": "Tools",
-    "career": "Changelog",
-    "blog": "Fanpage",
+    "projects": "Projects",
+    "career": "What's New",
+    "blog": "Blog",
+	"facebook": "Fanpage",
     "link": "Contact"
   },
   "about_me":{
@@ -35,7 +36,7 @@
 	"version1": "1.1.2.1 R4 (LAST VERSION)"
   },
   "blog":{
-    "my_blog": "Our Facebook Fanpage"
+    "my_blog": "Our Blog"
   },
   "link":{
     "link": "Contact",
