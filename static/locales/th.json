@@ -30,8 +30,8 @@
 	"button2": "How to Use",
 	"versiontxt": "Version",
 	"versiontxt2": "Release Date",
-	"date2": "26/05/2017",
-	"version2": "1.0",
+	"date2": "21/03/2018",
+	"version2": "1.0.6654.26453",
 	"date1": "STOP DEVELOPMENT",
 	"version1": "1.1.2.1 R4 (LAST VERSION)"
   },
@@ -41,7 +41,7 @@
   "link":{
     "link": "Contact",
 	"desc1": "Founder, Software Developer",
-	"desc2": "Co-Founder, Website Developer, AviSynth+ Script Developer",
+	"desc2": "Co-Founder, Website Developer, AviSynth+ Script",
     "view": "views"
   },
   "changelog":{
