@@ -5,8 +5,8 @@
     <description>We're Anime lover who making tools to support Fansubers.</description>
     <link>https://Konayuki.moe/</link>
     <atom:link href="https://Konayuki.moe/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Mar 2018 19:06:52 +0700</pubDate>
-    <lastBuildDate>Sat, 24 Mar 2018 19:06:52 +0700</lastBuildDate>
+    <pubDate>Sat, 24 Mar 2018 22:27:48 +0700</pubDate>
+    <lastBuildDate>Sat, 24 Mar 2018 22:27:48 +0700</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -1852,11 +1852,31 @@
     
       <item>
         <title>วิธีการใช้งาน Konayuki Lefiya</title>
-        <description>&lt;center&gt;
-	&lt;video id=&quot;howtovideo&quot; preload=&quot;auto&quot; controls=&quot;&quot; poster=&quot;https://konayuki.moe/static/assets/img/blog/2017-05-06-How-to-Use-Lefiya/sharepic.png&quot;&gt;
-	&lt;source src=&quot;https://video.konayuki.moe/How to use Konayuki Lefiya.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-	&lt;/video&gt;
-&lt;/center&gt;
+        <description>&lt;hr /&gt;
+
+&lt;center&gt;&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
+
+&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;1. กดปุ่ม IMPORT เพื่อนำเข้าไฟล์ซับ&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;/static/assets/img/blog/Lefiya-how-to-use/01.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;2. กดปุ่ม EXPORT เพื่อเลือกโฟลเดอร์ขาออกของไฟล์ซับที่จะคลีน&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+  
+&lt;img src=&quot;/static/assets/img/blog/Lefiya-how-to-use/02.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;3. กด Ok&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;/static/assets/img/blog/Lefiya-how-to-use/03.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;4. ไฟล์ซับที่คลีนเสร็จ ข้อความทั้งหมดจะถูกใส่เป็น Comment ไว้&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+
+&lt;img src=&quot;/static/assets/img/blog/Lefiya-how-to-use/04.png&quot; style=&quot;max-width:100%;&quot; /&gt;
+
+&lt;hr /&gt;
+
+&lt;font style=&quot;font-size:20px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;แก้ไขล่าสุดเมื่อ 24/03/2018&lt;/font&gt;
+
+&lt;/font&gt;&lt;/center&gt;
 </description>
         <pubDate>Thu, 27 Apr 2017 00:00:00 +0700</pubDate>
         <link>https://Konayuki.moe/knowledge/2017/04/27/How-to-Use-Lefiya.html</link>
