@@ -5,8 +5,8 @@
     <description>We're Anime lover who making tools to support Fansubers.</description>
     <link>https://Konayuki.moe/</link>
     <atom:link href="https://Konayuki.moe/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Mar 2018 23:46:10 +0700</pubDate>
-    <lastBuildDate>Fri, 23 Mar 2018 23:46:10 +0700</lastBuildDate>
+    <pubDate>Sat, 24 Mar 2018 17:15:32 +0700</pubDate>
+    <lastBuildDate>Sat, 24 Mar 2018 17:15:32 +0700</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -63,13 +63,51 @@
     &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
 	 2. การวิเคราะห์ปัญหาที่เกิดจาก VSFilter
 	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
-    &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse in&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
+    &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
 	
 	&lt;center&gt;
 	
+	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
+	
 	&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;ขอขอบคุณกรณีศึกษาและไฟล์ตัวอย่างจากค่าย &lt;a href=&quot;https://www.facebook.com/profile.php?id=462553260455453&quot; target=&quot;_blank&quot;&gt;Onigiri-FS&lt;/a&gt;&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;และขอบคุณวิธีแก้ไขปัญหาจากค่าย &lt;a href=&quot;https://www.facebook.com/profile.php?id=299748283506833&quot; target=&quot;_blank&quot;&gt;ChokeChoke-Fansub&lt;/a&gt;&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	ปัญหาที่มักจะเกิดขึ้นบ่อยครั้งคือการใช้ VSFilter ผิดประเภทกับโค้ดที่ใช้ในไฟล์ซับ เนื่องจาก XY-VSFilter กับ VSFilterMod มีความสามารถแตกต่างกัน ซึ่งในวิธีวิเคราะห์ปัญหาต่อไปนี้จะยกตัวอย่างจุดปัญหาเรื่องทศนิยมของป้าย (Typeset) เป็นตัวอย่าง
+	
+	&lt;hr /&gt;
+	
+	&lt;img src=&quot;/static/assets/img/blog/KP-10-fix/04.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	1. หากเอ็นโค้ดแล้ว FPS ขึ้นแล้ว แต่เกิดอาการเอ็นโค้ดแล้วขึ้น Skip กลางทาง ซึ่งส่วนใหญ่จะเกิดปัญหาจาก VSFilter&lt;br /&gt;&lt;br /&gt;
+	
+	&lt;img src=&quot;/static/assets/img/blog/KP-10-fix/05.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	2. จากภาพด้านบนจะสังเกตเห็นว่าใช้ VSFilterMod วิธีการง่ายๆ คือเปลี่ยนไปใช้ XY-VSFilter แต่หากคนทำคาราโอเกะยืนยันว่าต้องใช้ VSFilterMod ท่านต้องทำการหาโค้ดบรรทัดที่เป็นปัญหา ซึ่งสามารถทำได้ดังข้อที่ 3.&lt;br /&gt;&lt;br /&gt;
+	
+	&lt;img src=&quot;/static/assets/img/blog/KP-10-fix/06.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	3. ให้ทำการเปิดใช้งาน&lt;a href=&quot;/knowledge/2018/03/18/KP-07-encode.html&quot; target=&quot;_blank&quot;&gt;การพรีวิวตอนเอ็นโค้ด&lt;/a&gt; เมื่อถึงจุดที่มีปัญหาตัวพรีวิวตอนเอ็นโค้ดจะขึ้น Not Responding จากนั้นไปยัง Aegisub เพื่อไปยังบรรทัดที่เกิดปัญหา&lt;br /&gt;&lt;br /&gt;
+	
+	&lt;img src=&quot;/static/assets/img/blog/KP-10-fix/07.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+
+	4. จะเห็นว่าบรรทัดเดียวกัน แต่ตอนที่เอ็นโค้ดกลับไม่มีตัวป้าย (Typeset) โผล่ขึ้นมา เนื่องจากคำสั่ง clip ของ VSFilterMod ไม่สามารถใช้ทศนิยมได้ วิธีแก้จึ่งทำได้ 2 วิธีคือ ลบจุดทศนิยมออก หรือเข้าสู่โหมด clip แล้วกดที่เส้น clip เพื่อให้ตัว Aegisub แก้ไขโดยอัตโนมัติ&lt;br /&gt;&lt;br /&gt;
+	
+	ตัวอย่าง clip ของ XY-VSFilter&lt;br /&gt;
+	
+	&lt;code&gt;clip(m 1096.5 409.5 l 1116 381 1060.5 325.5 813 429 984 526.5 1099.5 489 1089 444)&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+	
+	ตัวอย่าง clip ของ VSFilterMod&lt;br /&gt;
+	
+	&lt;code&gt;clip(m 1096 409 l 1116 381 1060 325 813 429 984 526 1099 489 1089 444)&lt;/code&gt;
+	
+	&lt;hr /&gt;
+	
+	&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;หากทำตามวิธีข้างต้นแล้วยังไม่หาย ให้ลอง&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#1&quot;&gt;กดซ่อมโปรแกรม&lt;/a&gt; หรือ&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;ติดต่อขอความช่วยเหลือ&lt;/a&gt;&lt;/font&gt;
+	
+	&lt;/font&gt;
 	
 	&lt;/center&gt;
 	
