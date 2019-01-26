@@ -23,8 +23,8 @@
   "projects":{
     "my_projects": "Our Tools",
 	"knyk1": "Konayuki Encoder is Hardsub burn-in application, especially made for helping Fansub who get in trouble with encoding. (STOP DEVELOPMENT)",
-	"knyk2": "Konayuki Lefiya is Advanced SSA (.ass) subtitle comment converter for convenience of quality control (QC).",
-	"knyk3": "The successor of Konayuki Encoder with fully support 64Bit system resulting in performance improved up to 50%. | The main features is the ability to encode by queue. (multiple files) | The ability to save works as a project file for the next time. | Support  Intel, Nvidia and AMD GPU Encoder. | Preview the encoding video use to debug subtitle files. | The ability to select audio track from the multi-audio MKV file. And many more!",
+	"knyk2": "Konayuki Lefiya is a Advanced SSA (.ass) subtitle file comment converter for convenience of quality control (QC).",
+	"knyk3": "The encoder with fully support 64Bit system resulting in performance improved up to 50%. | The main features is the ability to encode by queue. (multiple files) | The ability to save works as a project file for the next time. | Support Intel, Nvidia and AMD GPU Encoder. | Preview while encoding video to debug the file. | The ability to select audio track from the multi-audio MKV file. And many more!",
 	"blogbutton": "How to Use (Blog Edition)",
 	"closepopup": "Close",
 	"button": "Download",
