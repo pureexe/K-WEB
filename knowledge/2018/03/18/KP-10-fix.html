@@ -340,11 +340,8 @@ OneSignal.push(function() {
 	
 	<font style="font-size:24px; font-weight:100;" color="#f796c1">ปัญหาเกี่ยวกับ Video Codec</font><br /><br />
 	
-	หนึ่งในปัญหาที่พบบ่อยที่สุดคือการที่ผู้ใช้ลงโปรแกรมที่ลง <a href="https://en.wikipedia.org/wiki/Video_codec" target="_blank">Video Codec</a> รุ่นเก่า หรือเป็นรุ่นที่เสียทับ<br />
-	ซึ่งอาจจะส่งผลให้เกิดปัญหาเอ็นโค้ดไม่ผ่าน หรือภาพเสีย ตัวอย่างเช่น ภาพด้านล่างเป็นต้น<br /><br />
-	
-	<img src="/static/assets/img/blog/KP-10-fix/03.png" style="max-width:100%;" /><br /><br />
-	
+	หนึ่งในปัญหาที่พบบ่อยที่สุดคือการที่ผู้ใช้ลงโปรแกรมที่ลง <a href="https://en.wikipedia.org/wiki/Video_codec" target="_blank">Video Codec</a> รุ่นเก่า หรือเป็นรุ่นที่เสียทับ<br /><br />
+
 	<font style="font-size:24px; font-weight:100;" color="#f796c1">วิธีแก้ปัญหา</font><br /><br />
 	
 	<img src="/static/assets/img/blog/KP-10-fix/01.png" style="max-width:100%;" /><br /><br />
@@ -354,6 +351,10 @@ OneSignal.push(function() {
 	&nbsp;แล้วกด Repair Program<br /><br />
 	โปรแกรมจะทำการโหลดโปรแกรมเวอร์ชั่นล่าสุด พร้อมกับ Video Codec ตัวล่าสุดลงมาติดตั้งให้ใหม่
 	
+	<hr />
+	
+	<font style="font-size:24px; font-weight:100;" color="#f796c1">หากทำตามวิธีข้างต้นแล้วยังไม่หายให้ <a data-toggle="collapse" data-parent="#accordion" href="#2">ติดต่อขอความช่วยเหลือ</a></font>
+	
 	</font>
 	
 	</center>
@@ -362,71 +363,13 @@ OneSignal.push(function() {
 	
 	<br /></div></div></div>
   
-<!------------------------------------- 2. การวิเคราะห์ปัญหาที่เกิดจาก VSFilter ------------------------------------->
+<!------------------------------------- 2. การติดต่อขอความช่วยเหลือหากยังไม่สามารถแก้ไขปัญหาได้ ------------------------------------->
   
 	<div class="panel panel-default"><div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#2">
     <a data-toggle="collapse" data-parent="#accordion" href="#2"><center><h1 class="panel-title"><font class="bold" color="#f796c1">
-	 2. การวิเคราะห์ปัญหาที่เกิดจาก VSFilter
+	 2. การติดต่อขอความช่วยเหลือหากยังไม่สามารถแก้ไขปัญหาได้
 	</font></h1></center></a></div>
     <div id="2" class="panel-collapse collapse"><div class="panel-body"><br />
-	
-	<!-- BODY -->
-	
-	<center>
-	
-	<font style="font-size:18px; font-weight:100;">
-	
-	<font style="font-size:24px; font-weight:100;" color="#f796c1">ขอขอบคุณกรณีศึกษาและไฟล์ตัวอย่างจากค่าย <a href="https://www.facebook.com/profile.php?id=462553260455453" target="_blank">Onigiri-FS</a></font><br /><br />
-	
-	<font style="font-size:24px; font-weight:100;" color="#f796c1">และขอบคุณวิธีแก้ไขปัญหาจากค่าย <a href="https://www.facebook.com/profile.php?id=299748283506833" target="_blank">ChokeChoke-Fansub</a></font><br /><br />
-	
-	ปัญหาที่มักจะเกิดขึ้นบ่อยครั้งคือการใช้ VSFilter ผิดประเภทกับโค้ดที่ใช้ในไฟล์ซับ เนื่องจาก XY-VSFilter กับ VSFilterMod มีความสามารถแตกต่างกัน ซึ่งในวิธีวิเคราะห์ปัญหาต่อไปนี้จะยกตัวอย่างจุดปัญหาเรื่องทศนิยมของป้าย (Typeset) เป็นตัวอย่าง
-	
-	<hr />
-	
-	<img src="/static/assets/img/blog/KP-10-fix/04.png" style="max-width:100%;" /><br /><br />
-	
-	1. หากเอ็นโค้ดแล้ว FPS ขึ้นแล้ว แต่เกิดอาการเอ็นโค้ดแล้วขึ้น Skip กลางทาง ซึ่งส่วนใหญ่จะเกิดปัญหาจาก VSFilter<br /><br />
-	
-	<img src="/static/assets/img/blog/KP-10-fix/05.png" style="max-width:100%;" /><br /><br />
-	
-	2. จากภาพด้านบนจะสังเกตเห็นว่าใช้ VSFilterMod วิธีการง่ายๆ คือเปลี่ยนไปใช้ XY-VSFilter แต่หากคนทำคาราโอเกะยืนยันว่าต้องใช้ VSFilterMod ท่านต้องทำการหาโค้ดบรรทัดที่เป็นปัญหา ซึ่งสามารถทำได้ดังข้อที่ 3.<br /><br />
-	
-	<img src="/static/assets/img/blog/KP-10-fix/06.png" style="max-width:100%;" /><br /><br />
-	
-	3. ให้ทำการเปิดใช้งาน<a href="/knowledge/2018/03/18/KP-07-encode.html" target="_blank">การพรีวิวตอนเอ็นโค้ด</a> เมื่อถึงจุดที่มีปัญหาตัวพรีวิวตอนเอ็นโค้ดจะขึ้น Not Responding จากนั้นไปยัง Aegisub เพื่อไปยังบรรทัดที่เกิดปัญหา<br /><br />
-	
-	<img src="/static/assets/img/blog/KP-10-fix/07.png" style="max-width:100%;" /><br /><br />
-
-	4. จะเห็นว่าบรรทัดเดียวกัน แต่ตอนที่เอ็นโค้ดกลับไม่มีตัวป้าย (Typeset) โผล่ขึ้นมา เนื่องจากคำสั่ง clip ของ VSFilterMod ไม่สามารถใช้ทศนิยมได้ วิธีแก้จึ่งทำได้ 2 วิธีคือ ลบจุดทศนิยมออก หรือเข้าสู่โหมด clip แล้วกดที่เส้น clip เพื่อให้ตัว Aegisub แก้ไขโดยอัตโนมัติ<br /><br />
-	
-	ตัวอย่าง clip ของ XY-VSFilter<br />
-	
-	<code>clip(m 1096.5 409.5 l 1116 381 1060.5 325.5 813 429 984 526.5 1099.5 489 1089 444)</code><br /><br />
-	
-	ตัวอย่าง clip ของ VSFilterMod<br />
-	
-	<code>clip(m 1096 409 l 1116 381 1060 325 813 429 984 526 1099 489 1089 444)</code>
-	
-	<hr />
-	
-	<font style="font-size:24px; font-weight:100;" color="#f796c1">หากทำตามวิธีข้างต้นแล้วยังไม่หาย ให้ลอง<a data-toggle="collapse" data-parent="#accordion" href="#1">กดซ่อมโปรแกรม</a> หรือ<a data-toggle="collapse" data-parent="#accordion" href="#3">ติดต่อขอความช่วยเหลือ</a></font>
-	
-	</font>
-	
-	</center>
-	
-	<!-- END BODY -->
-	
-	<br /></div></div></div>
-	
-<!------------------------------------- 3. การติดต่อขอความช่วยเหลือหากยังไม่สามารถแก้ไขปัญหาได้ ------------------------------------->
-  
-	<div class="panel panel-default"><div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#3">
-    <a data-toggle="collapse" data-parent="#accordion" href="#3"><center><h1 class="panel-title"><font class="bold" color="#f796c1">
-	 3. การติดต่อขอความช่วยเหลือหากยังไม่สามารถแก้ไขปัญหาได้
-	</font></h1></center></a></div>
-    <div id="3" class="panel-collapse collapse"><div class="panel-body"><br />
 	
 	<!-- BODY -->
 	  
