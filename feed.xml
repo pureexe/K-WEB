@@ -5,8 +5,8 @@
     <description>We're Anime lover who making tools to support Fansubers.</description>
     <link>https://Konayuki.moe/</link>
     <atom:link href="https://Konayuki.moe/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 27 Jan 2019 12:49:34 +0700</pubDate>
-    <lastBuildDate>Sun, 27 Jan 2019 12:49:34 +0700</lastBuildDate>
+    <pubDate>Wed, 30 Jan 2019 03:10:17 +0700</pubDate>
+    <lastBuildDate>Wed, 30 Jan 2019 03:10:17 +0700</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -58,13 +58,44 @@
 	
 	&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
   
-&lt;!------------------------------------- 2. การติดต่อขอความช่วยเหลือหากยังไม่สามารถแก้ไขปัญหาได้ -------------------------------------&gt;
+&lt;!------------------------------------- 2. การอ่านล็อก (Log) เมื่อไม่สามารถ Encode ได้ -------------------------------------&gt;
   
 	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;
     &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
-	 2. การติดต่อขอความช่วยเหลือหากยังไม่สามารถแก้ไขปัญหาได้
+	 2. การอ่านล็อก (Log) เมื่อไม่สามารถ Encode ได้
 	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div id=&quot;2&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
+	
+	&lt;!-- BODY --&gt;
+	  
+	&lt;center&gt;
+	
+	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
+	
+	&lt;img src=&quot;/static/assets/img/blog/KP-10-fix/03.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+	  
+	หาก Encode แล้วมีปัญหาจะมีข้อความไฮไลท์สีชมพูในแท็บ Log ขึ้นมาดังตัวอย่างในภาพด้านบน&lt;br /&gt;
+	คือไม่เจอไฟล์ซับ ซึ่งไฟล์คือที่มีลูกศรชี้อยู่ เป็นต้น&lt;br /&gt;
+	
+	&lt;hr /&gt;
+	
+	&lt;font style=&quot;font-size:24px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;หากเจอ Error อื่นๆ ที่ไม่สามารถแก้ไขปัญหาด้วยตัวเองให้ &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#2&quot;&gt;ติดต่อขอความช่วยเหลือ&lt;/a&gt;&lt;/font&gt;
+	
+	&lt;/font&gt;
+	
+	&lt;/center&gt;
+	
+	&lt;!-- END BODY --&gt;
+	
+	&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+	
+&lt;!------------------------------------- 3. การติดต่อขอความช่วยเหลือหากยังไม่สามารถแก้ไขปัญหาได้ -------------------------------------&gt;
+  
+	&lt;div class=&quot;panel panel-default&quot;&gt;&lt;div class=&quot;panel-heading&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;
+    &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#3&quot;&gt;&lt;center&gt;&lt;h1 class=&quot;panel-title&quot;&gt;&lt;font class=&quot;bold&quot; color=&quot;#f796c1&quot;&gt;
+	 3. การติดต่อขอความช่วยเหลือหากยังไม่สามารถแก้ไขปัญหาได้
+	&lt;/font&gt;&lt;/h1&gt;&lt;/center&gt;&lt;/a&gt;&lt;/div&gt;
+    &lt;div id=&quot;3&quot; class=&quot;panel-collapse collapse&quot;&gt;&lt;div class=&quot;panel-body&quot;&gt;&lt;br /&gt;
 	
 	&lt;!-- BODY --&gt;
 	  
@@ -1432,7 +1463,7 @@
 		&lt;img src=&quot;/static/assets/img/blog/KP-02-import/ob01.png&quot; style=&quot;max-width:30px;&quot; /&gt;
 		&amp;nbsp;เพื่อเปิดหน้าเมนู ซึ่งจะอธิบายดังต่อไปนี้&lt;br /&gt;&lt;br /&gt;
 		1. กดปุ่ม &quot;Add Files&quot; เพื่อเลือกไฟล์เข้าโปรแกรม โดยสามารถเลือกได้หลายไฟล์พร้อมกัน&lt;br /&gt;
-		2. กดปุ่ม &quot;Add Folder&quot; เพื่อเลือกโฟลเดอร์ ไฟล์วีดีโอในโฟลเดอร์จะถูกนำเข้ารายการ ซึ่งประกอบไปด้วยไฟล์นามสกุล .mp4 .mkv .avi .wmv .mov .mpg
+		2. กดปุ่ม &quot;Add Folder&quot; เพื่อเลือกโฟลเดอร์ ไฟล์วีดีโอในโฟลเดอร์จะถูกนำเข้ารายการ ซึ่งประกอบไปด้วยไฟล์นามสกุล .mp4 .mkv .avi .wmv .mov .mpg .mpeg .webm .m2ts .ts
 		&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
@@ -1734,7 +1765,7 @@
 
 &lt;hr /&gt;
 
-&lt;center&gt;&lt;font style=&quot;font-size:20px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;แก้ไขล่าสุดเมื่อ 27/01/2019&lt;/font&gt;&lt;/center&gt;
+&lt;center&gt;&lt;font style=&quot;font-size:20px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;แก้ไขล่าสุดเมื่อ 30/01/2019&lt;/font&gt;&lt;/center&gt;
 </description>
         <pubDate>Thu, 08 Mar 2018 00:00:00 +0700</pubDate>
         <link>https://Konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html</link>
