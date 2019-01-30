@@ -5,8 +5,8 @@
     <description>We're Anime lover who making tools to support Fansubers.</description>
     <link>https://Konayuki.moe/</link>
     <atom:link href="https://Konayuki.moe/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Jan 2019 03:10:17 +0700</pubDate>
-    <lastBuildDate>Wed, 30 Jan 2019 03:10:17 +0700</lastBuildDate>
+    <pubDate>Wed, 30 Jan 2019 22:55:55 +0700</pubDate>
+    <lastBuildDate>Wed, 30 Jan 2019 22:55:55 +0700</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -74,8 +74,7 @@
 	
 	&lt;img src=&quot;/static/assets/img/blog/KP-10-fix/03.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
 	  
-	หาก Encode แล้วมีปัญหาจะมีข้อความไฮไลท์สีชมพูในแท็บ Log ขึ้นมาดังตัวอย่างในภาพด้านบน&lt;br /&gt;
-	คือไม่เจอไฟล์ซับ ซึ่งไฟล์คือที่มีลูกศรชี้อยู่ เป็นต้น&lt;br /&gt;
+	หาก Encode แล้วมีปัญหาจะมีข้อความไฮไลท์สีชมพูในแท็บ Log ขึ้นมาดังตัวอย่างในภาพด้านบน คือไม่เจอไฟล์ซับที่ลูกศรชี้อยู่ เป็นต้น&lt;br /&gt;
 	
 	&lt;hr /&gt;
 	
