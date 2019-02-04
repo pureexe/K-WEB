@@ -353,7 +353,7 @@ OneSignal.push(function() {
 	
 	<hr />
 	
-	<font style="font-size:24px; font-weight:100;" color="#f796c1">หากทำตามวิธีข้างต้นแล้วยังไม่หายให้ <a data-toggle="collapse" data-parent="#accordion" href="#2">ติดต่อขอความช่วยเหลือ</a></font>
+	<font style="font-size:24px; font-weight:100;" color="#f796c1">หากทำตามวิธีข้างต้นแล้วยังไม่หายให้ <a data-toggle="collapse" data-parent="#accordion" href="#4">ติดต่อขอความช่วยเหลือ</a></font>
 	
 	</font>
 	
@@ -383,7 +383,7 @@ OneSignal.push(function() {
 	
 	<hr />
 	
-	<font style="font-size:24px; font-weight:100;" color="#f796c1">หากเจอ Error อื่นๆ ที่ไม่สามารถแก้ไขปัญหาด้วยตัวเองให้ <a data-toggle="collapse" data-parent="#accordion" href="#2">ติดต่อขอความช่วยเหลือ</a></font>
+	<font style="font-size:24px; font-weight:100;" color="#f796c1">หากเจอ Error อื่นๆ ที่ไม่สามารถแก้ไขปัญหาด้วยตัวเองให้ <a data-toggle="collapse" data-parent="#accordion" href="#4">ติดต่อขอความช่วยเหลือ</a></font>
 	
 	</font>
 	
@@ -393,13 +393,73 @@ OneSignal.push(function() {
 	
 	<br /></div></div></div>
 	
-<!------------------------------------- 3. การติดต่อขอความช่วยเหลือหากยังไม่สามารถแก้ไขปัญหาได้ ------------------------------------->
+<!------------------------------------- 3. การแก้ปัญหาหากเอ็นโค้ดออกมาแล้วภาพเสีย หรือเป็นสีเทา ------------------------------------->
   
 	<div class="panel panel-default"><div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#3">
     <a data-toggle="collapse" data-parent="#accordion" href="#3"><center><h1 class="panel-title"><font class="bold" color="#f796c1">
-	 3. การติดต่อขอความช่วยเหลือหากยังไม่สามารถแก้ไขปัญหาได้
+	 3. การแก้ปัญหาหากเอ็นโค้ดออกมาแล้วภาพเสีย หรือเป็นสีเทา
 	</font></h1></center></a></div>
     <div id="3" class="panel-collapse collapse"><div class="panel-body"><br />
+	
+	<!-- BODY -->
+	  
+	<center>
+	
+	<font style="font-size:24px; font-weight:100;" color="#f796c1">หากวีดีโอที่เอ็นโค้ดออกมาแล้วเป็นดังภาพตัวอย่างด้านล่างให้ลองทำวิธีดังต่อไปนี้</font><br /><br />
+	
+	<img src="/static/assets/img/blog/KP-10-fix/gray01.png" style="max-width:49%;" />
+	<img src="/static/assets/img/blog/KP-10-fix/gray02.png" style="max-width:49%;" />
+	<br /><br />
+	
+	<font style="font-size:20px; font-weight:100;" color="#f796c1"><b>ขอขอบคุณ <a href="https://fb.com/759437797588922" target="_blank">Aporiz Fansub</a> ที่เป็นกรณีศึกษามา ณ ที่นี้ด้วยครับ</b></font><br /><br />
+	
+	</center>
+	
+	<font style="font-size:18px; font-weight:100;">
+	
+	<div style="clear: both;"></div>
+	<div id="wrap">
+		<div id="content_content">
+		<b>สาเหตุ</b><br />
+		1. ไดรฟ์เวอร์การ์ดจอตกรุ่น<br />
+		2. ลง Codec ที่เสียไว้ซึ่งอาจจะเกิดจากการลงโปรแกรม <b>VLC, PotPlayer, GOM Player, KMPlayer</b> เป็นต้น<br /><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;โปรแกรม Player เหล่านี้เป็นโปรแกรมที่ดี แต่ตัว Codec (ส่วนเข้ารหัส-ถอดรหัสวีดีโอ) ที่แถมมาตกรุ่น หรือ<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;ไม่ได้ปรับแต่งมาดีพอ และมีส่วนที่เสีย จึงไม่เหมาะกับการถอดรหัส-เข้ารหัสวีดีโอ (Decode-Encode) ทำให้ภาพเสีย<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;ในบรรดา Codec ที่ดีที่สุดและได้รับการยอมรับมากที่สุดเป็นของ <a href="https://www.codecguide.com" target="_blank">Codec Guide</a> ที่ใช้ MPC-HC เป็นตัว Player<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;<b>หากต้องการลง Player อื่นๆ โปรดเลือกออฟชั่นปฏิเสธการลง Codec</b><br /><br />
+		<center><font color="#f796c1"><b>Player กับ Codec ไม่ใช่อย่างเดียวกัน สิ่งสำคัญอยู่ที่ Codec</b></font></center><br />
+		
+		<b>วิธีแก้ไข</b><br />
+		1. อัปเดตไดรฟ์เวอร์การ์ด<br />
+		&nbsp;&nbsp;&nbsp;&nbsp; - <font style="color:#125ea4;">Intel GPU</font> <a href="https://www.intel.com/content/www/us/en/support/detect.html" target="_blank">ค้นหาไดรฟ์เวอร์</a><br />
+		&nbsp;&nbsp;&nbsp;&nbsp; - <font style="color:#76B900;">Nvidia GPU</font> <a href="https://www.geforce.com/drivers" target="_blank">ค้นหาไดรฟ์เวอร์</a><br />
+		&nbsp;&nbsp;&nbsp;&nbsp; - <font style="color:#ef0707;">AMD GPU</font> <a href="https://www.amd.com/en/support" target="_blank">ค้นหาไดรฟ์เวอร์</a><br />
+		2. ให้ KONAYUKI PLUS <a data-toggle="collapse" data-parent="#accordion" href="#1">ซ่อมแซม Codec ที่เสีย</a>
+		</div>
+	</div>
+	<div style="clear: both;"></div>
+	
+	</font>
+	
+	<hr />
+	
+	<center>
+	
+	<font style="font-size:24px; font-weight:100;" color="#f796c1">หากยังไม่สามารถแก้ไขปัญหาได้ <a data-toggle="collapse" data-parent="#accordion" href="#4">โปรดติดต่อขอความช่วยเหลือ</a></font>
+
+	</center>
+	
+	<!-- END BODY -->
+	
+	<br /></div></div></div>
+	
+<!------------------------------------- 4. การติดต่อขอความช่วยเหลือหากยังไม่สามารถแก้ไขปัญหาได้ ------------------------------------->
+  
+	<div class="panel panel-default"><div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#4">
+    <a data-toggle="collapse" data-parent="#accordion" href="#4"><center><h1 class="panel-title"><font class="bold" color="#f796c1">
+	 4. การติดต่อขอความช่วยเหลือหากยังไม่สามารถแก้ไขปัญหาได้
+	</font></h1></center></a></div>
+    <div id="4" class="panel-collapse collapse"><div class="panel-body"><br />
 	
 	<!-- BODY -->
 	  
