@@ -5,8 +5,8 @@
     <description>We're Anime lover who making tools to support Fansubers.</description>
     <link>https://Konayuki.moe/</link>
     <atom:link href="https://Konayuki.moe/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Feb 2019 00:58:56 +0700</pubDate>
-    <lastBuildDate>Tue, 05 Feb 2019 00:58:56 +0700</lastBuildDate>
+    <pubDate>Wed, 06 Feb 2019 04:06:01 +0700</pubDate>
+    <lastBuildDate>Wed, 06 Feb 2019 04:06:01 +0700</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -160,16 +160,9 @@
 	  
 	&lt;center&gt;
 	
-	&lt;font style=&quot;font-size:18px; font-weight:100;&quot;&gt;
-	
-	&lt;img src=&quot;/static/assets/img/blog/KP-10-fix/02.png&quot; style=&quot;max-width:100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
-	  
-	กดปุ่ม&amp;nbsp;
-	&lt;img src=&quot;/static/assets/img/blog/KP-10-fix/ob02.png&quot; style=&quot;max-width:30px;&quot; /&gt;
-	&amp;nbsp;แล้วกด Send Feedback&lt;br /&gt;&lt;br /&gt;
-	โปรแกรมจะเปิดลิงก์นำทางไปยังช่องทางขอความช่วยเหลือ หรือ &lt;a href=&quot;https://m.me/Konayuki.moe&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;คลิก&lt;/b&gt;&lt;/a&gt;
-	
-	&lt;/font&gt;
+	&lt;font style=&quot;font-size:20px; font-weight:100;&quot;&gt;โปรดติดต่อทีมงานโดยคลิกที่ไอคอนด้านล่าง&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;
+
+	&lt;a href=&quot;https://m.me/Konayuki.moe/&quot; target=&quot;blank&quot;&gt;&lt;i class=&quot;fab fa-facebook-messenger&quot; aria-hidden=&quot;true&quot; style=&quot;color:#0078FF;font-size:128px;&quot;&gt;&lt;/i&gt;&lt;/a&gt;
 	
 	&lt;/center&gt;
 	
@@ -1824,7 +1817,7 @@
 
 &lt;hr /&gt;
 
-&lt;center&gt;&lt;font style=&quot;font-size:20px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;แก้ไขล่าสุดเมื่อ 30/01/2019&lt;/font&gt;&lt;/center&gt;
+&lt;center&gt;&lt;font style=&quot;font-size:20px; font-weight:100;&quot; color=&quot;#f796c1&quot;&gt;แก้ไขล่าสุดเมื่อ 06/02/2019&lt;/font&gt;&lt;/center&gt;
 </description>
         <pubDate>Thu, 08 Mar 2018 00:00:00 +0700</pubDate>
         <link>https://Konayuki.moe/knowledge/2018/03/08/HOW-TO-USE-KONAYUKI-PLUS.html</link>
